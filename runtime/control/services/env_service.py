@@ -41,4 +41,6 @@ def get_runtime_config():
         "session_ended_retention_seconds": os.environ.get("SESSION_ENDED_RETENTION_SECONDS", "604800"),
         "observability_log_max_bytes": os.environ.get("OBSERVABILITY_LOG_MAX_BYTES", "1048576"),
         "observability_log_max_files": os.environ.get("OBSERVABILITY_LOG_MAX_FILES", "5"),
+        "job_default_timeout_seconds": os.environ.get("JOB_DEFAULT_TIMEOUT_SECONDS", "30"),
+        "job_max_retries": os.environ.get("JOB_MAX_RETRIES", "2"),
     }

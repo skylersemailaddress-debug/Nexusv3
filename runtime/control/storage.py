@@ -427,12 +427,23 @@ def create_runtime_job(
     requested_by: str,
     requested_role: str,
     payload: dict[str, Any],
+    max_attempts: int,
+    timeout_seconds: int,
     created_at: int,
 ) -> dict[str, Any]:
     init_db()
     conn = _conn()
     try:
-        payload_json = json.dumps(payload)
+        payload_json = json.dumps(
+            {
+                "input": payload,
+                "__job": {
+                    "attempt": 0,
+                    "max_attempts": max_attempts,
+                    "timeout_seconds": timeout_seconds,
+                },
+            }
+        )
         conn.execute(
             """
             INSERT INTO runtime_jobs (
@@ -452,6 +463,9 @@ def create_runtime_job(
             "requested_by": requested_by,
             "requested_role": requested_role,
             "payload": payload,
+            "attempt": 0,
+            "max_attempts": max_attempts,
+            "timeout_seconds": timeout_seconds,
             "result": None,
             "error": None,
             "created_at": created_at,
@@ -469,14 +483,19 @@ def mark_runtime_job_running(job_id: str, started_at: int) -> dict[str, Any] | N
         row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
         if row is None:
             return None
+        payload = json.loads(row["payload_json"]) if row["payload_json"] else {}
+        control = payload.setdefault("__job", {})
+        control["attempt"] = int(control.get("attempt", 0)) + 1
         conn.execute(
-            "UPDATE runtime_jobs SET status = 'running', started_at = ? WHERE id = ?",
-            (started_at, job_id),
+            "UPDATE runtime_jobs SET status = 'running', started_at = ?, payload_json = ?, error_text = NULL WHERE id = ?",
+            (started_at, json.dumps(payload), job_id),
         )
         conn.commit()
         updated = dict(row)
         updated["status"] = "running"
         updated["started_at"] = started_at
+        updated["payload_json"] = json.dumps(payload)
+        updated["error_text"] = None
         return _deserialize_runtime_job(updated)
     finally:
         conn.close()
@@ -496,6 +515,8 @@ def complete_runtime_job(
         row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
         if row is None:
             return None
+        if row["status"] not in {"running", "retrying"}:
+            return _deserialize_runtime_job(dict(row))
         conn.execute(
             """
             UPDATE runtime_jobs
@@ -515,7 +536,58 @@ def complete_runtime_job(
         conn.close()
 
 
+def mark_runtime_job_retrying(job_id: str, error: str) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
+        if row is None:
+            return None
+        if row["status"] != "running":
+            return _deserialize_runtime_job(dict(row))
+        conn.execute(
+            "UPDATE runtime_jobs SET status = 'retrying', error_text = ? WHERE id = ?",
+            (error, job_id),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["status"] = "retrying"
+        updated["error_text"] = error
+        return _deserialize_runtime_job(updated)
+    finally:
+        conn.close()
+
+
+def mark_runtime_job_timed_out(job_id: str, error: str, completed_at: int) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
+        if row is None:
+            return None
+        if row["status"] != "running":
+            return _deserialize_runtime_job(dict(row))
+        conn.execute(
+            """
+            UPDATE runtime_jobs
+            SET status = 'timed_out', error_text = ?, completed_at = ?
+            WHERE id = ?
+            """,
+            (error, completed_at, job_id),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["status"] = "timed_out"
+        updated["error_text"] = error
+        updated["completed_at"] = completed_at
+        return _deserialize_runtime_job(updated)
+    finally:
+        conn.close()
+
+
 def _deserialize_runtime_job(row: dict[str, Any]) -> dict[str, Any]:
+    payload = json.loads(row["payload_json"]) if row["payload_json"] else {}
+    control = payload.get("__job", {})
     return {
         "id": row["id"],
         "job_type": row["job_type"],
@@ -523,7 +595,10 @@ def _deserialize_runtime_job(row: dict[str, Any]) -> dict[str, Any]:
         "status": row["status"],
         "requested_by": row["requested_by"],
         "requested_role": row["requested_role"],
-        "payload": json.loads(row["payload_json"]) if row["payload_json"] else {},
+        "payload": payload.get("input", payload),
+        "attempt": int(control.get("attempt", 0)),
+        "max_attempts": int(control.get("max_attempts", 1)),
+        "timeout_seconds": int(control.get("timeout_seconds", 0)),
         "result": json.loads(row["result_json"]) if row["result_json"] else None,
         "error": row["error_text"],
         "created_at": row["created_at"],
