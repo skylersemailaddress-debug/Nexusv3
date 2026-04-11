@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+from services.auth_policy import is_valid_role
 from storage import read_runtime_accounts
 
 
@@ -10,7 +11,15 @@ class AuthUser:
 
 
 def _active_accounts() -> list[dict[str, str | int]]:
-    return [account for account in read_runtime_accounts() if account.get("is_active") == 1]
+    accounts = []
+    for account in read_runtime_accounts():
+        if account.get("is_active") != 1:
+            continue
+        role = str(account.get("role", ""))
+        if not is_valid_role(role):
+            continue
+        accounts.append(account)
+    return accounts
 
 
 def _accounts_by_username() -> dict[str, dict[str, str | int]]:
