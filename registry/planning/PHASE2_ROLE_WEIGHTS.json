@@ -1,0 +1,39 @@
+{
+  "family_weights": {
+    "Nexus2.9": 100,
+    "SkylerOS-Truth": 98,
+    "FrankV2": 96,
+    "FrankCore": 90,
+    "SkylerOS": 88,
+    "SkyGPTAgent": 86,
+    "ODP": 82,
+    "NexusV3": 80,
+    "Nexus2.8": 78,
+    "Nexus": 72,
+    "NexusV2": 68,
+    "autobuilder2.9": 76,
+    "autobuilder": 66,
+    "autobuilderv2": 64,
+    "SkylerGPTOS": 58,
+    "SkyOSsplitoff": 42,
+    "SkyOS": 10,
+    "Botomatic": 30
+  },
+  "canon_role_weights": {
+    "integrated_control_plane_skeleton": 100,
+    "truth_gap_methodology": 98,
+    "conversation_shell_and_blocks": 95,
+    "continuity_and_operator_os": 92,
+    "assembly_and_release_proofs": 84,
+    "bootstrap_canon_repo": 80,
+    "transitional_api_runtime_reference": 76,
+    "control_pack_doctrine": 72,
+    "experimental_reference": 20
+  },
+  "size_adjustments": {
+    "min_large_bytes": 50000000,
+    "large_bonus": 4,
+    "tiny_cutoff_bytes": 50000,
+    "tiny_penalty": -18
+  }
+}

@@ -1,0 +1,6 @@
+﻿Write-Host "Load test scaffold"
+Write-Host "Target endpoints:"
+Write-Host " - /health"
+Write-Host " - /dashboard/status"
+Write-Host " - /workflows/open-loops"
+Write-Host "Current phase: scaffold only; integrate real load tool later."

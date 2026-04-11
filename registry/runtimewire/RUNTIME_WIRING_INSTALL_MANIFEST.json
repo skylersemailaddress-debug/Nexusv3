@@ -1,0 +1,9 @@
+{
+  "package": "nexus_runtime_wiring_v1",
+  "files": [
+    "Run-Nexus-Runtime-Wiring.ps1",
+    "tools/runtimewire/Invoke-NexusRuntimeWiring.ps1",
+    "docs/runbooks/RUNTIME_WIRING_RUNBOOK.md",
+    "registry/runtimewire/RUNTIME_WIRING_INSTALL_MANIFEST.json"
+  ]
+}

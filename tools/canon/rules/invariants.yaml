@@ -1,0 +1,8 @@
+runtime:
+  state_authority: postgres_only
+  execution_graph: single
+  auth: single
+memory:
+  writeback: selective_only
+ui:
+  quality_floor: enterprise

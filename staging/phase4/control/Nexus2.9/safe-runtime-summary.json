@@ -1,0 +1,45 @@
+{
+  "target_repo_root": "C:\\Nexus2.9",
+  "package_json": "C:\\Nexus2.9\\apps\\web\\package.json",
+  "package_dir": "C:\\Nexus2.9\\apps\\web",
+  "mode": "start",
+  "node_available": true,
+  "npm_available": true,
+  "npm_executable": "npm.cmd",
+  "discovered_scripts": [
+    "build",
+    "start",
+    "dev",
+    "lint"
+  ],
+  "steps": [
+    {
+      "name": "npm install",
+      "exit_code": 0,
+      "stdout_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\npm-install.out.log",
+      "stderr_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\npm-install.err.log"
+    },
+    {
+      "name": "npm run build",
+      "exit_code": 0,
+      "stdout_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\npm-build.out.log",
+      "stderr_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\npm-build.err.log"
+    },
+    {
+      "name": "npm run test",
+      "skipped": true,
+      "reason": "test script not present"
+    },
+    {
+      "name": "npm run start",
+      "started": true,
+      "remained_running_for_timeout": true,
+      "timeout_seconds": 20,
+      "stdout_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\npm-start.out.log",
+      "stderr_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\npm-start.err.log"
+    }
+  ],
+  "started_at": "2026-04-09T16:17:06",
+  "status": "runtime-start-probed",
+  "finished_at": "2026-04-09T16:17:43"
+}

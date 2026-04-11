@@ -1,0 +1,11 @@
+{
+  "package": "auto_archive_intake_v3_fix2",
+  "replaces": "auto_archive_intake_v3_fix1",
+  "files": [
+    "tools/intake/Find-CandidateNexusArchives.ps1",
+    "tools/intake/Invoke-NexusAutoArchiveIntake.ps1",
+    "Auto-Archive-Intake.ps1",
+    "docs/runbooks/AUTO_ARCHIVE_INTAKE_V3_FIX2_RUNBOOK.md",
+    "registry/sources/AUTO_ARCHIVE_INTAKE_V3_FIX2_INSTALL_MANIFEST.json"
+  ]
+}

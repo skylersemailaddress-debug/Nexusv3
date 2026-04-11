@@ -1,0 +1,18 @@
+{
+  "package": "nexus_spec_solidification_v1",
+  "spec_files": [
+    "CAPABILITY_ROUTER_SPEC.md",
+    "CONTROL_PLANE_SPEC.md",
+    "ENTERPRISE_HARDENING_SPEC.md",
+    "FULL_STACK_LAUNCHABILITY_SPEC.md",
+    "MASTER_SPEC_INDEX.md",
+    "MEMORY_PERSONALIZATION_SPEC.md",
+    "OPERATOR_EXECUTION_SPEC.md",
+    "PRODUCT_COMPLETION_SPEC.md",
+    "RUNTIME_AUTHORITY_SPEC.md",
+    "TELEMETRY_EVOLUTION_SPEC.md",
+    "UI_PRODUCT_INTELLIGENCE_SPEC.md"
+  ],
+  "target_root": "canon/truth/specs",
+  "status": "installable"
+}

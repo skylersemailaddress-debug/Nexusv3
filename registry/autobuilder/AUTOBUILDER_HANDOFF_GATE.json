@@ -1,0 +1,15 @@
+{
+  "gate": "autobuilder_handoff",
+  "pass": true,
+  "conditions": [
+    "spec_solidification_present",
+    "design_lock_present",
+    "canon_cleanup_present",
+    "runtime_wiring_present",
+    "execution_plan_present"
+  ],
+  "warnings": [
+    "behavioral implementations still incomplete",
+    "autobuilder must stay bounded to canon truth and specs"
+  ]
+}

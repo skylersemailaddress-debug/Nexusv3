@@ -1,0 +1,7 @@
+forbidden:
+  - multiple_state_backends
+  - hardcoded_tokens
+  - duplicate_execution_graphs
+  - unmanaged_memory_writes
+  - node_modules_in_source
+  - venv_in_source

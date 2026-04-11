@@ -1,0 +1,10 @@
+{
+  "package": "nexus_autobuilder_handoff_v1",
+  "files": [
+    "canon/truth/execution_plans/AUTOBUILDER_EXECUTION_PLAN.md",
+    "canon/truth/execution_plans/AUTOBUILDER_READINESS.md",
+    "registry/autobuilder/AUTOBUILDER_FINISH_SEQUENCE.json",
+    "registry/autobuilder/AUTOBUILDER_HANDOFF_GATE.json",
+    "docs/runbooks/AUTOBUILDER_HANDOFF_RUNBOOK.md"
+  ]
+}

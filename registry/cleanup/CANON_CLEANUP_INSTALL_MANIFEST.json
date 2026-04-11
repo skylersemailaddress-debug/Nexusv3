@@ -1,0 +1,9 @@
+{
+  "package": "nexus_canon_cleanup_v1",
+  "files": [
+    "Run-Nexus-Canon-Cleanup.ps1",
+    "tools/cleanup/Invoke-NexusCanonCleanup.ps1",
+    "docs/runbooks/CANON_CLEANUP_RUNBOOK.md",
+    "registry/cleanup/CANON_CLEANUP_INSTALL_MANIFEST.json"
+  ]
+}

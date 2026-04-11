@@ -1,0 +1,15 @@
+{
+  "wrote": [
+    "C:\\NexusV3\\tools\\extraction\\Scan-NexusSource.ps1",
+    "C:\\NexusV3\\tools\\extraction\\Classify-NexusComponent.ps1",
+    "C:\\NexusV3\\tools\\extraction\\Normalize-NexusComponent.ps1",
+    "C:\\NexusV3\\tools\\extraction\\Apply-NexusExtraction.ps1",
+    "C:\\NexusV3\\tools\\extraction\\Invoke-NexusExtraction.ps1",
+    "C:\\NexusV3\\Apply-NexusExtraction.ps1",
+    "C:\\NexusV3\\registry\\schemas\\EXTRACTION_RECORD.schema.json",
+    "C:\\NexusV3\\docs\\doctrine\\EXTRACTION_DOCTRINE.md"
+  ],
+  "package": "nexusv3_extraction_engine_v3",
+  "target": "C:\\NexusV3",
+  "applied_at": "2026-04-10T12:39:57"
+}

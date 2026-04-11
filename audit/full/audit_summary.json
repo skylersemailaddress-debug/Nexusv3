@@ -1,0 +1,242 @@
+{
+  "repo": "NexusV3",
+  "total_files": 1412,
+  "file_types_top": [
+    [
+      ".py",
+      573
+    ],
+    [
+      ".json",
+      278
+    ],
+    [
+      ".md",
+      175
+    ],
+    [
+      ".ts",
+      140
+    ],
+    [
+      ".tsx",
+      110
+    ],
+    [
+      ".ps1",
+      47
+    ],
+    [
+      "<noext>",
+      35
+    ],
+    [
+      ".js",
+      25
+    ],
+    [
+      ".yaml",
+      7
+    ],
+    [
+      ".txt",
+      7
+    ],
+    [
+      ".mts",
+      5
+    ],
+    [
+      ".typed",
+      5
+    ]
+  ],
+  "directory_file_counts": {
+    "src": 326,
+    "apps": 0,
+    "docs": 37,
+    "registry": 63,
+    "tools": 28,
+    "tests": 0,
+    "canon": 4,
+    "staging": 908,
+    "generated": 7
+  },
+  "top_duplicate_promotions": [
+    {
+      "count": 5,
+      "dir": "src/continuity",
+      "name": "09_MEMORY_OS__2.md"
+    },
+    {
+      "count": 5,
+      "dir": "src/continuity",
+      "name": "18_CURRENT_STATE__2.md"
+    },
+    {
+      "count": 5,
+      "dir": "src/continuity",
+      "name": "state__2.py"
+    },
+    {
+      "count": 5,
+      "dir": "src/continuity",
+      "name": "state_builder__2.py"
+    },
+    {
+      "count": 5,
+      "dir": "src/continuity",
+      "name": "state_update__2.py"
+    },
+    {
+      "count": 5,
+      "dir": "src/control",
+      "name": "api-health-checkpoint__2.json"
+    },
+    {
+      "count": 5,
+      "dir": "src/control",
+      "name": "api-health-checkpoint__2.md"
+    },
+    {
+      "count": 5,
+      "dir": "src/control",
+      "name": "api-health-proof__2.json"
+    },
+    {
+      "count": 5,
+      "dir": "src/control",
+      "name": "auth__2.py"
+    },
+    {
+      "count": 5,
+      "dir": "src/control",
+      "name": "control-plane.proof__2.json"
+    },
+    {
+      "count": 5,
+      "dir": "src/proofs",
+      "name": "DIST_INTEGRITY_GATE_V1__2.md"
+    },
+    {
+      "count": 5,
+      "dir": "src/proofs",
+      "name": "PATCH_MANIFEST__2.json"
+    },
+    {
+      "count": 5,
+      "dir": "src/proofs",
+      "name": "VERIFY_PROOF.prompt__2.md"
+    },
+    {
+      "count": 5,
+      "dir": "src/shell",
+      "name": "AppShell__2.tsx"
+    },
+    {
+      "count": 5,
+      "dir": "src/shell",
+      "name": "Composer__2.tsx"
+    },
+    {
+      "count": 5,
+      "dir": "src/shell",
+      "name": "build_plan.v1.schema__2.json"
+    },
+    {
+      "count": 5,
+      "dir": "src/shell",
+      "name": "domain__2.ts"
+    },
+    {
+      "count": 5,
+      "dir": "src/shell",
+      "name": "layout__2.tsx"
+    },
+    {
+      "count": 3,
+      "dir": "src/continuity",
+      "name": "09_MEMORY_OS.md"
+    },
+    {
+      "count": 3,
+      "dir": "src/continuity",
+      "name": "09_MEMORY_OS__1.md"
+    },
+    {
+      "count": 3,
+      "dir": "src/continuity",
+      "name": "18_CURRENT_STATE.md"
+    },
+    {
+      "count": 3,
+      "dir": "src/continuity",
+      "name": "18_CURRENT_STATE__1.md"
+    },
+    {
+      "count": 3,
+      "dir": "src/continuity",
+      "name": "state.py"
+    },
+    {
+      "count": 3,
+      "dir": "src/continuity",
+      "name": "state__1.py"
+    },
+    {
+      "count": 3,
+      "dir": "src/continuity",
+      "name": "state_builder.py"
+    }
+  ],
+  "gates": {
+    "registry/integration/phase6_build_gate.json": {
+      "pass": true,
+      "required_layers": [
+        "truth",
+        "control",
+        "shell",
+        "proofs",
+        "continuity"
+      ],
+      "gate": "phase6_integration"
+    },
+    "registry/runtime/phase7_launch_gate.json": {
+      "gate": "phase7_runtime_launch",
+      "truth_ready": true,
+      "control_ready": true,
+      "shell_ready": true,
+      "proofs_ready": true,
+      "continuity_ready": true,
+      "pass": true
+    },
+    "registry/launch/phase8_launch_gate.json": {
+      "gate": "phase8_launch_orchestration",
+      "pass": true,
+      "checks": 6
+    },
+    "registry/packout/phase9_release_gate.json": {
+      "gate": "phase9_commercial_packout",
+      "pass": true,
+      "checks": 5
+    },
+    "registry/handoff/phase10_acceptance_gate.json": {
+      "gate": "phase10_operator_acceptance",
+      "pass": true,
+      "checks": 5
+    }
+  },
+  "audit_verdict": {
+    "programmatic_status": "PASSING",
+    "commercial_cleanliness": "PARTIAL",
+    "design_lock_status": "LOCKED",
+    "runtime_executability": "NOT_PROVEN",
+    "primary_blockers": [
+      "src contains heavy duplicate promoted artifacts rather than curated canonical modules",
+      "apps and tests trees are effectively empty",
+      "phase gates are mostly presence/existence based rather than behavioral",
+      "staging remains much larger than canon src",
+      "operator handoff exists, but production startup is not demonstrated"
+    ]
+  }
+}

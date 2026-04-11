@@ -1,0 +1,28 @@
+{
+  "repo_file_count": 113,
+  "repo_dir_count": 97,
+  "empty_dir_count": 48,
+  "file_types": {
+    "md": 34,
+    "ps1": 33,
+    "json": 28,
+    "python": 3,
+    "ts": 0,
+    "tsx": 0
+  },
+  "go_no_go": "GO_WITH_CONDITIONS",
+  "critical_holds": [
+    "Lock single primary per layer",
+    "Demote placeholder/reference-only sources from active targets",
+    "Create promotion rules and exclusion list",
+    "Name contract authorities before extraction"
+  ],
+  "locked_primaries": {
+    "truth": "SkylerOS-Truth (2).zip",
+    "control_runtime": "Nexus2.9 (10).zip",
+    "control_doctrine": "autobuilder2.9 (3).zip",
+    "shell": "FrankV2 (50).zip",
+    "proofs": "ODP_clean (4).zip",
+    "continuity": "skyler-os.zip"
+  }
+}

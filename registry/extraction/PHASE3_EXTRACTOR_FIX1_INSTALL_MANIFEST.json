@@ -1,0 +1,12 @@
+{
+  "installed_at_utc": "2026-04-10T19:55:16.2690612Z",
+  "nexus_root": "C:\\NexusV3",
+  "files": [
+    "Run-Nexus-Phase3-Extractor.ps1",
+    "tools\\\\extraction\\\\Invoke-NexusPhase3Extractor.ps1",
+    "docs\\\\runbooks\\\\PHASE3_EXTRACTOR_FIX1_RUNBOOK.md",
+    "templates\\\\extraction\\\\EXTRACTION_RECORD_TEMPLATE_PHASE3.md"
+  ],
+  "package": "phase3_extractor_fix1",
+  "quarantine_root": "C:\\NexusQuarantine"
+}

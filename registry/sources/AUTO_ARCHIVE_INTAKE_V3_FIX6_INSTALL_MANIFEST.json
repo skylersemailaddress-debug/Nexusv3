@@ -1,0 +1,11 @@
+{
+  "files": [
+    "tools\\\\intake\\\\Invoke-NexusAutoArchiveIntake.ps1",
+    "Auto-Archive-Intake.ps1",
+    "docs\\\\runbooks\\\\AUTO_ARCHIVE_INTAKE_V3_FIX6_RUNBOOK.md"
+  ],
+  "quarantine_root": "C:\\NexusQuarantine",
+  "nexus_root": "C:\\NexusV3",
+  "installed_at_utc": "2026-04-10T17:47:16.7405971Z",
+  "package": "auto_archive_intake_v3_fix6"
+}

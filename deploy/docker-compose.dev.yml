@@ -1,0 +1,20 @@
+﻿version: "3.9"
+
+services:
+  nexus-api:
+    build: .
+    working_dir: /app/runtime/control
+    command: python -m uvicorn main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    env_file:
+      - ../env/.env.dev
+
+  nexus-ui:
+    image: node:20
+    working_dir: /app/runtime/ui
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0 --port 5173"
+    ports:
+      - "5173:5173"
+    env_file:
+      - ../env/.env.dev

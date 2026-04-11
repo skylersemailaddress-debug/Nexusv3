@@ -1,0 +1,8 @@
+﻿Write-Host "Security review scaffold"
+Write-Host "Review checklist:"
+Write-Host " - auth and RBAC"
+Write-Host " - write-route validation"
+Write-Host " - rate limiting"
+Write-Host " - secure headers"
+Write-Host " - CORS allowlist"
+Write-Host " - audit log coverage"

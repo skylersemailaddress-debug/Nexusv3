@@ -1,0 +1,112 @@
+[
+  {
+    "family": "autobuilder2.9",
+    "canon_role": "integrated_control_plane_skeleton",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\autobuilder29_3",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "FrankCore",
+    "canon_role": "conversation_shell_and_blocks",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\frankcore",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "FrankV2",
+    "canon_role": "conversation_shell_and_blocks",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\frankv2_50",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "Nexus2.9",
+    "canon_role": "integrated_control_plane_skeleton",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\nexus29_10",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "ODP",
+    "canon_role": "assembly_and_release_proofs",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\odp_clean_4",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "canon_role": "continuity_and_operator_os",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\skygptagent_2",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "canon_role": "continuity_and_operator_os",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\skylergptos_3",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "SkylerOS",
+    "canon_role": "continuity_and_operator_os",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\skyler_os",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "canon_role": "truth_gap_methodology",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "SkyOS",
+    "canon_role": "continuity_and_operator_os",
+    "target": "continuity",
+    "source_archive": "SkyOS (3).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\skyos_3",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  },
+  {
+    "family": "SkyOSsplitoff",
+    "canon_role": "continuity_and_operator_os",
+    "target": "continuity",
+    "source_archive": "SkyOSsplitoff32526 - Copy (2).zip",
+    "source_expanded_path": "C:\\NexusQuarantine\\expanded\\skyos_splitoff",
+    "extraction_mode": "subsystem_extract_only",
+    "whole_repo_merge": false,
+    "status": "planned"
+  }
+]

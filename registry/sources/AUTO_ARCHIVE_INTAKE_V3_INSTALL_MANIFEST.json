@@ -1,0 +1,10 @@
+{
+  "package": "auto_archive_intake_v3",
+  "version": 1,
+  "installs": [
+    "tools/intake/Find-CandidateNexusArchives.ps1",
+    "tools/intake/Invoke-NexusAutoArchiveIntake.ps1",
+    "docs/runbooks/AUTO_ARCHIVE_INTAKE_V3_RUNBOOK.md",
+    "registry/sources/AUTO_ARCHIVE_INTAKE_V3_INSTALL_MANIFEST.json"
+  ]
+}

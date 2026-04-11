@@ -1,0 +1,17 @@
+{
+  "id": "extract_20260410_124003",
+  "created_at": "2026-04-10T12:40:03",
+  "source": "C:\\NexusV3\\generated\\extraction_selftest\\source",
+  "subsystem": "selftest",
+  "classification": "ADAPT",
+  "rationale": "Defaulting to adapt under canon.",
+  "findings": [
+    {
+      "type": "state_hint",
+      "severity": "medium",
+      "path": "C:\\NexusV3\\generated\\extraction_selftest\\source\\runtime.txt",
+      "detail": "postgres reference detected"
+    }
+  ],
+  "staging_path": "C:\\NexusV3\\generated\\staging\\selftest\\extract_20260410_124003"
+}

@@ -1,0 +1,9 @@
+{
+  "package": "nexus_phase8_launch_v1",
+  "files": [
+    "Run-Nexus-Phase8-Launch.ps1",
+    "tools/launch/Invoke-NexusPhase8Launch.ps1",
+    "docs/runbooks/PHASE8_LAUNCH_RUNBOOK.md",
+    "registry/launch/PHASE8_LAUNCH_INSTALL_MANIFEST.json"
+  ]
+}

@@ -1,0 +1,1019 @@
+[
+  {
+    "layer": "continuity",
+    "logical_name": "EXTRACTION_STUB_SkylerGPTOS",
+    "safe_logical_name": "EXTRACTION_STUB_SkylerGPTOS",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkylerGPTOS.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\EXTRACTION_STUB_SkylerGPTOS__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "memory__2",
+    "safe_logical_name": "memory_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\memory__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\memory_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "EXTRACTION_STUB_SkyGPTAgent",
+    "safe_logical_name": "EXTRACTION_STUB_SkyGPTAgent",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkyGPTAgent.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\EXTRACTION_STUB_SkyGPTAgent__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "memory_resolver__2",
+    "safe_logical_name": "memory_resolver_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\memory_resolver__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\memory_resolver_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "checkpoint_policy__2",
+    "safe_logical_name": "checkpoint_policy_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\checkpoint_policy__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\checkpoint_policy_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "memory_integration__2",
+    "safe_logical_name": "memory_integration_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\memory_integration__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\memory_integration_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "18_CURRENT_STATE__2",
+    "safe_logical_name": "18_CURRENT_STATE_2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__2__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\18_CURRENT_STATE_2__5.md",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "09_MEMORY_OS",
+    "safe_logical_name": "09_MEMORY_OS",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\09_MEMORY_OS__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "checkpoints__5",
+    "safe_logical_name": "checkpoints_5",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\checkpoints__5__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\checkpoints_5__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "loop_state__2",
+    "safe_logical_name": "loop_state_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\loop_state__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\loop_state_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state_builder__1",
+    "safe_logical_name": "state_builder_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state_builder__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_builder_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state_builder__2",
+    "safe_logical_name": "state_builder_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state_builder__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_builder_2__5.py",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state_update",
+    "safe_logical_name": "state_update",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state_update__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_update__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "EXTRACTION_STUB_SkyOSsplitoff",
+    "safe_logical_name": "EXTRACTION_STUB_SkyOSsplitoff",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkyOSsplitoff.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\EXTRACTION_STUB_SkyOSsplitoff__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "workflow.schema__2",
+    "safe_logical_name": "workflow.schema_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\workflow.schema__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\workflow.schema_2__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "EXTRACTION_STUB_SkyOS",
+    "safe_logical_name": "EXTRACTION_STUB_SkyOS",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkyOS.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\EXTRACTION_STUB_SkyOS__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "09_MEMORY_OS__2",
+    "safe_logical_name": "09_MEMORY_OS_2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__2__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\09_MEMORY_OS_2__5.md",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state__1",
+    "safe_logical_name": "state_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state_update__2",
+    "safe_logical_name": "state_update_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state_update__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_update_2__5.py",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "09_MEMORY_OS__1",
+    "safe_logical_name": "09_MEMORY_OS_1",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__1__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\09_MEMORY_OS_1__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state",
+    "safe_logical_name": "state",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "checkpoint_resolver__2",
+    "safe_logical_name": "checkpoint_resolver_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\checkpoint_resolver__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\checkpoint_resolver_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "seed_workflows__2",
+    "safe_logical_name": "seed_workflows_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\seed_workflows__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\seed_workflows_2__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "18_CURRENT_STATE__1",
+    "safe_logical_name": "18_CURRENT_STATE_1",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__1__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\18_CURRENT_STATE_1__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state__2",
+    "safe_logical_name": "state_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_2__5.py",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "18_CURRENT_STATE",
+    "safe_logical_name": "18_CURRENT_STATE",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\18_CURRENT_STATE__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "EXTRACTION_STUB_SkylerOS",
+    "safe_logical_name": "EXTRACTION_STUB_SkylerOS",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkylerOS.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\EXTRACTION_STUB_SkylerOS__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state_update__1",
+    "safe_logical_name": "state_update_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state_update__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_update_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "state_builder",
+    "safe_logical_name": "state_builder",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\state_builder__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\state_builder__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "continuity",
+    "logical_name": "checkpoints__4",
+    "safe_logical_name": "checkpoints_4",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\continuity\\checkpoints__4__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\continuity\\checkpoints_4__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-proof__2",
+    "safe_logical_name": "api-health-proof_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-proof__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-proof_2__5.json",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "control",
+    "logical_name": "runtime-proof-report__14",
+    "safe_logical_name": "runtime-proof-report_14",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\runtime-proof-report__14__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\runtime-proof-report_14__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "db_reset_runner__2",
+    "safe_logical_name": "db_reset_runner_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\db_reset_runner__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\db_reset_runner_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "registry__4",
+    "safe_logical_name": "registry_4",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\registry__4__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\registry_4__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "auth__2",
+    "safe_logical_name": "auth_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\auth__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\auth_2__5.py",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-checkpoint",
+    "safe_logical_name": "api-health-checkpoint",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-checkpoint__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "mutation-manifest__2",
+    "safe_logical_name": "mutation-manifest_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\mutation-manifest__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\mutation-manifest_2__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "auth__1",
+    "safe_logical_name": "auth_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\auth__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\auth_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-checkpoint__1",
+    "safe_logical_name": "api-health-checkpoint_1",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-checkpoint_1__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "db__2",
+    "safe_logical_name": "db_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\db__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\db_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "main__2",
+    "safe_logical_name": "main_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\main__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\main_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "control-plane.proof__1",
+    "safe_logical_name": "control-plane.proof_1",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\control-plane.proof__1__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\control-plane.proof_1__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "EXTRACTION_STUB_autobuilder2.9",
+    "safe_logical_name": "EXTRACTION_STUB_autobuilder2.9",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\control\\EXTRACTION_STUB_autobuilder2.9.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\EXTRACTION_STUB_autobuilder2.9__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-proof__1",
+    "safe_logical_name": "api-health-proof_1",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-proof__1__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-proof_1__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-proof",
+    "safe_logical_name": "api-health-proof",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-proof__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-proof__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-checkpoint__2",
+    "safe_logical_name": "api-health-checkpoint_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-checkpoint_2__5.json",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-checkpoint__2",
+    "safe_logical_name": "api-health-checkpoint_2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-checkpoint_2__5.md",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "control",
+    "logical_name": "checkpoints__2",
+    "safe_logical_name": "checkpoints_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\checkpoints__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\checkpoints_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "auth",
+    "safe_logical_name": "auth",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\control\\auth__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\auth__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "control-plane.proof__2",
+    "safe_logical_name": "control-plane.proof_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\control-plane.proof__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\control-plane.proof_2__5.json",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "control",
+    "logical_name": "EXTRACTION_STUB_Nexus2.9",
+    "safe_logical_name": "EXTRACTION_STUB_Nexus2.9",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\control\\EXTRACTION_STUB_Nexus2.9.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\EXTRACTION_STUB_Nexus2.9__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-checkpoint__1",
+    "safe_logical_name": "api-health-checkpoint_1",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-checkpoint_1__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "runtime-probe-checkpoint__2",
+    "safe_logical_name": "runtime-probe-checkpoint_2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\control\\runtime-probe-checkpoint__2__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\runtime-probe-checkpoint_2__5.md",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "runtime-proof-report__15",
+    "safe_logical_name": "runtime-proof-report_15",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\runtime-proof-report__15__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\runtime-proof-report_15__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "api-health-checkpoint",
+    "safe_logical_name": "api-health-checkpoint",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\api-health-checkpoint__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "control",
+    "logical_name": "runtime-probe-checkpoint__2",
+    "safe_logical_name": "runtime-probe-checkpoint_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\runtime-probe-checkpoint__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\runtime-probe-checkpoint_2__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "control",
+    "logical_name": "control-plane.proof",
+    "safe_logical_name": "control-plane.proof",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\control\\control-plane.proof__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\control\\control-plane.proof__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "json-schema",
+    "safe_logical_name": "json-schema",
+    "extension": ".js",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\json-schema__promoted_1.js",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\json-schema__5.js",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "VERIFY_PROOF.prompt__2",
+    "safe_logical_name": "VERIFY_PROOF.prompt_2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__2__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\VERIFY_PROOF.prompt_2__5.md",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "new_module__2",
+    "safe_logical_name": "new_module_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\new_module__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\new_module_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "false",
+    "safe_logical_name": "false",
+    "extension": ".js",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\false__promoted_1.js",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\false__5.js",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "VERIFY_PROOF.prompt__1",
+    "safe_logical_name": "VERIFY_PROOF.prompt_1",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__1__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\VERIFY_PROOF.prompt_1__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "DIST_INTEGRITY_GATE_V1__1",
+    "safe_logical_name": "DIST_INTEGRITY_GATE_V1_1",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__1__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\DIST_INTEGRITY_GATE_V1_1__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "standard-schema",
+    "safe_logical_name": "standard-schema",
+    "extension": ".js",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\standard-schema__promoted_1.js",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\standard-schema__5.js",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "enumUtil",
+    "safe_logical_name": "enumUtil",
+    "extension": ".js",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\enumUtil__promoted_1.js",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\enumUtil__5.js",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "PATCH_MANIFEST__1",
+    "safe_logical_name": "PATCH_MANIFEST_1",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__1__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\PATCH_MANIFEST_1__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "",
+    "safe_logical_name": "canon_item",
+    "extension": ".npmignore",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\__promoted_1.npmignore",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\canon_item__5.npmignore",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "EXTRACTION_STUB_ODP",
+    "safe_logical_name": "EXTRACTION_STUB_ODP",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\EXTRACTION_STUB_ODP.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\EXTRACTION_STUB_ODP__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "VERIFY_PROOF.prompt",
+    "safe_logical_name": "VERIFY_PROOF.prompt",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\VERIFY_PROOF.prompt__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "DIST_INTEGRITY_GATE_V1__2",
+    "safe_logical_name": "DIST_INTEGRITY_GATE_V1_2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__2__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\DIST_INTEGRITY_GATE_V1_2__5.md",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "PATCH_MANIFEST",
+    "safe_logical_name": "PATCH_MANIFEST",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\PATCH_MANIFEST__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "cli.d",
+    "safe_logical_name": "cli.d",
+    "extension": ".mts",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\cli.d__promoted_1.mts",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\cli.d__5.mts",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "triage__2",
+    "safe_logical_name": "triage_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\triage__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\triage_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "README__2",
+    "safe_logical_name": "README_2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\README__2__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\README_2__5.md",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "DIST_INTEGRITY_GATE_V1",
+    "safe_logical_name": "DIST_INTEGRITY_GATE_V1",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__promoted_1.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\DIST_INTEGRITY_GATE_V1__5.md",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "proofs",
+    "logical_name": "PATCH_MANIFEST__2",
+    "safe_logical_name": "PATCH_MANIFEST_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\proofs\\PATCH_MANIFEST_2__5.json",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "shell",
+    "logical_name": "EXTRACTION_STUB_FrankCore",
+    "safe_logical_name": "EXTRACTION_STUB_FrankCore",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\shell\\EXTRACTION_STUB_FrankCore.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\EXTRACTION_STUB_FrankCore__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "shell",
+    "logical_name": "AppShell__1",
+    "safe_logical_name": "AppShell_1",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\AppShell__1__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\AppShell_1__5.tsx",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "layout__1",
+    "safe_logical_name": "layout_1",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\layout__1__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\layout_1__5.tsx",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "layout",
+    "safe_logical_name": "layout",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\layout__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\layout__5.tsx",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "page__2",
+    "safe_logical_name": "page_2",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\page__2__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\page_2__5.tsx",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "shell",
+    "logical_name": "EXTRACTION_STUB_FrankV2",
+    "safe_logical_name": "EXTRACTION_STUB_FrankV2",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\shell\\EXTRACTION_STUB_FrankV2.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\EXTRACTION_STUB_FrankV2__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "shell",
+    "logical_name": "build_plan.v1.schema",
+    "safe_logical_name": "build_plan.v1.schema",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\build_plan.v1.schema__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "state_builder__2",
+    "safe_logical_name": "state_builder_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\shell\\state_builder__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\state_builder_2__5.py",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "shell",
+    "logical_name": "domain__1",
+    "safe_logical_name": "domain_1",
+    "extension": ".ts",
+    "selected_source": "C:\\NexusV3\\src\\shell\\domain__1__promoted_1.ts",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\domain_1__5.ts",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "Composer__2",
+    "safe_logical_name": "Composer_2",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\Composer__2__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\Composer_2__5.tsx",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "shell",
+    "logical_name": "Composer",
+    "safe_logical_name": "Composer",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\Composer__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\Composer__5.tsx",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "build_plan.v1.schema__1",
+    "safe_logical_name": "build_plan.v1.schema_1",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__1__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\build_plan.v1.schema_1__5.json",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "AppShell",
+    "safe_logical_name": "AppShell",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\AppShell__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\AppShell__5.tsx",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "requirements_packet.v1.schema__2",
+    "safe_logical_name": "requirements_packet.v1.schema_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\shell\\requirements_packet.v1.schema__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\requirements_packet.v1.schema_2__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "shell",
+    "logical_name": "build_plan.v1.schema__2",
+    "safe_logical_name": "build_plan.v1.schema_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\build_plan.v1.schema_2__5.json",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "shell",
+    "logical_name": "domain",
+    "safe_logical_name": "domain",
+    "extension": ".ts",
+    "selected_source": "C:\\NexusV3\\src\\shell\\domain__promoted_1.ts",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\domain__5.ts",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "Composer__1",
+    "safe_logical_name": "Composer_1",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\Composer__1__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\Composer_1__5.tsx",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "shell",
+    "logical_name": "layout__2",
+    "safe_logical_name": "layout_2",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\layout__2__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\layout_2__5.tsx",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "shell",
+    "logical_name": "domain__2",
+    "safe_logical_name": "domain_2",
+    "extension": ".ts",
+    "selected_source": "C:\\NexusV3\\src\\shell\\domain__2__promoted_1.ts",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\domain_2__5.ts",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "shell",
+    "logical_name": "run_layout.v1.schema__2",
+    "safe_logical_name": "run_layout.v1.schema_2",
+    "extension": ".json",
+    "selected_source": "C:\\NexusV3\\src\\shell\\run_layout.v1.schema__2__promoted_1.json",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\run_layout.v1.schema_2__5.json",
+    "duplicates_collapsed": 2
+  },
+  {
+    "layer": "shell",
+    "logical_name": "AppShell__2",
+    "safe_logical_name": "AppShell_2",
+    "extension": ".tsx",
+    "selected_source": "C:\\NexusV3\\src\\shell\\AppShell__2__promoted_1.tsx",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\shell\\AppShell_2__5.tsx",
+    "duplicates_collapsed": 5
+  },
+  {
+    "layer": "truth",
+    "logical_name": "auth__2",
+    "safe_logical_name": "auth_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\auth__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\auth_2__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "auth__1",
+    "safe_logical_name": "auth_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\auth__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\auth_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "main__2",
+    "safe_logical_name": "main_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\main__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\main_2__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "checkpoints__5",
+    "safe_logical_name": "checkpoints_5",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\checkpoints__5__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\checkpoints_5__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "main",
+    "safe_logical_name": "main",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\main__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\main__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "checkpoints__2",
+    "safe_logical_name": "checkpoints_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\checkpoints__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\checkpoints_2__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "checkpoints__4",
+    "safe_logical_name": "checkpoints_4",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\checkpoints__4__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\checkpoints_4__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "checkpoints__1",
+    "safe_logical_name": "checkpoints_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\checkpoints__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\checkpoints_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "EXTRACTION_STUB_SkylerOS-Truth",
+    "safe_logical_name": "EXTRACTION_STUB_SkylerOS-Truth",
+    "extension": ".md",
+    "selected_source": "C:\\NexusV3\\src\\truth\\EXTRACTION_STUB_SkylerOS-Truth.md",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\EXTRACTION_STUB_SkylerOS-Truth__5.md",
+    "duplicates_collapsed": 1
+  },
+  {
+    "layer": "truth",
+    "logical_name": "main__1",
+    "safe_logical_name": "main_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\main__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\main_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "db__2",
+    "safe_logical_name": "db_2",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\db__2__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\db_2__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "db",
+    "safe_logical_name": "db",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\db__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\db__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "checkpoints__3",
+    "safe_logical_name": "checkpoints_3",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\checkpoints__3__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\checkpoints_3__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "db__1",
+    "safe_logical_name": "db_1",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\db__1__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\db_1__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "auth",
+    "safe_logical_name": "auth",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\auth__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\auth__5.py",
+    "duplicates_collapsed": 3
+  },
+  {
+    "layer": "truth",
+    "logical_name": "checkpoints",
+    "safe_logical_name": "checkpoints",
+    "extension": ".py",
+    "selected_source": "C:\\NexusV3\\src\\truth\\checkpoints__promoted_1.py",
+    "clean_target": "C:\\NexusV3\\canon\\clean\\truth\\checkpoints__5.py",
+    "duplicates_collapsed": 3
+  }
+]

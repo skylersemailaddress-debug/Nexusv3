@@ -1,0 +1,147 @@
+[
+  {
+    "family": "autobuilder",
+    "recommended_primary": "autobuilder - Copy (3).zip",
+    "canon_role": "control_pack_doctrine",
+    "score": 91,
+    "alternates": [
+      "autobuilder (10).zip",
+      "autobuilder (11).zip"
+    ]
+  },
+  {
+    "family": "autobuilder2.9",
+    "recommended_primary": "autobuilder2.9 (3).zip",
+    "canon_role": "integrated_control_plane_skeleton",
+    "score": 105,
+    "alternates": []
+  },
+  {
+    "family": "autobuilderv2",
+    "recommended_primary": "autobuilderv2 (4).zip",
+    "canon_role": "control_pack_doctrine",
+    "score": 89,
+    "alternates": []
+  },
+  {
+    "family": "Botomatic",
+    "recommended_primary": "Botomatic.zip",
+    "canon_role": "experimental_reference",
+    "score": 73,
+    "alternates": []
+  },
+  {
+    "family": "FrankCore",
+    "recommended_primary": "FrankCore.zip",
+    "canon_role": "conversation_shell_and_blocks",
+    "score": 114,
+    "alternates": []
+  },
+  {
+    "family": "FrankV2",
+    "recommended_primary": "FrankV2 (50).zip",
+    "canon_role": "conversation_shell_and_blocks",
+    "score": 118,
+    "alternates": []
+  },
+  {
+    "family": "Nexus",
+    "recommended_primary": "Nexus.zip",
+    "canon_role": "control_pack_doctrine",
+    "score": 94,
+    "alternates": [
+      "Nexus (18).zip",
+      "Nexus (19).zip"
+    ]
+  },
+  {
+    "family": "Nexus2.8",
+    "recommended_primary": "Nexus2.8 (4).zip",
+    "canon_role": "transitional_api_runtime_reference",
+    "score": 98,
+    "alternates": [
+      "Nexus2.8 (5).zip"
+    ]
+  },
+  {
+    "family": "Nexus2.9",
+    "recommended_primary": "Nexus2.9 (10).zip",
+    "canon_role": "integrated_control_plane_skeleton",
+    "score": 123,
+    "alternates": [
+      "Nexus2.9 (9).zip"
+    ]
+  },
+  {
+    "family": "NexusV2",
+    "recommended_primary": "NexusV2 - Copy (5).zip",
+    "canon_role": "control_pack_doctrine",
+    "score": 92,
+    "alternates": [
+      "NexusV2 (2).zip",
+      "NexusV2.zip"
+    ]
+  },
+  {
+    "family": "NexusV3",
+    "recommended_primary": "NexusV3.zip",
+    "canon_role": "bootstrap_canon_repo",
+    "score": 99,
+    "alternates": []
+  },
+  {
+    "family": "ODP",
+    "recommended_primary": "ODP_clean (4).zip",
+    "canon_role": "assembly_and_release_proofs",
+    "score": 107,
+    "alternates": [
+      "ODP_FACTORY (3).zip",
+      "ODPv2.zip",
+      "ODPv3_CAPTURE.zip"
+    ]
+  },
+  {
+    "family": "SkyGPTAgent",
+    "recommended_primary": "SkyGPTAgent (2).zip",
+    "canon_role": "continuity_and_operator_os",
+    "score": 106,
+    "alternates": [
+      "SkyGPTAgent (32).zip"
+    ]
+  },
+  {
+    "family": "SkylerGPTOS",
+    "recommended_primary": "SkylerGPTOS (3).zip",
+    "canon_role": "continuity_and_operator_os",
+    "score": 81,
+    "alternates": []
+  },
+  {
+    "family": "SkylerOS",
+    "recommended_primary": "skyler-os.zip",
+    "canon_role": "continuity_and_operator_os",
+    "score": 107,
+    "alternates": []
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "recommended_primary": "SkylerOS-Truth (2).zip",
+    "canon_role": "truth_gap_methodology",
+    "score": 121,
+    "alternates": []
+  },
+  {
+    "family": "SkyOS",
+    "recommended_primary": "SkyOS (3).zip",
+    "canon_role": "continuity_and_operator_os",
+    "score": 81,
+    "alternates": []
+  },
+  {
+    "family": "SkyOSsplitoff",
+    "recommended_primary": "SkyOSsplitoff32526 - Copy (2).zip",
+    "canon_role": "continuity_and_operator_os",
+    "score": 84,
+    "alternates": []
+  }
+]

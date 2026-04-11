@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-04-10T21:41:57.7984382Z",
+  "apps": [
+    {
+      "name": "nexus-control",
+      "path": "C:\\NexusV3\\apps\\nexus-control",
+      "files": 13
+    },
+    {
+      "name": "nexus-shell",
+      "path": "C:\\NexusV3\\apps\\nexus-shell",
+      "files": 13
+    }
+  ],
+  "tests": [
+    {
+      "name": "smoke",
+      "path": "C:\\NexusV3\\tests\\smoke",
+      "files": 7
+    },
+    {
+      "name": "contracts",
+      "path": "C:\\NexusV3\\tests\\contracts",
+      "files": 7
+    }
+  ]
+}

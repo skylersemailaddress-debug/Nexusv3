@@ -1,0 +1,8 @@
+{
+  "phase": "control-plane",
+  "status": "mutation-batch-generated",
+  "batch_dir": "C:\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane",
+  "integration_file": "C:\\Nexus2.9\\.nexus-elite\\integration-targets\\control-plane.integration.json",
+  "validators_passed": false,
+  "deployment_ready": false
+}

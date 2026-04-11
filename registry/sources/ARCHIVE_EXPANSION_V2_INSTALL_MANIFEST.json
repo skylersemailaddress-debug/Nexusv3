@@ -1,0 +1,14 @@
+{
+  "package": "nexus_archive_expansion_v2",
+  "installed_at_utc": "2026-04-10T17:17:28.5503587Z",
+  "nexus_root": "C:\\NexusV3",
+  "quarantine_root": "C:\\NexusQuarantine",
+  "installed_files": [
+    "C:\\NexusV3\\tools\\intake\\Expand-And-Register-NexusArchiveSet.ps1",
+    "C:\\NexusV3\\Expand-And-Register-NexusArchiveSet.ps1",
+    "C:\\NexusV3\\docs\\doctrine\\ARCHIVE_EXPANSION_V2_DOCTRINE.md",
+    "C:\\NexusV3\\docs\\runbooks\\ARCHIVE_EXPANSION_V2_RUNBOOK.md",
+    "C:\\NexusV3\\templates\\extraction\\EXTRACTION_RECORD_TEMPLATE_V2.md",
+    "C:\\NexusV3\\registry\\sources\\KNOWN_ARCHIVES_V2.json"
+  ]
+}

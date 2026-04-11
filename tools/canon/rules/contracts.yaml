@@ -1,0 +1,10 @@
+module_requirements:
+  required_files:
+    - OWNER.md
+    - CONTRACT.yaml
+    - ROLLBACK.md
+  required_fields:
+    - input_schema
+    - output_schema
+    - side_effects
+    - risk_level

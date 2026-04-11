@@ -1,0 +1,22 @@
+[
+  {
+    "item": "runtime manifest present",
+    "pass": true
+  },
+  {
+    "item": "runtime contracts present",
+    "pass": true
+  },
+  {
+    "item": "launch plan present",
+    "pass": true
+  },
+  {
+    "item": "startup proof passed",
+    "pass": true
+  },
+  {
+    "item": "commercial packout built",
+    "pass": true
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "package": "archive_expansion_v2",
+  "archives": [
+    {
+      "file": "SkylerOS-Truth (2).zip",
+      "slug": "skyleros_truth_2",
+      "family": "SkylerOS-Truth",
+      "canon_role": "truth_gap_methodology"
+    },
+    {
+      "file": "Nexus2.9 (10).zip",
+      "slug": "nexus29_10",
+      "family": "Nexus2.9",
+      "canon_role": "integrated_control_plane_skeleton"
+    },
+    {
+      "file": "Nexus2.8 (5).zip",
+      "slug": "nexus28_5",
+      "family": "Nexus2.8",
+      "canon_role": "transitional_api_runtime_reference"
+    },
+    {
+      "file": "FrankV2 (50).zip",
+      "slug": "frankv2_50",
+      "family": "FrankV2",
+      "canon_role": "conversation_shell_and_blocks"
+    },
+    {
+      "file": "FrankCore.zip",
+      "slug": "frankcore",
+      "family": "FrankCore",
+      "canon_role": "conversation_shell_and_blocks"
+    },
+    {
+      "file": "ODP_FACTORY (3).zip",
+      "slug": "odp_factory_3",
+      "family": "ODP",
+      "canon_role": "assembly_and_release_proofs"
+    },
+    {
+      "file": "ODPv3_CAPTURE.zip",
+      "slug": "odpv3_capture",
+      "family": "ODP",
+      "canon_role": "assembly_and_release_proofs"
+    },
+    {
+      "file": "Nexus (19).zip",
+      "slug": "nexus_19",
+      "family": "Nexus",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "NexusV2.zip",
+      "slug": "nexusv2",
+      "family": "NexusV2",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "skyler-os.zip",
+      "slug": "skyler_os",
+      "family": "SkylerOS",
+      "canon_role": "continuity_and_operator_os"
+    },
+    {
+      "file": "NexusV3.zip",
+      "slug": "nexusv3",
+      "family": "NexusV3",
+      "canon_role": "bootstrap_canon_repo"
+    },
+    {
+      "file": "Nexus.zip",
+      "slug": "nexus_zip",
+      "family": "Nexus",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "Nexus2.9 (9).zip",
+      "slug": "nexus29_9",
+      "family": "Nexus2.9",
+      "canon_role": "integrated_control_plane_skeleton"
+    },
+    {
+      "file": "Nexus2.8 (4).zip",
+      "slug": "nexus28_4",
+      "family": "Nexus2.8",
+      "canon_role": "transitional_api_runtime_reference"
+    },
+    {
+      "file": "Nexus (18).zip",
+      "slug": "nexus_18",
+      "family": "Nexus",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "NexusV2 (2).zip",
+      "slug": "nexusv2_2",
+      "family": "NexusV2",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "NexusV2 - Copy (5).zip",
+      "slug": "nexusv2_copy_5",
+      "family": "NexusV2",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "ODPv2.zip",
+      "slug": "odpv2",
+      "family": "ODP",
+      "canon_role": "assembly_and_release_proofs"
+    },
+    {
+      "file": "ODP_clean (4).zip",
+      "slug": "odp_clean_4",
+      "family": "ODP",
+      "canon_role": "assembly_and_release_proofs"
+    },
+    {
+      "file": "SkyGPTAgent (2).zip",
+      "slug": "skygptagent_2",
+      "family": "SkyGPTAgent",
+      "canon_role": "continuity_and_operator_os"
+    },
+    {
+      "file": "SkyGPTAgent (32).zip",
+      "slug": "skygptagent_32",
+      "family": "SkyGPTAgent",
+      "canon_role": "continuity_and_operator_os"
+    },
+    {
+      "file": "SkyOS (3).zip",
+      "slug": "skyos_3",
+      "family": "SkyOS",
+      "canon_role": "continuity_and_operator_os"
+    },
+    {
+      "file": "SkyOSsplitoff32526 - Copy (2).zip",
+      "slug": "skyos_splitoff",
+      "family": "SkyOSsplitoff",
+      "canon_role": "continuity_and_operator_os"
+    },
+    {
+      "file": "SkylerGPTOS (3).zip",
+      "slug": "skylergptos_3",
+      "family": "SkylerGPTOS",
+      "canon_role": "continuity_and_operator_os"
+    },
+    {
+      "file": "autobuilder (10).zip",
+      "slug": "autobuilder_10",
+      "family": "autobuilder",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "autobuilder (11).zip",
+      "slug": "autobuilder_11",
+      "family": "autobuilder",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "autobuilder - Copy (3).zip",
+      "slug": "autobuilder_copy_3",
+      "family": "autobuilder",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "autobuilder2.9 (3).zip",
+      "slug": "autobuilder29_3",
+      "family": "autobuilder2.9",
+      "canon_role": "integrated_control_plane_skeleton"
+    },
+    {
+      "file": "autobuilderv2 (4).zip",
+      "slug": "autobuilderv2_4",
+      "family": "autobuilderv2",
+      "canon_role": "control_pack_doctrine"
+    },
+    {
+      "file": "Botomatic.zip",
+      "slug": "botomatic",
+      "family": "Botomatic",
+      "canon_role": "experimental_reference"
+    }
+  ]
+}

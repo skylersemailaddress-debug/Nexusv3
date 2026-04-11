@@ -1,0 +1,356 @@
+{
+  "projects": [
+    {
+      "id": "skyler-os",
+      "name": "Skyler OS",
+      "status": "active",
+      "current_objective_id": "skyler-os-obj-1",
+      "active_pack_ids": [],
+      "meta": {},
+      "created_at": "2026-03-18 19:00:51.326170+00:00",
+      "updated_at": "2026-03-21 19:58:28.586306+00:00"
+    },
+    {
+      "id": "test-project",
+      "name": "Skyler OS",
+      "status": "active",
+      "current_objective_id": "obj-1",
+      "active_pack_ids": [],
+      "meta": {
+        "source": "local-seed"
+      },
+      "created_at": "2026-03-18 00:04:42.226736+00:00",
+      "updated_at": "2026-03-18 00:04:42.226736+00:00"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "skyler-os-obj-1",
+      "project_id": "skyler-os",
+      "title": "Lock final commercial architecture",
+      "description": "Normalize backend, runner, GPT contract, and deployment surface.",
+      "status": "active",
+      "priority": "high",
+      "next_step_id": "skyler-os-step-1",
+      "meta": {},
+      "created_at": "2026-03-18 19:03:32.505318+00:00",
+      "updated_at": "2026-03-21 19:58:28.586306+00:00"
+    },
+    {
+      "id": "obj-1",
+      "project_id": "test-project",
+      "title": "Lock final commercial architecture",
+      "description": "Normalize backend, runner, GPT contract, and deployment surface.",
+      "status": "active",
+      "priority": "high",
+      "next_step_id": "step-1",
+      "meta": {
+        "source": "local-seed"
+      },
+      "created_at": "2026-03-18 00:04:42.226736+00:00",
+      "updated_at": "2026-03-18 00:04:42.226736+00:00"
+    }
+  ],
+  "next_steps": [
+    {
+      "id": "skyler-os-step-1",
+      "project_id": "skyler-os",
+      "objective_id": "skyler-os-obj-1",
+      "title": "Add repo intelligence and safer execution endpoints",
+      "status": "ready",
+      "kind": "task",
+      "meta": {},
+      "created_at": "2026-03-18 19:03:32.505318+00:00",
+      "updated_at": "2026-03-18 19:03:32.505318+00:00"
+    },
+    {
+      "id": "step-1",
+      "project_id": "test-project",
+      "objective_id": "obj-1",
+      "title": "Add resume, memory, and jobs queue endpoints",
+      "status": "ready",
+      "kind": "task",
+      "meta": {
+        "source": "local-seed"
+      },
+      "created_at": "2026-03-18 00:04:42.226736+00:00",
+      "updated_at": "2026-03-18 00:04:42.226736+00:00"
+    }
+  ],
+  "messages": [
+    {
+      "id": 14,
+      "project_id": "skyler-os",
+      "role": "user",
+      "content": "contract hardening message test",
+      "meta": {
+        "nested": {
+          "pass": true
+        },
+        "source": "contract-hardening"
+      },
+      "created_at": "2026-03-21 20:02:49.568788+00:00"
+    },
+    {
+      "id": 13,
+      "project_id": "skyler-os",
+      "role": "user",
+      "content": "hardening test append",
+      "meta": {
+        "tags": [
+          "jsonb",
+          "messages",
+          "validation"
+        ],
+        "nested": {
+          "pass": true,
+          "level": 1
+        },
+        "source": "subsystem-hardening"
+      },
+      "created_at": "2026-03-21 19:44:55.839662+00:00"
+    },
+    {
+      "id": 11,
+      "project_id": "skyler-os",
+      "role": "operator",
+      "content": "CHAIN_TEST_3",
+      "meta": {},
+      "created_at": "2026-03-20 21:44:42.264715+00:00"
+    },
+    {
+      "id": 10,
+      "project_id": "skyler-os",
+      "role": "operator",
+      "content": "CHAIN_TEST_2",
+      "meta": {},
+      "created_at": "2026-03-20 21:44:17.554847+00:00"
+    },
+    {
+      "id": 9,
+      "project_id": "skyler-os",
+      "role": "operator",
+      "content": "CHAIN_TEST_1",
+      "meta": {},
+      "created_at": "2026-03-20 21:44:02.707189+00:00"
+    },
+    {
+      "id": 7,
+      "project_id": "skyler-os",
+      "role": "operator",
+      "content": "Test append message from GPT",
+      "meta": {},
+      "created_at": "2026-03-20 18:31:05.354356+00:00"
+    },
+    {
+      "id": 6,
+      "project_id": "skyler-os",
+      "role": "assistant",
+      "content": "Cloud Run, Supabase, memory, auth, and GPT actions are now live.",
+      "meta": {},
+      "created_at": "2026-03-18 19:05:23.877680+00:00"
+    },
+    {
+      "id": 5,
+      "project_id": "skyler-os",
+      "role": "user",
+      "content": "lock the final clean commercial design and make it operational",
+      "meta": {},
+      "created_at": "2026-03-18 19:05:23.877680+00:00"
+    },
+    {
+      "id": 4,
+      "project_id": "skyler-os",
+      "role": "assistant",
+      "content": "Cloud Run, Supabase, memory, auth, and GPT actions are now live.",
+      "meta": {},
+      "created_at": "2026-03-18 19:03:32.505318+00:00"
+    },
+    {
+      "id": 3,
+      "project_id": "skyler-os",
+      "role": "user",
+      "content": "lock the final clean commercial design and make it operational",
+      "meta": {},
+      "created_at": "2026-03-18 19:03:32.505318+00:00"
+    },
+    {
+      "id": 1,
+      "project_id": "test-project",
+      "role": "user",
+      "content": "lets lock the final clean commercial design",
+      "meta": {
+        "source": "local-seed"
+      },
+      "created_at": "2026-03-18 00:04:42.226736+00:00"
+    },
+    {
+      "id": 2,
+      "project_id": "test-project",
+      "role": "assistant",
+      "content": "Working repo established at C:\\SkylerOS. API booted and auth hardened.",
+      "meta": {
+        "source": "local-seed"
+      },
+      "created_at": "2026-03-18 00:04:42.226736+00:00"
+    }
+  ],
+  "memory_records": [
+    {
+      "id": "note_system_check_memory_discussion_priority",
+      "project_id": "skyler-os",
+      "scope": "project",
+      "title": "SYSTEM_CHECK_MEMORY: discussion prioritized over execution",
+      "content": "Discussion is more important than execution (source: conflict-test).",
+      "status": "active",
+      "confidence": "0.9",
+      "meta": {},
+      "created_at": "2026-03-20 21:45:00.857651+00:00",
+      "updated_at": "2026-03-20 21:45:00.857651+00:00"
+    },
+    {
+      "id": "mem_003",
+      "project_id": null,
+      "scope": "global",
+      "title": "Auto test memory",
+      "content": "Automated upsertMemory call from GPT",
+      "status": "active",
+      "confidence": "0.8",
+      "meta": {},
+      "created_at": "2026-03-20 19:35:42.930991+00:00",
+      "updated_at": "2026-03-20 19:35:42.930991+00:00"
+    },
+    {
+      "id": "mem_002",
+      "project_id": null,
+      "scope": "global",
+      "title": "RESUME_TEST_MEMORY_20260320",
+      "content": "RESUME_TEST_MEMORY_20260320: The current campaign priority is field execution discipline.",
+      "status": "active",
+      "confidence": "0.95",
+      "meta": {},
+      "created_at": "2026-03-20 19:35:28.772070+00:00",
+      "updated_at": "2026-03-20 19:35:28.772070+00:00"
+    },
+    {
+      "id": "mem_001",
+      "project_id": null,
+      "scope": "global",
+      "title": "Skyler OS memory test item",
+      "content": "Skyler OS memory test item",
+      "status": "active",
+      "confidence": "0.9",
+      "meta": {},
+      "created_at": "2026-03-20 18:30:29.471409+00:00",
+      "updated_at": "2026-03-20 18:30:29.471409+00:00"
+    },
+    {
+      "id": "user_preference_style",
+      "project_id": null,
+      "scope": "project",
+      "title": "User preference: working style",
+      "content": "Prefers exact PowerShell commands and minimal manual work.",
+      "status": "active",
+      "confidence": "0.8",
+      "meta": {},
+      "created_at": "2026-03-20 01:51:31.159120+00:00",
+      "updated_at": "2026-03-20 01:53:58.458086+00:00"
+    },
+    {
+      "id": "megan-campaign-hq-auth-working-2026-03-19",
+      "project_id": null,
+      "scope": "project",
+      "title": "Megan Campaign HQ frontend auth session is now working",
+      "content": "On 2026-03-19, frontend auth session persistence was fixed. Verified in an incognito browser session: top-right now shows the signed-in operator email instead of Guest, and the Home auth card changes to Operator Session with a sign-out button. This resolved the issue where sign-in succeeded briefly and then immediately reverted to Guest.",
+      "status": "active",
+      "confidence": "0.97",
+      "meta": {},
+      "created_at": "2026-03-19 04:39:30.368915+00:00",
+      "updated_at": "2026-03-19 04:39:30.368915+00:00"
+    },
+    {
+      "id": "megan-campaign-hq-ui-polish-pass-2026-03-19",
+      "project_id": null,
+      "scope": "project",
+      "title": "Megan Campaign HQ upgraded UI shell verified across core screens",
+      "content": "On 2026-03-19, upgraded UI bundle was applied and verified locally. Home shows prioritized recommendation cards and operational counts; Command Center loads; Signals page shows titled rows with detail panel and status buttons; Actions page shows create form, selected action panel, and styled status badges; Relationships page shows create form plus rendered relationship graph and list; Entities page shows create form and entity list; Recommendations page shows priority badges and convert-to-action buttons. A Next hydration warning was observed once showing html style mismatch, likely caused by client-side DOM mutation/extension rather than app transport failure, since pages render and function afterward.",
+      "status": "active",
+      "confidence": "0.94",
+      "meta": {},
+      "created_at": "2026-03-19 03:59:40.871265+00:00",
+      "updated_at": "2026-03-19 03:59:40.871265+00:00"
+    },
+    {
+      "id": "megan-campaign-hq-ui-integration-state-2026-03-19",
+      "project_id": null,
+      "scope": "project",
+      "title": "Megan Campaign HQ frontend integration working for core screens",
+      "content": "As of 2026-03-19, the frontend scaffold in apps/web is integrated with the live API. Verified working screens from browser: Actions page renders the existing action row and selected action detail; Signals page renders 2 signal rows; Recommendations page renders recommendation cards. CORS was corrected for frontend origin http://localhost:3001 and http://127.0.0.1:3001 in apps/api/src/app.ts and browser fetches now succeed. Current state has both API and frontend running locally and core read surfaces are functioning.",
+      "status": "active",
+      "confidence": "0.96",
+      "meta": {},
+      "created_at": "2026-03-19 03:17:35.410815+00:00",
+      "updated_at": "2026-03-19 03:17:35.410815+00:00"
+    },
+    {
+      "id": "megan-campaign-hq-local-run-state-2026-03-19",
+      "project_id": null,
+      "scope": "project",
+      "title": "Megan Campaign HQ local frontend and API running",
+      "content": "On 2026-03-19 local Windows environment: frontend scaffold successfully applied to apps/web with backup created at apps/web.backup.20260318-203257. apps/web .env.local populated with NEXT_PUBLIC_API_BASE_URL=http://localhost:3000 and Supabase URL/anon key. Next.js frontend runs successfully on http://localhost:3001. API runs successfully via pnpm --filter api dev from repo root and listens on http://localhost:3000. Root-level pnpm dev / npm run dev / start scripts are not available from repo root shell without workspace filter; workspace-specific commands should be used.",
+      "status": "active",
+      "confidence": "0.97",
+      "meta": {},
+      "created_at": "2026-03-19 00:39:54.407284+00:00",
+      "updated_at": "2026-03-19 00:39:54.407284+00:00"
+    },
+    {
+      "id": "megan-campaign-hq-state-2026-03-18",
+      "project_id": null,
+      "scope": "project",
+      "title": "Megan Campaign HQ locked backend state",
+      "content": "Backend core and auth layer are complete and stable for Megan Campaign HQ. Stack: Fastify (Node + TS), Supabase Postgres prod project megan-hq-prod, Supabase Auth JWT middleware. Canonical DB tables: intake_items, signals, actions, entities, relationships, operators, campaign_memberships. API source of truth: apps/api/src/app.ts. Public routes: GET /health, /api/home, /api/intake, /api/signals, /api/actions, /api/entities, /api/relationships, /api/recommendations. Protected routes: POST /api/intake, PATCH /api/signals/:id, POST /api/actions, PATCH /api/actions/:id, POST /api/entities, POST /api/relationships. Auth enforcement via authenticateOperator and requireOperator backed by operators and campaign_memberships. Verified: authenticated writes work, anonymous writes blocked, Supabase JWT validation works. No SQLite, no auth bypass, no direct frontend DB access, no API shape changes without schemas update, no frontend build before UI spec. Current phase is end of backend core + auth; next required phase is Phase 12A UI spec before any UI build.",
+      "status": "active",
+      "confidence": "0.99",
+      "meta": {},
+      "created_at": "2026-03-18 23:54:53.688353+00:00",
+      "updated_at": "2026-03-18 23:54:53.688353+00:00"
+    },
+    {
+      "id": "test-1",
+      "project_id": null,
+      "scope": "global",
+      "title": "Test memory",
+      "content": "Skyler is building Skyler OS",
+      "status": "active",
+      "confidence": "0.8",
+      "meta": {},
+      "created_at": "2026-03-18 20:17:12.795567+00:00",
+      "updated_at": "2026-03-18 20:17:12.795567+00:00"
+    },
+    {
+      "id": "skyler_os_bootstrap",
+      "project_id": "skyler-os",
+      "scope": "project",
+      "title": "Skyler OS Core Project",
+      "content": "Primary system project for Skyler OS. Contains API, deployment, automation workflows, live Cloud Run actions, and Supabase-backed state.",
+      "status": "active",
+      "confidence": "0.8",
+      "meta": {},
+      "created_at": "2026-03-18 19:00:32.731844+00:00",
+      "updated_at": "2026-03-18 19:08:26.561943+00:00"
+    },
+    {
+      "id": "test_1",
+      "project_id": null,
+      "scope": "project",
+      "title": "test",
+      "content": "test",
+      "status": "active",
+      "confidence": "0.8",
+      "meta": {},
+      "created_at": "2026-03-18 18:25:51.077374+00:00",
+      "updated_at": "2026-03-18 18:25:51.077374+00:00"
+    }
+  ]
+}

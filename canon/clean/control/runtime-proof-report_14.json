@@ -1,0 +1,60 @@
+{
+  "phase": "canonicalization",
+  "previous_status": "repo-native-commands-discovered",
+  "status": "repo-native-commands-discovered",
+  "structural_inputs": {
+    "integration_plan": true,
+    "concrete_patches_integrated": true,
+    "apply_todo": true
+  },
+  "discovered_repo_native_inputs": {
+    "package_json_count": 2,
+    "pyproject_count": 0,
+    "requirements_count": 6,
+    "docker_compose_count": 0,
+    "discovered_commands": [
+      {
+        "source": "C:\\Nexus2.9\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "dev"
+      },
+      {
+        "source": "C:\\Nexus2.9\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "build"
+      },
+      {
+        "source": "C:\\Nexus2.9\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "start"
+      },
+      {
+        "source": "C:\\Nexus2.9\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "lint"
+      },
+      {
+        "source": "C:\\Nexus2.9\\repos\\staging\\from_nexus16\\repos_ODP_FACTORY\\ODP_FACTORY\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "dev"
+      },
+      {
+        "source": "C:\\Nexus2.9\\repos\\staging\\from_nexus16\\repos_ODP_FACTORY\\ODP_FACTORY\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "build"
+      },
+      {
+        "source": "C:\\Nexus2.9\\repos\\staging\\from_nexus16\\repos_ODP_FACTORY\\ODP_FACTORY\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "start"
+      },
+      {
+        "source": "C:\\Nexus2.9\\repos\\staging\\from_nexus16\\repos_ODP_FACTORY\\ODP_FACTORY\\apps\\web\\package.json",
+        "kind": "npm-script",
+        "name": "lint"
+      }
+    ]
+  },
+  "note": "Trigger fix allows reruns from repo-native-commands-discovered and runtime-proof-pending-command-execution states.",
+  "reported_at": "2026-04-09T07:07:35"
+}

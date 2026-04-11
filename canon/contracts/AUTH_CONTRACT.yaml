@@ -1,0 +1,4 @@
+auth:
+  source_of_truth: runtime_config
+  hardcoded_tokens_forbidden: true
+  multiple_auth_authorities_forbidden: true

@@ -1,0 +1,2284 @@
+[
+  {
+    "target": "truth",
+    "file": "auth__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__1__promoted_1.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__1__promoted_2.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__1__promoted.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__2__promoted_1.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__2__promoted_2.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__2__promoted.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__promoted_1.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__promoted_2.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "auth__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\auth__promoted.py",
+    "extension": ".py",
+    "size": 664
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__1__promoted_1.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__1__promoted_2.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__1__promoted.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__2__promoted_1.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__2__promoted_2.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__2__promoted.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__3__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__3__promoted_1.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__3__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__3__promoted_2.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__3__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__3__promoted.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__4__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__4__promoted_1.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__4__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__4__promoted_2.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__4__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__4__promoted.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__5__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__5__promoted_1.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__5__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__5__promoted_2.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__5__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__5__promoted.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__promoted_1.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__promoted_2.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "checkpoints__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\checkpoints__promoted.py",
+    "extension": ".py",
+    "size": 364
+  },
+  {
+    "target": "truth",
+    "file": "db__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__1__promoted_1.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__1__promoted_2.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__1__promoted.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__2__promoted_1.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__2__promoted_2.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__2__promoted.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__promoted_1.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__promoted_2.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "db__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\db__promoted.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "truth",
+    "file": "EXTRACTION_STUB_SkylerOS-Truth.md",
+    "full_path": "C:\\NexusV3\\src\\truth\\EXTRACTION_STUB_SkylerOS-Truth.md",
+    "extension": ".md",
+    "size": 337
+  },
+  {
+    "target": "truth",
+    "file": "main__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__1__promoted_1.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__1__promoted_2.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__1__promoted.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__2__promoted_1.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__2__promoted_2.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__2__promoted.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__promoted_1.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__promoted_2.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "truth",
+    "file": "main__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\truth\\main__promoted.py",
+    "extension": ".py",
+    "size": 1746
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__1__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_1.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__1__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_1.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__1__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_2.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__1__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_2.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__1__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__1__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_1.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_1.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_2.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_2.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_3.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_3.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_3.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_3.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_4.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_4.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted_4.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_4.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__2__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_1.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_1.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_2.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_2.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted.json",
+    "extension": ".json",
+    "size": 699
+  },
+  {
+    "target": "control",
+    "file": "api-health-checkpoint__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted.md",
+    "extension": ".md",
+    "size": 760
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__1__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__1__promoted_1.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__1__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__1__promoted_2.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__1__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__1__promoted.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__2__promoted_1.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__2__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__2__promoted_2.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__2__promoted_3.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__2__promoted_3.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__2__promoted_4.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__2__promoted_4.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__2__promoted.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__promoted_1.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__promoted_2.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "api-health-proof__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\api-health-proof__promoted.json",
+    "extension": ".json",
+    "size": 943
+  },
+  {
+    "target": "control",
+    "file": "auth__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__1__promoted_1.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__1__promoted_2.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__1__promoted.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__2__promoted_1.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__2__promoted_2.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__2__promoted_3.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__2__promoted_3.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__2__promoted_4.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__2__promoted_4.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__2__promoted.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__promoted_1.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__promoted_2.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "auth__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\auth__promoted.py",
+    "extension": ".py",
+    "size": 1283
+  },
+  {
+    "target": "control",
+    "file": "checkpoints__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\checkpoints__2__promoted_1.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "control",
+    "file": "checkpoints__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\checkpoints__2__promoted.py",
+    "extension": ".py",
+    "size": 2241
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__1__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__1__promoted_1.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__1__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__1__promoted_2.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__1__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__1__promoted.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__2__promoted_1.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__2__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__2__promoted_2.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__2__promoted_3.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__2__promoted_3.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__2__promoted_4.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__2__promoted_4.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__2__promoted.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__promoted_1.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__promoted_2.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "control-plane.proof__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\control-plane.proof__promoted.json",
+    "extension": ".json",
+    "size": 321
+  },
+  {
+    "target": "control",
+    "file": "db__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\db__2__promoted_1.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "control",
+    "file": "db__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\db__2__promoted.py",
+    "extension": ".py",
+    "size": 178
+  },
+  {
+    "target": "control",
+    "file": "db_reset_runner__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\db_reset_runner__2__promoted_1.py",
+    "extension": ".py",
+    "size": 1342
+  },
+  {
+    "target": "control",
+    "file": "db_reset_runner__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\db_reset_runner__2__promoted.py",
+    "extension": ".py",
+    "size": 1342
+  },
+  {
+    "target": "control",
+    "file": "EXTRACTION_STUB_autobuilder2.9.md",
+    "full_path": "C:\\NexusV3\\src\\control\\EXTRACTION_STUB_autobuilder2.9.md",
+    "extension": ".md",
+    "size": 350
+  },
+  {
+    "target": "control",
+    "file": "EXTRACTION_STUB_Nexus2.9.md",
+    "full_path": "C:\\NexusV3\\src\\control\\EXTRACTION_STUB_Nexus2.9.md",
+    "extension": ".md",
+    "size": 334
+  },
+  {
+    "target": "control",
+    "file": "main__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\main__2__promoted_1.py",
+    "extension": ".py",
+    "size": 5075
+  },
+  {
+    "target": "control",
+    "file": "main__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\main__2__promoted.py",
+    "extension": ".py",
+    "size": 5075
+  },
+  {
+    "target": "control",
+    "file": "mutation-manifest__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\mutation-manifest__2__promoted_1.json",
+    "extension": ".json",
+    "size": 506
+  },
+  {
+    "target": "control",
+    "file": "mutation-manifest__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\mutation-manifest__2__promoted.json",
+    "extension": ".json",
+    "size": 506
+  },
+  {
+    "target": "control",
+    "file": "registry__4__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\control\\registry__4__promoted_1.py",
+    "extension": ".py",
+    "size": 583
+  },
+  {
+    "target": "control",
+    "file": "registry__4__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\control\\registry__4__promoted.py",
+    "extension": ".py",
+    "size": 583
+  },
+  {
+    "target": "control",
+    "file": "runtime-probe-checkpoint__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-probe-checkpoint__2__promoted_1.json",
+    "extension": ".json",
+    "size": 496
+  },
+  {
+    "target": "control",
+    "file": "runtime-probe-checkpoint__2__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-probe-checkpoint__2__promoted_1.md",
+    "extension": ".md",
+    "size": 627
+  },
+  {
+    "target": "control",
+    "file": "runtime-probe-checkpoint__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-probe-checkpoint__2__promoted.json",
+    "extension": ".json",
+    "size": 496
+  },
+  {
+    "target": "control",
+    "file": "runtime-probe-checkpoint__2__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-probe-checkpoint__2__promoted.md",
+    "extension": ".md",
+    "size": 627
+  },
+  {
+    "target": "control",
+    "file": "runtime-proof-report__14__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-proof-report__14__promoted_1.json",
+    "extension": ".json",
+    "size": 1962
+  },
+  {
+    "target": "control",
+    "file": "runtime-proof-report__14__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-proof-report__14__promoted.json",
+    "extension": ".json",
+    "size": 1962
+  },
+  {
+    "target": "control",
+    "file": "runtime-proof-report__15__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-proof-report__15__promoted_1.json",
+    "extension": ".json",
+    "size": 1959
+  },
+  {
+    "target": "control",
+    "file": "runtime-proof-report__15__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\control\\runtime-proof-report__15__promoted.json",
+    "extension": ".json",
+    "size": 1959
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__1__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__1__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__1__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__1__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__1__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__1__promoted.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__2__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__2__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__2__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__2__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__2__promoted_3.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__2__promoted_3.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__2__promoted_4.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__2__promoted_4.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__2__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__2__promoted.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "AppShell__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\AppShell__promoted.tsx",
+    "extension": ".tsx",
+    "size": 775
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__1__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__1__promoted_1.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__1__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__1__promoted_2.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__1__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__1__promoted.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__2__promoted_1.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__2__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__2__promoted_2.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__2__promoted_3.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__2__promoted_3.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__2__promoted_4.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__2__promoted_4.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__2__promoted.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__promoted_1.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__promoted_2.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "build_plan.v1.schema__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__promoted.json",
+    "extension": ".json",
+    "size": 2612
+  },
+  {
+    "target": "shell",
+    "file": "Composer__1__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__1__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__1__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__1__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__1__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__1__promoted.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__2__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__2__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__2__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__2__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__2__promoted_3.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__2__promoted_3.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__2__promoted_4.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__2__promoted_4.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__2__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__2__promoted.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "Composer__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\Composer__promoted.tsx",
+    "extension": ".tsx",
+    "size": 1334
+  },
+  {
+    "target": "shell",
+    "file": "domain__1__promoted_1.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__1__promoted_1.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__1__promoted_2.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__1__promoted_2.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__1__promoted.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__1__promoted.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__2__promoted_1.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__2__promoted_1.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__2__promoted_2.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__2__promoted_2.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__2__promoted_3.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__2__promoted_3.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__2__promoted_4.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__2__promoted_4.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__2__promoted.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__2__promoted.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__promoted_1.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__promoted_1.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__promoted_2.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__promoted_2.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "domain__promoted.ts",
+    "full_path": "C:\\NexusV3\\src\\shell\\domain__promoted.ts",
+    "extension": ".ts",
+    "size": 2074
+  },
+  {
+    "target": "shell",
+    "file": "EXTRACTION_STUB_FrankCore.md",
+    "full_path": "C:\\NexusV3\\src\\shell\\EXTRACTION_STUB_FrankCore.md",
+    "extension": ".md",
+    "size": 324
+  },
+  {
+    "target": "shell",
+    "file": "EXTRACTION_STUB_FrankV2.md",
+    "full_path": "C:\\NexusV3\\src\\shell\\EXTRACTION_STUB_FrankV2.md",
+    "extension": ".md",
+    "size": 326
+  },
+  {
+    "target": "shell",
+    "file": "layout__1__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__1__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__1__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__1__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__1__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__1__promoted.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__2__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__2__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__2__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__2__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__2__promoted_3.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__2__promoted_3.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__2__promoted_4.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__2__promoted_4.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__2__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__2__promoted.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__promoted_2.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__promoted_2.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "layout__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\layout__promoted.tsx",
+    "extension": ".tsx",
+    "size": 294
+  },
+  {
+    "target": "shell",
+    "file": "page__2__promoted_1.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\page__2__promoted_1.tsx",
+    "extension": ".tsx",
+    "size": 117
+  },
+  {
+    "target": "shell",
+    "file": "page__2__promoted.tsx",
+    "full_path": "C:\\NexusV3\\src\\shell\\page__2__promoted.tsx",
+    "extension": ".tsx",
+    "size": 117
+  },
+  {
+    "target": "shell",
+    "file": "requirements_packet.v1.schema__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\requirements_packet.v1.schema__2__promoted_1.json",
+    "extension": ".json",
+    "size": 1821
+  },
+  {
+    "target": "shell",
+    "file": "requirements_packet.v1.schema__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\requirements_packet.v1.schema__2__promoted.json",
+    "extension": ".json",
+    "size": 1821
+  },
+  {
+    "target": "shell",
+    "file": "run_layout.v1.schema__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\run_layout.v1.schema__2__promoted_1.json",
+    "extension": ".json",
+    "size": 865
+  },
+  {
+    "target": "shell",
+    "file": "run_layout.v1.schema__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\shell\\run_layout.v1.schema__2__promoted.json",
+    "extension": ".json",
+    "size": 865
+  },
+  {
+    "target": "shell",
+    "file": "state_builder__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\shell\\state_builder__2__promoted_1.py",
+    "extension": ".py",
+    "size": 8977
+  },
+  {
+    "target": "shell",
+    "file": "state_builder__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\shell\\state_builder__2__promoted.py",
+    "extension": ".py",
+    "size": 8977
+  },
+  {
+    "target": "proofs",
+    "file": "__promoted_1.npmignore",
+    "full_path": "C:\\NexusV3\\src\\proofs\\__promoted_1.npmignore",
+    "extension": ".npmignore",
+    "size": 23
+  },
+  {
+    "target": "proofs",
+    "file": "__promoted_2.npmignore",
+    "full_path": "C:\\NexusV3\\src\\proofs\\__promoted_2.npmignore",
+    "extension": ".npmignore",
+    "size": 23
+  },
+  {
+    "target": "proofs",
+    "file": "__promoted.npmignore",
+    "full_path": "C:\\NexusV3\\src\\proofs\\__promoted.npmignore",
+    "extension": ".npmignore",
+    "size": 23
+  },
+  {
+    "target": "proofs",
+    "file": "cli.d__promoted_1.mts",
+    "full_path": "C:\\NexusV3\\src\\proofs\\cli.d__promoted_1.mts",
+    "extension": ".mts",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "cli.d__promoted_2.mts",
+    "full_path": "C:\\NexusV3\\src\\proofs\\cli.d__promoted_2.mts",
+    "extension": ".mts",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "cli.d__promoted.mts",
+    "full_path": "C:\\NexusV3\\src\\proofs\\cli.d__promoted.mts",
+    "extension": ".mts",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__1__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__1__promoted_1.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__1__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__1__promoted_2.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__1__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__1__promoted.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__2__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__2__promoted_1.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__2__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__2__promoted_2.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__2__promoted_3.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__2__promoted_3.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__2__promoted_4.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__2__promoted_4.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__2__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__2__promoted.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__promoted_1.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__promoted_2.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "DIST_INTEGRITY_GATE_V1__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__promoted.md",
+    "extension": ".md",
+    "size": 483
+  },
+  {
+    "target": "proofs",
+    "file": "enumUtil__promoted_1.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\enumUtil__promoted_1.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "enumUtil__promoted_2.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\enumUtil__promoted_2.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "enumUtil__promoted.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\enumUtil__promoted.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "EXTRACTION_STUB_ODP.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\EXTRACTION_STUB_ODP.md",
+    "extension": ".md",
+    "size": 323
+  },
+  {
+    "target": "proofs",
+    "file": "false__promoted_1.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\false__promoted_1.js",
+    "extension": ".js",
+    "size": 21
+  },
+  {
+    "target": "proofs",
+    "file": "false__promoted_2.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\false__promoted_2.js",
+    "extension": ".js",
+    "size": 21
+  },
+  {
+    "target": "proofs",
+    "file": "false__promoted.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\false__promoted.js",
+    "extension": ".js",
+    "size": 21
+  },
+  {
+    "target": "proofs",
+    "file": "json-schema__promoted_1.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\json-schema__promoted_1.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "json-schema__promoted_2.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\json-schema__promoted_2.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "json-schema__promoted.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\json-schema__promoted.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "new_module__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\proofs\\new_module__2__promoted_1.py",
+    "extension": ".py",
+    "size": 831
+  },
+  {
+    "target": "proofs",
+    "file": "new_module__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\proofs\\new_module__2__promoted.py",
+    "extension": ".py",
+    "size": 831
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__1__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__1__promoted_1.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__1__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__1__promoted_2.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__1__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__1__promoted.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__2__promoted_1.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__2__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__2__promoted_2.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__2__promoted_3.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__2__promoted_3.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__2__promoted_4.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__2__promoted_4.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__2__promoted.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__promoted_1.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__promoted_2.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__promoted_2.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "PATCH_MANIFEST__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__promoted.json",
+    "extension": ".json",
+    "size": 404
+  },
+  {
+    "target": "proofs",
+    "file": "README__2__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\README__2__promoted_1.md",
+    "extension": ".md",
+    "size": 472
+  },
+  {
+    "target": "proofs",
+    "file": "README__2__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\README__2__promoted.md",
+    "extension": ".md",
+    "size": 472
+  },
+  {
+    "target": "proofs",
+    "file": "standard-schema__promoted_1.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\standard-schema__promoted_1.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "standard-schema__promoted_2.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\standard-schema__promoted_2.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "standard-schema__promoted.js",
+    "full_path": "C:\\NexusV3\\src\\proofs\\standard-schema__promoted.js",
+    "extension": ".js",
+    "size": 11
+  },
+  {
+    "target": "proofs",
+    "file": "triage__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\proofs\\triage__2__promoted_1.py",
+    "extension": ".py",
+    "size": 6286
+  },
+  {
+    "target": "proofs",
+    "file": "triage__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\proofs\\triage__2__promoted.py",
+    "extension": ".py",
+    "size": 6286
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__1__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__1__promoted_1.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__1__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__1__promoted_2.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__1__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__1__promoted.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__2__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__2__promoted_1.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__2__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__2__promoted_2.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__2__promoted_3.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__2__promoted_3.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__2__promoted_4.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__2__promoted_4.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__2__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__2__promoted.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__promoted_1.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__promoted_2.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "proofs",
+    "file": "VERIFY_PROOF.prompt__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__promoted.md",
+    "extension": ".md",
+    "size": 182
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__1__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__1__promoted_1.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__1__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__1__promoted_2.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__1__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__1__promoted.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__2__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__2__promoted_1.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__2__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__2__promoted_2.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__2__promoted_3.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__2__promoted_3.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__2__promoted_4.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__2__promoted_4.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__2__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__2__promoted.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__promoted_1.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__promoted_2.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "09_MEMORY_OS__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__promoted.md",
+    "extension": ".md",
+    "size": 241
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__1__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__1__promoted_1.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__1__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__1__promoted_2.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__1__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__1__promoted.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__2__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__2__promoted_1.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__2__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__2__promoted_2.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__2__promoted_3.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__2__promoted_3.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__2__promoted_4.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__2__promoted_4.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__2__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__2__promoted.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__promoted_1.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__promoted_1.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__promoted_2.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__promoted_2.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "18_CURRENT_STATE__promoted.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__promoted.md",
+    "extension": ".md",
+    "size": 543
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoint_policy__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoint_policy__2__promoted_1.py",
+    "extension": ".py",
+    "size": 435
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoint_policy__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoint_policy__2__promoted.py",
+    "extension": ".py",
+    "size": 435
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoint_resolver__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoint_resolver__2__promoted_1.py",
+    "extension": ".py",
+    "size": 412
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoint_resolver__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoint_resolver__2__promoted.py",
+    "extension": ".py",
+    "size": 412
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoints__4__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoints__4__promoted_1.py",
+    "extension": ".py",
+    "size": 368
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoints__4__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoints__4__promoted.py",
+    "extension": ".py",
+    "size": 368
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoints__5__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoints__5__promoted_1.py",
+    "extension": ".py",
+    "size": 3905
+  },
+  {
+    "target": "continuity",
+    "file": "checkpoints__5__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\checkpoints__5__promoted.py",
+    "extension": ".py",
+    "size": 3905
+  },
+  {
+    "target": "continuity",
+    "file": "EXTRACTION_STUB_SkyGPTAgent.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkyGPTAgent.md",
+    "extension": ".md",
+    "size": 338
+  },
+  {
+    "target": "continuity",
+    "file": "EXTRACTION_STUB_SkylerGPTOS.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkylerGPTOS.md",
+    "extension": ".md",
+    "size": 338
+  },
+  {
+    "target": "continuity",
+    "file": "EXTRACTION_STUB_SkylerOS.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkylerOS.md",
+    "extension": ".md",
+    "size": 325
+  },
+  {
+    "target": "continuity",
+    "file": "EXTRACTION_STUB_SkyOS.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkyOS.md",
+    "extension": ".md",
+    "size": 320
+  },
+  {
+    "target": "continuity",
+    "file": "EXTRACTION_STUB_SkyOSsplitoff.md",
+    "full_path": "C:\\NexusV3\\src\\continuity\\EXTRACTION_STUB_SkyOSsplitoff.md",
+    "extension": ".md",
+    "size": 355
+  },
+  {
+    "target": "continuity",
+    "file": "loop_state__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\loop_state__2__promoted_1.py",
+    "extension": ".py",
+    "size": 3530
+  },
+  {
+    "target": "continuity",
+    "file": "loop_state__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\loop_state__2__promoted.py",
+    "extension": ".py",
+    "size": 3530
+  },
+  {
+    "target": "continuity",
+    "file": "memory__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\memory__2__promoted_1.py",
+    "extension": ".py",
+    "size": 2784
+  },
+  {
+    "target": "continuity",
+    "file": "memory__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\memory__2__promoted.py",
+    "extension": ".py",
+    "size": 2784
+  },
+  {
+    "target": "continuity",
+    "file": "memory_integration__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\memory_integration__2__promoted_1.py",
+    "extension": ".py",
+    "size": 1887
+  },
+  {
+    "target": "continuity",
+    "file": "memory_integration__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\memory_integration__2__promoted.py",
+    "extension": ".py",
+    "size": 1887
+  },
+  {
+    "target": "continuity",
+    "file": "memory_resolver__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\memory_resolver__2__promoted_1.py",
+    "extension": ".py",
+    "size": 584
+  },
+  {
+    "target": "continuity",
+    "file": "memory_resolver__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\memory_resolver__2__promoted.py",
+    "extension": ".py",
+    "size": 584
+  },
+  {
+    "target": "continuity",
+    "file": "seed_workflows__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\continuity\\seed_workflows__2__promoted_1.json",
+    "extension": ".json",
+    "size": 856
+  },
+  {
+    "target": "continuity",
+    "file": "seed_workflows__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\continuity\\seed_workflows__2__promoted.json",
+    "extension": ".json",
+    "size": 856
+  },
+  {
+    "target": "continuity",
+    "file": "state__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__1__promoted_1.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__1__promoted_2.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__1__promoted.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__2__promoted_1.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__2__promoted_2.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__2__promoted_3.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__2__promoted_3.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__2__promoted_4.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__2__promoted_4.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__2__promoted.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__promoted_1.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__promoted_2.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state__promoted.py",
+    "extension": ".py",
+    "size": 387
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__1__promoted_1.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__1__promoted_2.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__1__promoted.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__2__promoted_1.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__2__promoted_2.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__2__promoted_3.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__2__promoted_3.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__2__promoted_4.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__2__promoted_4.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__2__promoted.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__promoted_1.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__promoted_2.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_builder__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_builder__promoted.py",
+    "extension": ".py",
+    "size": 2969
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__1__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__1__promoted_1.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__1__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__1__promoted_2.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__1__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__1__promoted.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__2__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__2__promoted_1.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__2__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__2__promoted_2.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__2__promoted_3.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__2__promoted_3.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__2__promoted_4.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__2__promoted_4.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__2__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__2__promoted.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__promoted_1.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__promoted_1.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__promoted_2.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__promoted_2.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "state_update__promoted.py",
+    "full_path": "C:\\NexusV3\\src\\continuity\\state_update__promoted.py",
+    "extension": ".py",
+    "size": 1491
+  },
+  {
+    "target": "continuity",
+    "file": "workflow.schema__2__promoted_1.json",
+    "full_path": "C:\\NexusV3\\src\\continuity\\workflow.schema__2__promoted_1.json",
+    "extension": ".json",
+    "size": 331
+  },
+  {
+    "target": "continuity",
+    "file": "workflow.schema__2__promoted.json",
+    "full_path": "C:\\NexusV3\\src\\continuity\\workflow.schema__2__promoted.json",
+    "extension": ".json",
+    "size": 331
+  }
+]

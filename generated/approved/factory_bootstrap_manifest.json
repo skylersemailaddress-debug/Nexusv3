@@ -1,0 +1,7 @@
+{
+  "package": "nexusv3_factory_pkg",
+  "installed_at": "2026-04-09T22:19:57",
+  "nexus_root": "C:\\NexusV3",
+  "quarantine_root": "C:\\NexusQuarantine",
+  "nightly_audit": true
+}

@@ -1,0 +1,64 @@
+{
+  "archives": [
+    {
+      "name": "SkylerOS-Truth (2).zip",
+      "extract_dir": "skyleros_truth_2",
+      "subsystem": "truth",
+      "notes": "Truth and gap methodology"
+    },
+    {
+      "name": "Nexus2.9 (10).zip",
+      "extract_dir": "nexus29_10",
+      "subsystem": "control_plane",
+      "notes": "Integrated API/web and runtime patterns"
+    },
+    {
+      "name": "Nexus2.8 (5).zip",
+      "extract_dir": "nexus28_5",
+      "subsystem": "control_plane",
+      "notes": "Control-plane and service substrate"
+    },
+    {
+      "name": "FrankV2 (50).zip",
+      "extract_dir": "frankv2_50",
+      "subsystem": "operator_web",
+      "notes": "Enterprise shell and blocks"
+    },
+    {
+      "name": "FrankCore.zip",
+      "extract_dir": "frankcore",
+      "subsystem": "operator_web",
+      "notes": "Core product surface"
+    },
+    {
+      "name": "ODP_FACTORY (3).zip",
+      "extract_dir": "odp_factory_3",
+      "subsystem": "deployment_pack",
+      "notes": "Factory/deployment patterns"
+    },
+    {
+      "name": "ODPv3_CAPTURE.zip",
+      "extract_dir": "odpv3_capture",
+      "subsystem": "deployment_pack",
+      "notes": "Capture/proof patterns"
+    },
+    {
+      "name": "Nexus (19).zip",
+      "extract_dir": "nexus_19",
+      "subsystem": "builder",
+      "notes": "Autobuilder lineage"
+    },
+    {
+      "name": "NexusV2.zip",
+      "extract_dir": "nexusv2",
+      "subsystem": "builder",
+      "notes": "Autobuilder/control lineage"
+    },
+    {
+      "name": "skyler-os.zip",
+      "extract_dir": "skyler_os",
+      "subsystem": "runtime",
+      "notes": "Skyler runtime/orchestration lineage"
+    }
+  ]
+}

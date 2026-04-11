@@ -1,0 +1,12 @@
+{
+  "package": "nexus_pre_autorunner_hardening_v1",
+  "spec_files": [
+    "AUTONOMY_ZONE_SPEC.md",
+    "AUTORUNNER_POLICY_GATE_SPEC.md",
+    "CRITIQUE_REPAIR_LOOP_SPEC.md",
+    "SIMULATION_JUDGMENT_SPEC.md",
+    "SPEC_GAP_ENGINE_SPEC.md",
+    "TRUTH_MAINTENANCE_INVARIANT_SPEC.md"
+  ],
+  "target_root": "canon/truth/specs"
+}

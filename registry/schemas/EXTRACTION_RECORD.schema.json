@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Extraction Record",
+  "type": "object",
+  "required": ["id", "created_at", "source", "subsystem", "classification", "rationale"],
+  "properties": {
+    "id": {"type": "string"},
+    "created_at": {"type": "string"},
+    "source": {"type": "string"},
+    "subsystem": {"type": "string"},
+    "classification": {"type": "string", "enum": ["ADOPT", "ADAPT", "CONCEPT_ONLY", "REJECT"]},
+    "rationale": {"type": "string"},
+    "findings": {"type": "array"},
+    "staging_path": {"type": ["string", "null"]}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "control-plane",
+  "candidate_roots": [
+    "C:\\Nexus2.9\\runtime",
+    "C:\\Nexus2.9\\ops",
+    "C:\\Nexus2.9\\proof",
+    "C:\\Nexus2.9\\tests"
+  ],
+  "recommended_root": "C:\\Nexus2.9\\runtime",
+  "status": "ready-for-repo-mutation"
+}

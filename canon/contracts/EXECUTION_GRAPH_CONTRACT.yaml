@@ -1,0 +1,5 @@
+execution_graph:
+  authority_count: 1
+  duplicate_graphs_forbidden: true
+  validators_must_use_same_graph: true
+  runners_must_use_same_graph: true

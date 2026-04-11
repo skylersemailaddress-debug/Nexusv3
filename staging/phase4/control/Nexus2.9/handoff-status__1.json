@@ -1,0 +1,7 @@
+{
+  "destination": "C:\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane\\concrete-patches.json",
+  "handed_off_at": "2026-04-09T06:48:05",
+  "source": "C:\\Nexus2.9\\.nexus-elite\\proof\\patch-compiler\\control-plane\\concrete-patch-instructions.json",
+  "status": "ready-for-execution",
+  "phase": "control-plane"
+}

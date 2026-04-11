@@ -1,0 +1,22 @@
+﻿{
+    "name":  "frank-ui",
+    "private":  true,
+    "scripts":  {
+                    "dev":  "next dev",
+                    "build":  "next build",
+                    "start":  "next start",
+                    "lint":  "next lint",
+                    "typecheck":  "tsc --noEmit",
+                    "test":  "node -e \"console.log(\u0027no tests configured yet\u0027)\""
+                },
+    "dependencies":  {
+                         "next":  "15.1.0",
+                         "react":  "^18.2.0",
+                         "react-dom":  "^18.2.0"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "25.5.2",
+                            "@types/react":  "19.2.14",
+                            "typescript":  "6.0.2"
+                        }
+}

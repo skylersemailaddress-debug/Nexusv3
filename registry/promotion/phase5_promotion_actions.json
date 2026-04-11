@@ -1,0 +1,527 @@
+[
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\09_MEMORY_OS__1.md",
+    "to": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__1__promoted_2.md",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\09_MEMORY_OS__2.md",
+    "to": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__2__promoted_4.md",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\09_MEMORY_OS.md",
+    "to": "C:\\NexusV3\\src\\continuity\\09_MEMORY_OS__promoted_2.md",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\18_CURRENT_STATE__1.md",
+    "to": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__1__promoted_2.md",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\18_CURRENT_STATE__2.md",
+    "to": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__2__promoted_4.md",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\18_CURRENT_STATE.md",
+    "to": "C:\\NexusV3\\src\\continuity\\18_CURRENT_STATE__promoted_2.md",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state__1.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state__1__promoted_2.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state__2.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state__2__promoted_4.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_builder__1.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state_builder__1__promoted_2.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_builder__2.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state_builder__2__promoted_4.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_builder.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state_builder__promoted_2.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_update__1.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state_update__1__promoted_2.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_update__2.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state_update__2__promoted_4.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_update.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state_update__promoted_2.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "continuity",
+    "from": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state.py",
+    "to": "C:\\NexusV3\\src\\continuity\\state__promoted_2.py",
+    "score": 112
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint__1.json",
+    "to": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint__1.md",
+    "to": "C:\\NexusV3\\src\\control\\api-health-checkpoint__1__promoted_2.md",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint__2.json",
+    "to": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_4.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint__2.md",
+    "to": "C:\\NexusV3\\src\\control\\api-health-checkpoint__2__promoted_4.md",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint.json",
+    "to": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint.md",
+    "to": "C:\\NexusV3\\src\\control\\api-health-checkpoint__promoted_2.md",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-proof__1.json",
+    "to": "C:\\NexusV3\\src\\control\\api-health-proof__1__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-proof__2.json",
+    "to": "C:\\NexusV3\\src\\control\\api-health-proof__2__promoted_4.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-proof.json",
+    "to": "C:\\NexusV3\\src\\control\\api-health-proof__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\auth__1.py",
+    "to": "C:\\NexusV3\\src\\control\\auth__1__promoted_2.py",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\auth__2.py",
+    "to": "C:\\NexusV3\\src\\control\\auth__2__promoted_4.py",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\auth.py",
+    "to": "C:\\NexusV3\\src\\control\\auth__promoted_2.py",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\control-plane.proof__1.json",
+    "to": "C:\\NexusV3\\src\\control\\control-plane.proof__1__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\control-plane.proof__2.json",
+    "to": "C:\\NexusV3\\src\\control\\control-plane.proof__2__promoted_4.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "control",
+    "from": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\control-plane.proof.json",
+    "to": "C:\\NexusV3\\src\\control\\control-plane.proof__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\json-schema.js",
+    "to": "C:\\NexusV3\\src\\proofs\\json-schema__promoted_2.js",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\PATCH_MANIFEST__1.json",
+    "to": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__1__promoted_2.json",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\PATCH_MANIFEST__2.json",
+    "to": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__2__promoted_4.json",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\PATCH_MANIFEST.json",
+    "to": "C:\\NexusV3\\src\\proofs\\PATCH_MANIFEST__promoted_2.json",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\standard-schema.js",
+    "to": "C:\\NexusV3\\src\\proofs\\standard-schema__promoted_2.js",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\VERIFY_PROOF.prompt__1.md",
+    "to": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__1__promoted_2.md",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\VERIFY_PROOF.prompt__2.md",
+    "to": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__2__promoted_4.md",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\VERIFY_PROOF.prompt.md",
+    "to": "C:\\NexusV3\\src\\proofs\\VERIFY_PROOF.prompt__promoted_2.md",
+    "score": 110
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\.npmignore",
+    "to": "C:\\NexusV3\\src\\proofs\\__promoted_2.npmignore",
+    "score": 90
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\cli.d.mts",
+    "to": "C:\\NexusV3\\src\\proofs\\cli.d__promoted_2.mts",
+    "score": 90
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\DIST_INTEGRITY_GATE_V1__1.md",
+    "to": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__1__promoted_2.md",
+    "score": 90
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\DIST_INTEGRITY_GATE_V1__2.md",
+    "to": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__2__promoted_4.md",
+    "score": 90
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\DIST_INTEGRITY_GATE_V1.md",
+    "to": "C:\\NexusV3\\src\\proofs\\DIST_INTEGRITY_GATE_V1__promoted_2.md",
+    "score": 90
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\enumUtil.js",
+    "to": "C:\\NexusV3\\src\\proofs\\enumUtil__promoted_2.js",
+    "score": 90
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "proofs",
+    "from": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\false.js",
+    "to": "C:\\NexusV3\\src\\proofs\\false__promoted_2.js",
+    "score": 90
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\AppShell__1.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\AppShell__1__promoted_2.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\AppShell__2.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\AppShell__2__promoted_4.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\AppShell.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\AppShell__promoted_2.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\build_plan.v1.schema__1.json",
+    "to": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__1__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\build_plan.v1.schema__2.json",
+    "to": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__2__promoted_4.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\build_plan.v1.schema.json",
+    "to": "C:\\NexusV3\\src\\shell\\build_plan.v1.schema__promoted_2.json",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\Composer__1.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\Composer__1__promoted_2.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\Composer__2.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\Composer__2__promoted_4.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\Composer.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\Composer__promoted_2.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\domain__1.ts",
+    "to": "C:\\NexusV3\\src\\shell\\domain__1__promoted_2.ts",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\domain__2.ts",
+    "to": "C:\\NexusV3\\src\\shell\\domain__2__promoted_4.ts",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\domain.ts",
+    "to": "C:\\NexusV3\\src\\shell\\domain__promoted_2.ts",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\layout__1.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\layout__1__promoted_2.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\layout__2.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\layout__2__promoted_4.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "shell",
+    "from": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\layout.tsx",
+    "to": "C:\\NexusV3\\src\\shell\\layout__promoted_2.tsx",
+    "score": 115
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\auth__1.py",
+    "to": "C:\\NexusV3\\src\\truth\\auth__1__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\auth__2.py",
+    "to": "C:\\NexusV3\\src\\truth\\auth__2__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\auth.py",
+    "to": "C:\\NexusV3\\src\\truth\\auth__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints__1.py",
+    "to": "C:\\NexusV3\\src\\truth\\checkpoints__1__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints__2.py",
+    "to": "C:\\NexusV3\\src\\truth\\checkpoints__2__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints__3.py",
+    "to": "C:\\NexusV3\\src\\truth\\checkpoints__3__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints__4.py",
+    "to": "C:\\NexusV3\\src\\truth\\checkpoints__4__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints__5.py",
+    "to": "C:\\NexusV3\\src\\truth\\checkpoints__5__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints.py",
+    "to": "C:\\NexusV3\\src\\truth\\checkpoints__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\db__1.py",
+    "to": "C:\\NexusV3\\src\\truth\\db__1__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\db__2.py",
+    "to": "C:\\NexusV3\\src\\truth\\db__2__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\db.py",
+    "to": "C:\\NexusV3\\src\\truth\\db__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\main__1.py",
+    "to": "C:\\NexusV3\\src\\truth\\main__1__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\main__2.py",
+    "to": "C:\\NexusV3\\src\\truth\\main__2__promoted_2.py",
+    "score": 135
+  },
+  {
+    "action": "copy_to_canon_candidate",
+    "target": "truth",
+    "from": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\main.py",
+    "to": "C:\\NexusV3\\src\\truth\\main__promoted_2.py",
+    "score": 135
+  }
+]

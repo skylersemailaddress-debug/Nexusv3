@@ -1,0 +1,44 @@
+[
+  {
+    "workflow_id": "workflow.spec_to_builder_packet",
+    "name": "Spec to Builder Packet",
+    "steps": [
+      {
+        "step_id": "gather_state",
+        "capability_id": "state.build_context"
+      },
+      {
+        "step_id": "gather_memory",
+        "capability_id": "memory.search"
+      },
+      {
+        "step_id": "gather_repo_context",
+        "capability_id": "repo.search"
+      }
+    ],
+    "on_success": [
+      "workflow.completed"
+    ],
+    "on_failure": [
+      "workflow.failed"
+    ],
+    "meta": {}
+  },
+  {
+    "workflow_id": "workflow.patch_and_verify",
+    "name": "Patch and Verify",
+    "steps": [
+      {
+        "step_id": "read_context",
+        "capability_id": "repo.search"
+      }
+    ],
+    "on_success": [
+      "workflow.completed"
+    ],
+    "on_failure": [
+      "workflow.failed"
+    ],
+    "meta": {}
+  }
+]

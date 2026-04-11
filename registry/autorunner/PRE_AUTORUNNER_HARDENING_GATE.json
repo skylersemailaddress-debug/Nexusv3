@@ -1,0 +1,13 @@
+{
+  "gate": "pre_autorunner_hardening",
+  "pass": true,
+  "required_controls": [
+    "spec_gap_engine",
+    "autonomy_zones",
+    "critique_repair_loop",
+    "simulation_judgment",
+    "truth_maintenance_invariants",
+    "autorunner_policy_gate"
+  ],
+  "mode": "bounded_autorunner_only"
+}

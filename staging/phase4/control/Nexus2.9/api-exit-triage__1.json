@@ -1,0 +1,14 @@
+{
+  "target_repo_root": "C:\\Nexus2.9",
+  "api_health_status": "api-start-exited-early",
+  "likely_signals": [],
+  "first_nonempty_stderr_line": "ERROR:    Error loading ASGI app. Could not import module \"main\".",
+  "stdout_tail": null,
+  "stderr_tail": "ERROR:    Error loading ASGI app. Could not import module \"main\".",
+  "recommended_next_actions": [
+    "Read stderr tail and identify the first concrete Python import/config/runtime error.",
+    "Fix the API boot issue in apps\\api source, not in proof artifacts.",
+    "Rerun the API health proof after the source-level fix."
+  ],
+  "triaged_at": "2026-04-09T16:25:58"
+}

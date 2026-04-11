@@ -1,0 +1,9 @@
+{
+  "nexus_root": "C:\\NexusV3",
+  "installed_at": "2026-04-09T22:48:26",
+  "files": [
+    "Run-Nexus.ps1",
+    "Nexus-Status.ps1",
+    "Ship-Nexus.ps1"
+  ]
+}

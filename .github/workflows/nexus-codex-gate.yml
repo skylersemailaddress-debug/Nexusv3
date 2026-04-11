@@ -1,0 +1,55 @@
+﻿name: nexus-codex-gate
+
+on:
+  push:
+    branches: [ main, master, develop, staging ]
+  pull_request:
+    branches: [ main, master, develop, staging ]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install backend deps
+        shell: powershell
+        run: |
+          Set-Location runtime/control
+          pip install -r requirements.txt
+
+      - name: Install frontend deps
+        shell: powershell
+        run: |
+          Set-Location runtime/ui
+          cmd /c npm install
+
+      - name: Start clean runtime
+        shell: powershell
+        run: |
+          Set-Location runtime/ops
+          .\start-clean.ps1
+          Start-Sleep -Seconds 8
+
+      - name: Run Codex validation gate
+        shell: powershell
+        run: |
+          powershell -ExecutionPolicy Bypass -File .\codex-validate.ps1 -RepoRoot "${{ github.workspace }}"
+
+      - name: Snapshot baseline on green
+        shell: powershell
+        run: |
+          Set-Location runtime/ops
+          .\snapshot-baseline.ps1

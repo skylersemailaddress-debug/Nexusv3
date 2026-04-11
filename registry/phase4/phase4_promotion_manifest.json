@@ -1,0 +1,2258 @@
+[
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\models\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\__init____9.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\registry\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\__init____10.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\routes\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\__init____11.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\routes\\health.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\health__4.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\routes\\jobs.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\jobs__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\routes\\messages.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\messages__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\routes\\registry.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\registry__4.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\services\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\__init____12.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\services\\automation.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\automation__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\services\\checkpoints.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\checkpoints__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\services\\connectors.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\connectors__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\services\\devtools.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\devtools__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\services\\ramble.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\ramble__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_p0_restore_backup\\20260408_215034\\app_before_restore\\services\\retry_policy.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\retry_policy__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\admin_runners.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\admin_runners__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\auth.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\auth__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\control_plane.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\control_plane__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\control.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\control__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\distributed_runner.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\distributed_runner__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\get_runtime_state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\get_runtime_state__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\health_probe.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\health_probe__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\health.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\health__5.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\pg_worker.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\pg_worker__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\registry.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\registry__5.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\repo_runner.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\repo_runner__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\run_execution_graph_controlled.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\run_execution_graph_controlled__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\runner.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\runner__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\test_autorunner_loop.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\test_autorunner_loop__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\test_distributed_runners.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\test_distributed_runners__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\validate_runtime.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\validate_runtime__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\worker_main.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\worker_main__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\worker_registry.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\worker_registry__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\app\\write_fix_runtime_generator_v11.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\write_fix_runtime_generator_v11__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\NexusPacks_supplemental\\Nexus_Final_Layer_Pack _1_\\Nexus_Final_Layer_Pack\\repo\\apps\\api\\main.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\main__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\NexusPacks_supplemental\\Nexus_Final_Layer_Pack _1_\\Nexus_Final_Layer_Pack\\repo\\apps\\api\\routes\\agent.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\agent__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\NexusPacks_supplemental\\Nexus_Final_Layer_Pack _1_\\Nexus_Final_Layer_Pack\\repo\\apps\\api\\routes\\one_button.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\one_button__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\NexusPacks_supplemental\\Nexus_Final_Layer_Pack _1_\\Nexus_Final_Layer_Pack\\repo\\apps\\api\\routes\\voice.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\voice__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\NexusPacks_supplemental\\Nexus_Final_Layer_Pack _1_\\Nexus_Final_Layer_Pack\\repo\\apps\\api\\services\\agent_mode.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\agent_mode__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\NexusPacks_supplemental\\Nexus_Final_Layer_Pack _1_\\Nexus_Final_Layer_Pack\\repo\\apps\\api\\services\\codegen_consistency.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\codegen_consistency__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\autobuilder29_3\\autobuilder2.9\\_phase1b_archive\\20260408_210022\\NexusPacks_supplemental\\Nexus_Final_Layer_Pack _1_\\Nexus_Final_Layer_Pack\\repo\\apps\\api\\services\\codegen_runtime.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\autobuilder2.9\\codegen_runtime__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\api\\app\\services\\state_builder.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\state_builder__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\api\\tests\\test_continuity_bridge.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\test_continuity_bridge__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\app\\layout.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\layout__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\app\\mediastudio\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\page__4.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\app\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\page__5.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\jsconfig.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\jsconfig__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\activity.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\activity__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\artifacts.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\artifacts__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\client.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\client__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\context.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\context__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\controlPlane.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\controlPlane__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\jobs.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\jobs__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\messages.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\messages__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\projects.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\projects__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\registry.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\registry__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\api\\state.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\state__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\contracts\\skyler.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\skyler__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\hooks\\queries.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\queries__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\contextStore.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\contextStore__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\projectStore.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\projectStore__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\uiStore.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\uiStore__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\useActiveContext.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\useActiveContext__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\useAttention.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\useAttention__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\useContextMode.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\useContextMode__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\useSessionContext.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\useSessionContext__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\useSystemState.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\useSystemState__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\stores\\useWorkspaceLayout.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\useWorkspaceLayout__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\lib\\types\\domain.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\domain__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\next.config.js",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\next.config__2.js",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\package-lock.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\package-lock__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\package.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\package__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\providers\\BootProjectProvider.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\BootProjectProvider__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\providers\\QueryProvider.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\QueryProvider__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\src\\components\\blocks\\ApprovalBlock.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\ApprovalBlock__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\src\\components\\blocks\\ArtifactBlock.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\ArtifactBlock__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\src\\components\\blocks\\AssistantBlock.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\AssistantBlock__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\src\\components\\blocks\\SystemBlock.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\SystemBlock__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\src\\components\\blocks\\ToolBlock.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\ToolBlock__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\src\\components\\blocks\\UserBlock.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\UserBlock__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankcore\\FrankCore\\apps\\web\\src\\components\\Composer.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankCore\\Composer__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_clean\\core\\contracts\\schemas\\build_plan.v1.schema.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\build_plan.v1.schema__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_clean\\core\\contracts\\schemas\\requirements_packet.v1.schema.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\requirements_packet.v1.schema__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_clean\\core\\contracts\\schemas\\run_layout.v1.schema.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\run_layout.v1.schema__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\api\\app\\services\\state_builder.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\state_builder__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\layout.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\layout__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\projects\\[projectId]\\novice\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__3.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\projects\\[projectId]\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__3.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\projects\\[projectId]\\review\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__3.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\projects\\[projectId]\\settings\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__3.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\projects\\[projectId]\\studio\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__3.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\projects\\[projectId]\\timeline\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__3.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\app\\projects\\[projectId]\\tools\\page.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\page__3.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\activity\\ActivityTimeline.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\ActivityTimeline__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\artifacts\\ArtifactList.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\ArtifactList__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\composer\\Composer.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\Composer__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\context\\DecisionCenter.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\DecisionCenter__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\context\\NoviceMode.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\NoviceMode__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\jobs\\JobsList.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\JobsList__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\panels\\ContextPanel.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\ContextPanel__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\pro\\LogsViewer.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\LogsViewer__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\shell\\AppShell.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\AppShell__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\shell\\LeftNav.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\LeftNav__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\components\\shell\\TopBar.tsx",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\TopBar__2.tsx",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\activity.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\activity__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\artifacts.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\artifacts__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\client.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\client__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\context.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\context__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\jobs.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\jobs__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\messages.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\messages__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\projects.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\projects__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\registry.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\registry__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\api\\state.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\state__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\hooks\\queries.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\queries__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\stores\\contextStore.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\contextStore__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\stores\\projectStore.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\projectStore__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\stores\\uiStore.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\uiStore__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\lib\\types\\domain.ts",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\domain__2.ts",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\next.config.js",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\next.config__2.js",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\frankv2_50\\FrankV2\\_donors\\ODP_FACTORY\\apps\\web\\package-lock.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\shell\\FrankV2\\package-lock__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\execution-engine\\mutations\\phase-02-control-plane\\mutation-manifest.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\mutation-manifest__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\execution-engine\\patches\\phase-02-control-plane.patch.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\phase-02-control-plane.patch__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\execution-engine\\reports\\phase-02-control-plane.report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\phase-02-control-plane.report__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\integration-targets\\control-plane.integration.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\control-plane.integration__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane\\concrete-patches.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\concrete-patches__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane\\handoff-status.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\handoff-status__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane\\repo-patch-plan.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\repo-patch-plan__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\api-health\\api-exit-triage.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-exit-triage__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\api-health\\api-health-proof.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-proof__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\apply-reports\\phase-02-control-plane.apply-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\phase-02-control-plane.apply-report__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\checkpoint\\api-health-checkpoint.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\checkpoint\\api-health-checkpoint.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\api-health-checkpoint__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\checkpoint\\runtime-probe-checkpoint.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-probe-checkpoint__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\checkpoint\\runtime-probe-checkpoint.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-probe-checkpoint__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\db-reset\\db_reset_runner.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\db_reset_runner__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\integration-validation\\control-plane\\integration-validation-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\integration-validation-report__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\patch-compiler\\control-plane\\concrete-patch-instructions.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\concrete-patch-instructions__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\patch-compiler\\control-plane\\patch-compile-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\patch-compile-report__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\patch-execution\\control-plane\\patch-execution-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\patch-execution-report__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\real-core\\control-plane.proof.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\control-plane.proof__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\canonicalization\\runtime-proof-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-report__14.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\control-plane\\runtime-proof-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-report__15.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\full-stack-launchability\\runtime-proof-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-report__16.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\memory-personalization\\runtime-proof-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-report__17.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\operator-computer-use\\runtime-proof-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-report__18.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\proof-and-finish\\runtime-proof-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-report__19.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\runtime-proof-summary.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-summary__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\runtime-proof\\ui-product-intelligence\\runtime-proof-report.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\runtime-proof-report__20.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\build-failure-triage.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\build-failure-triage__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\proof\\safe-runtime\\safe-runtime-summary.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\safe-runtime-summary__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\.nexus-elite\\work-packets\\phase-02-control-plane.packet.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\phase-02-control-plane.packet__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\__init____9.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\adapters\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\__init____10.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\auth.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\auth__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\bootstrap.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\bootstrap__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\core\\state_paths.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\state_paths__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\db.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\db__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\main.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\main__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\models\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\__init____11.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\nexus29_10\\Nexus2.9\\apps\\api\\app\\registry\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\control\\Nexus2.9\\__init____12.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "ODP",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\odp_clean_4\\ODP_clean\\assembly\\ai\\new_module.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\new_module__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "ODP",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\odp_clean_4\\ODP_clean\\assembly\\ai\\README.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\README__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "ODP",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\odp_clean_4\\ODP_clean\\assembly\\ai\\triage.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\triage__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "ODP",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\odp_clean_4\\ODP_clean\\docs\\DIST_INTEGRITY_GATE_V1.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\DIST_INTEGRITY_GATE_V1__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "ODP",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\odp_clean_4\\ODP_clean\\ops\\northstar\\prompts\\VERIFY_PROOF.prompt.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\VERIFY_PROOF.prompt__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "ODP",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\odp_clean_4\\ODP_clean\\PATCH_MANIFEST.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\proofs\\ODP\\PATCH_MANIFEST__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\objective.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\objective__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_adapters.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_adapters__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_promotion_policy.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_promotion_policy__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_promotion_requests.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_promotion_requests__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_requests.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_requests__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_run.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_run__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_executive_summary.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_executive_summary__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_gateway.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_gateway__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_handoff_bundle.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_handoff_bundle__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_operator_brief.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_operator_brief__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_orchestrator.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_orchestrator__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_readiness_packet.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_readiness_packet__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_resolution.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_resolution__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_snapshot.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_snapshot__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime_status_report.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime_status_report__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\models\\workflow_runtime.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_runtime__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\routes\\checkpoints.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\checkpoints__4.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\routes\\memory.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\memory__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\routes\\resume.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\resume__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\routes\\state_update.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\state_update__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\routes\\state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\state__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\routes\\system_state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\system_state__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\adapters\\workflow_adapter_registry.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\workflow_adapter_registry__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\checkpoint_policy.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\checkpoint_policy__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\checkpoint_resolver.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\checkpoint_resolver__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\checkpoints.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\checkpoints__5.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\context_contract.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\context_contract__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\context_fusion.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\context_fusion__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\context_pipeline.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\context_pipeline__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\loop_objective.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\loop_objective__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\loop_objectives.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\loop_objectives__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\loop_queue.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\loop_queue__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\loop_state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\loop_state__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\memory_integration.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\memory_integration__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\memory_resolver.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\memory_resolver__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\memory_signal_bridge.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\memory_signal_bridge__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\resume_contract.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\resume_contract__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\state_builder.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\state_builder__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\workflows\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\__init____3.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skygptagent_2\\SkyGPTAgent\\apps\\api\\app\\services\\workflows\\devtools_workflow_promotion.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyGPTAgent\\devtools_workflow_promotion__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\routes\\checkpoints.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\checkpoints__4.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\routes\\memory.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\memory__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\routes\\resume.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\resume__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\routes\\state_update.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\state_update__6.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\routes\\state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\state__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\services\\checkpoints.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\checkpoints__5.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\services\\state_builder.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\state_builder__6.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\apps\\api\\app\\workflows\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\__init____3.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\backups\\bridge_20260321\\state_builder.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\state_builder__7.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\backups\\bridge_20260321\\state_update.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\state_update__7.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\backups\\migration_freeze_20260321\\state_builder.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\state_builder__8.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\backups\\migration_freeze_20260321\\state_update.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\state_update__8.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\docs\\architecture\\CONTINUITY_FINAL.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\CONTINUITY_FINAL__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\docs\\commercial_hardening\\REPO_CLEANUP_TO_COMMERCIAL_STATE.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\REPO_CLEANUP_TO_COMMERCIAL_STATE__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\docs\\skyler-os\\06-memory-state-timeline.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\06-memory-state-timeline__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\docs\\skyler-os\\24-memory-state-policies.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\24-memory-state-policies__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\gpt\\knowledge\\workflows.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\workflows__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\legacy_state_snapshot.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\legacy_state_snapshot__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\packages\\contracts\\workflow.schema.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\workflow.schema__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\registry\\seed_workflows.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\seed_workflows__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\state\\current_next_step.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\current_next_step__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\state\\current_objective.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\current_objective__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skylergptos_3\\SkylerGPTOS\\state\\current_phase.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerGPTOS\\current_phase__3.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\backend\\app\\routes\\state_update.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_update__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\backend\\app\\routes\\state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\backend\\app\\services\\state_builder.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\state_builder__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\backend\\app\\workflows\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\__init____3.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\docs\\skyler-os\\08_WORKFLOW_MODEL.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\08_WORKFLOW_MODEL__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\docs\\skyler-os\\09_MEMORY_OS.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\09_MEMORY_OS__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\docs\\skyler-os\\18_CURRENT_STATE.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\18_CURRENT_STATE__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\registry\\seed_workflows.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\seed_workflows__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\schemas\\workflow.schema.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\workflow.schema__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\state\\current_next_step.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\current_next_step__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\state\\current_objective.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\current_objective__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyler_os\\skyler-os\\state\\current_phase.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkylerOS\\current_phase__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\docs\\truth\\gaps\\GAP_REGISTER.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\GAP_REGISTER__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\docs\\truth\\local-sources\\LOCAL_SOURCE_REGISTER.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\LOCAL_SOURCE_REGISTER__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\docs\\truth\\migration\\inventory.json",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\inventory__2.json",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\docs\\truth\\placeholders\\PLACEHOLDER_TEMPLATE.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\PLACEHOLDER_TEMPLATE__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\docs\\truth\\system\\SYSTEM_FULL_TRUTH.md",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\SYSTEM_FULL_TRUTH__2.md",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\__init____13.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\adapters\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\__init____14.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\auth.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\auth__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\db.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\db__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\main.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\main__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\models\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\__init____15.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\registry\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\__init____16.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\__init____17.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\artifacts.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\artifacts__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\checkpoints.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints__4.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\devtools.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\devtools__4.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\health.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\health__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\jobs.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\jobs__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\logs.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\logs__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\memory.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\memory__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\messages.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\messages__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\orchestrate.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\orchestrate__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\projects.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\projects__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\protected.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\protected__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\ramble.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\ramble__4.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\registry.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\registry__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\repo.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\repo__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\resume.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\resume__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\state_update.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\state_update__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\routes\\state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\state__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\__init__.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\__init____18.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\artifact_service.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\artifact_service__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\briefing.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\briefing__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\checkpoints.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\checkpoints__5.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\devtools.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\devtools__5.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\log_service.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\log_service__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\logging_config.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\logging_config__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\operator.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\operator__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\ramble.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\ramble__5.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyleros_truth_2\\SkylerOS-Truth\\SkylerOS\\apps\\api\\app\\services\\repo_service.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\truth\\SkylerOS-Truth\\repo_service__2.py",
+    "status": "staged_semantic"
+  },
+  {
+    "family": "SkyOSsplitoff",
+    "target": "continuity",
+    "source_archive": "SkyOSsplitoff32526 - Copy (2).zip",
+    "source_file": "C:\\NexusQuarantine\\expanded\\skyos_splitoff\\SkyOSsplitoff32526 - Copy\\seed_phase2_state.py",
+    "staged_file": "C:\\NexusV3\\staging\\phase4\\continuity\\SkyOSsplitoff\\seed_phase2_state__2.py",
+    "status": "staged_semantic"
+  }
+]

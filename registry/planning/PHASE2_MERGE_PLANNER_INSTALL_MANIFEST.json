@@ -1,0 +1,15 @@
+{
+  "package": "nexus_phase2_merge_planner",
+  "installed_at_utc": "2026-04-10T19:43:14.6896510Z",
+  "nexus_root": "C:\\NexusV3",
+  "quarantine_root": "C:\\NexusQuarantine",
+  "files": [
+    "tools/planning/Invoke-NexusPhase2MergePlanner.ps1",
+    "tools/planning/New-NexusExtractionBatch.ps1",
+    "tools/planning/Get-NexusPhase2Summary.ps1",
+    "docs/runbooks/PHASE2_MERGE_PLANNER_RUNBOOK.md",
+    "registry/planning/PHASE2_ROLE_WEIGHTS.json",
+    "templates/extraction/PHASE2_EXTRACTION_RECORD_TEMPLATE.md",
+    "Run-Nexus-Phase2-MergePlanner.ps1"
+  ]
+}

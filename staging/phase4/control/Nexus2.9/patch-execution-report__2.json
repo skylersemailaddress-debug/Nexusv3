@@ -1,0 +1,11 @@
+{
+  "status": "applied-to-repo",
+  "note": "Execution trigger fix accepted ready-for-execution and materialized repo-bound patch artifacts.",
+  "concrete_patch_source": "C:\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane\\concrete-patches.json",
+  "phase": "control-plane",
+  "applied_files": [
+    "C:\\Nexus2.9\\src\\autobuilt\\control-plane\\concrete-patches.applied.json"
+  ],
+  "applied_at": "2026-04-09T06:50:23",
+  "repo_artifact_root": "C:\\Nexus2.9\\src\\autobuilt\\control-plane"
+}

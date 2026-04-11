@@ -1,0 +1,12 @@
+{
+  "kind": "ai_patch_manifest.v1",
+  "triage_json": "C:\\ODPv3\\out\\northstar\\strikes\\S1_BUILDER_TRUST\\triage\\triage_summary.json",
+  "files": [
+    {
+      "path": "assembly\\_lib.ps1",
+      "why": "Scaffold proof: bounded no-op overwrite of existing allowed file.",
+      "sha256": "a2b4ad1ebe756e1fe4d5854fa3742e5434d25db3af65c698a86ac47369aedd7a",
+      "action": "copy"
+    }
+  ]
+}

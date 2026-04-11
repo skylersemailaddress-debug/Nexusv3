@@ -1,0 +1,9 @@
+{
+  "package": "nexus_phase5_promotion_fix1",
+  "files": [
+    "Run-Nexus-Phase5-Promotion.ps1",
+    "tools/promotion/Invoke-NexusPhase5Promotion.ps1",
+    "docs/runbooks/PHASE5_PROMOTION_FIX1_RUNBOOK.md",
+    "registry/promotion/PHASE5_PROMOTION_FIX1_INSTALL_MANIFEST.json"
+  ]
+}

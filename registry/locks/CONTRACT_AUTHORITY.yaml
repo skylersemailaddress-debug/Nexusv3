@@ -1,0 +1,12 @@
+truth_authority: SkylerOS-Truth (2).zip
+control_runtime_authority: Nexus2.9 (10).zip
+control_doctrine_authority: autobuilder2.9 (3).zip
+shell_authority: FrankV2 (50).zip
+proof_authority: ODP_clean (4).zip
+continuity_authority: skyler-os.zip
+
+contract_owners:
+  auth: control_runtime_authority
+  state: continuity_authority
+  execution_graph: control_runtime_authority
+  memory_schema: continuity_authority

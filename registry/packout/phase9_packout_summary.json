@@ -1,0 +1,27 @@
+{
+  "release_ready": true,
+  "runtime_name": "NexusV3 Canon Runtime",
+  "layer_count": 5,
+  "proof_checks": [
+    {
+      "item": "runtime manifest present",
+      "pass": true
+    },
+    {
+      "item": "runtime contracts present",
+      "pass": true
+    },
+    {
+      "item": "launch plan present",
+      "pass": true
+    },
+    {
+      "item": "startup proof passed",
+      "pass": true
+    },
+    {
+      "item": "commercial packout built",
+      "pass": true
+    }
+  ]
+}

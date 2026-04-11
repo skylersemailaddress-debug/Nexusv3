@@ -1,0 +1,12 @@
+﻿{
+  "runtimeAuthority": "runtime",
+  "api": {
+    "health": "/health",
+    "state": "/state",
+    "testAction": "/action/test"
+  },
+  "notes": [
+    "Replace test action with the first commercial workflow.",
+    "Keep all runnable code inside runtime/."
+  ]
+}

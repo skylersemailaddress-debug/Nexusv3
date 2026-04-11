@@ -1,0 +1,14 @@
+{
+  "applied_at": "2026-04-10T12:52:19",
+  "target": "C:\\NexusV3",
+  "wrote": [
+    "C:\\NexusV3\\registry\\sources\\SOURCE_REGISTRY.json",
+    "C:\\NexusV3\\registry\\schemas\\SOURCE_REGISTRY.schema.json",
+    "C:\\NexusV3\\docs\\doctrine\\SOURCE_INTAKE_DOCTRINE.md",
+    "C:\\NexusV3\\tools\\extraction\\Register-NexusSource.ps1",
+    "C:\\NexusV3\\tools\\extraction\\Invoke-NexusSourceBatch.ps1",
+    "C:\\NexusV3\\Register-NexusSource.ps1",
+    "C:\\NexusV3\\Run-NexusSourceBatch.ps1"
+  ],
+  "package": "nexusv3_source_intake_v1"
+}

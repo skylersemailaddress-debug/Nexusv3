@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-04-10T21:58:23.5430973Z",
+  "runtime_entry": "Start-Nexus.ps1",
+  "smoke_tests": "Run-Nexus-SmokeTests.ps1",
+  "apps": [
+    "apps\\nexus-control",
+    "apps\\nexus-shell"
+  ],
+  "tests": [
+    "tests\\smoke",
+    "tests\\contracts"
+  ]
+}

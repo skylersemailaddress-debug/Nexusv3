@@ -1,0 +1,15 @@
+{
+  "phase": "control-plane",
+  "status": "validated-structurally",
+  "structural_validation": {
+    "concrete_patch_present": true,
+    "apply_todo_present": true,
+    "integrated_workspace_created": true
+  },
+  "runtime_validation": {
+    "passed": false,
+    "status": "pending-project-specific-build-and-test",
+    "note": "This loop validates integration staging, not full runtime proof, unless repo-specific commands are added."
+  },
+  "report_written_at": "2026-04-09T06:55:01"
+}

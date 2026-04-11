@@ -1,0 +1,9 @@
+{
+  "package": "nexus_phase7_runtime_v1",
+  "files": [
+    "Run-Nexus-Phase7-Runtime.ps1",
+    "tools/runtime/Invoke-NexusPhase7Runtime.ps1",
+    "docs/runbooks/PHASE7_RUNTIME_RUNBOOK.md",
+    "registry/runtime/PHASE7_RUNTIME_INSTALL_MANIFEST.json"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "package": "nexus_phase4_executor_v1",
+  "files": [
+    "Run-Nexus-Phase4-Executor.ps1",
+    "tools/extraction/Invoke-NexusPhase4Executor.ps1",
+    "docs/runbooks/PHASE4_EXECUTOR_RUNBOOK.md",
+    "registry/phase4/PHASE4_EXECUTOR_INSTALL_MANIFEST.json"
+  ]
+}

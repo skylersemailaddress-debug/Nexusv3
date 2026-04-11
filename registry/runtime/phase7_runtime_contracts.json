@@ -1,0 +1,22 @@
+[
+  {
+    "contract": "auth",
+    "owner": "control_runtime_authority",
+    "status": "bound"
+  },
+  {
+    "contract": "state",
+    "owner": "continuity_authority",
+    "status": "bound"
+  },
+  {
+    "contract": "execution_graph",
+    "owner": "control_runtime_authority",
+    "status": "bound"
+  },
+  {
+    "contract": "memory_schema",
+    "owner": "continuity_authority",
+    "status": "bound"
+  }
+]

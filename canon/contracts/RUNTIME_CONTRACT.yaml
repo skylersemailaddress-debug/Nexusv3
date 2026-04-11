@@ -1,0 +1,6 @@
+runtime:
+  state_authority: postgres
+  execution_graph_authority: single
+  health_authority: authoritative
+  queue_required: true
+  checkpoints_required: true

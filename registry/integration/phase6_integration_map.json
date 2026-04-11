@@ -1,0 +1,27 @@
+[
+  {
+    "edge": "truth->control",
+    "contract": "truth constraints inform control runtime",
+    "status": "mapped"
+  },
+  {
+    "edge": "control->shell",
+    "contract": "shell consumes control api and registry",
+    "status": "mapped"
+  },
+  {
+    "edge": "control->continuity",
+    "contract": "continuity owns state and memory contracts consumed by control",
+    "status": "mapped"
+  },
+  {
+    "edge": "proofs->control",
+    "contract": "proof gates validate control runtime mutations",
+    "status": "mapped"
+  },
+  {
+    "edge": "shell->continuity",
+    "contract": "shell renders continuity state and objective surfaces",
+    "status": "mapped"
+  }
+]

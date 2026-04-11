@@ -1,0 +1,52 @@
+{
+  "phase": "control-plane",
+  "compiled_at": "2026-04-09T06:44:37",
+  "source_plan": "C:\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane\\repo-patch-plan.json",
+  "source_todo": "C:\\Nexus2.9\\.nexus-elite\\mutation-batches\\control-plane\\apply.todo.txt",
+  "todo_preview": [
+    "[1] Review execution-plan.generated.json for control-plane",
+    "[2] Choose canonical target root from integration-targets",
+    "[3] Create concrete module/file edits in live repo paths",
+    "[4] Run project validators/build/test",
+    "[5] Mark proof outcome"
+  ],
+  "concrete_patch_instructions": [
+    {
+      "op": "create_or_update_stub",
+      "target_root": "runtime",
+      "relative_path": "control-plane/runtime.patch.stub.md",
+      "rationale": "Compiled from mutation batch for control-plane",
+      "source_phase": "control-plane"
+    },
+    {
+      "op": "create_or_update_stub",
+      "target_root": "apps",
+      "relative_path": "control-plane/apps.patch.stub.md",
+      "rationale": "Compiled from mutation batch for control-plane",
+      "source_phase": "control-plane"
+    },
+    {
+      "op": "create_or_update_stub",
+      "target_root": "ops",
+      "relative_path": "control-plane/ops.patch.stub.md",
+      "rationale": "Compiled from mutation batch for control-plane",
+      "source_phase": "control-plane"
+    },
+    {
+      "op": "create_or_update_stub",
+      "target_root": "deploy",
+      "relative_path": "control-plane/deploy.patch.stub.md",
+      "rationale": "Compiled from mutation batch for control-plane",
+      "source_phase": "control-plane"
+    },
+    {
+      "op": "create_or_update_stub",
+      "target_root": "tests",
+      "relative_path": "control-plane/tests.patch.stub.md",
+      "rationale": "Compiled from mutation batch for control-plane",
+      "source_phase": "control-plane"
+    }
+  ],
+  "readiness": "compiled-to-concrete-patch-stubs",
+  "note": "This compiler creates deterministic concrete patch instruction stubs for safe enterprise patch execution."
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "family": "autobuilder2.9",
+    "target": "control",
+    "source_archive": "autobuilder2.9 (3).zip",
+    "staged": 40
+  },
+  {
+    "family": "FrankCore",
+    "target": "shell",
+    "source_archive": "FrankCore.zip",
+    "staged": 40
+  },
+  {
+    "family": "FrankV2",
+    "target": "shell",
+    "source_archive": "FrankV2 (50).zip",
+    "staged": 40
+  },
+  {
+    "family": "Nexus2.9",
+    "target": "control",
+    "source_archive": "Nexus2.9 (10).zip",
+    "staged": 40
+  },
+  {
+    "family": "ODP",
+    "target": "proofs",
+    "source_archive": "ODP_clean (4).zip",
+    "staged": 6
+  },
+  {
+    "family": "SkyGPTAgent",
+    "target": "continuity",
+    "source_archive": "SkyGPTAgent (2).zip",
+    "staged": 40
+  },
+  {
+    "family": "SkylerGPTOS",
+    "target": "continuity",
+    "source_archive": "SkylerGPTOS (3).zip",
+    "staged": 23
+  },
+  {
+    "family": "SkylerOS",
+    "target": "continuity",
+    "source_archive": "skyler-os.zip",
+    "staged": 12
+  },
+  {
+    "family": "SkylerOS-Truth",
+    "target": "truth",
+    "source_archive": "SkylerOS-Truth (2).zip",
+    "staged": 40
+  },
+  {
+    "family": "SkyOS",
+    "target": "continuity",
+    "source_archive": "SkyOS (3).zip",
+    "staged": 0
+  },
+  {
+    "family": "SkyOSsplitoff",
+    "target": "continuity",
+    "source_archive": "SkyOSsplitoff32526 - Copy (2).zip",
+    "staged": 1
+  }
+]

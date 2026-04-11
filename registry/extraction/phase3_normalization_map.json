@@ -1,0 +1,22 @@
+[
+  {
+    "concern": "auth",
+    "action": "unify_before_promotion",
+    "authority": "single_contract_required"
+  },
+  {
+    "concern": "state",
+    "action": "unify_before_promotion",
+    "authority": "single_runtime_truth"
+  },
+  {
+    "concern": "execution_graph",
+    "action": "unify_before_promotion",
+    "authority": "single_execution_graph_root"
+  },
+  {
+    "concern": "memory_schema",
+    "action": "normalize_before_promotion",
+    "authority": "tiered_memory_contract"
+  }
+]

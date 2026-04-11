@@ -1,0 +1,13 @@
+{
+  "status": "runtime-probe-passed",
+  "meaning": "apps/web probe path completed successfully; immediate web build blocker is cleared",
+  "next_gates": [
+    "start-probe the web app",
+    "validate API boot and health endpoints",
+    "validate runner boot if required",
+    "run end-to-end web->api flow proof",
+    "begin enterprise hardening and repo hygiene after runtime proof"
+  ],
+  "builder_role": "autobuilderv2 remains the external finisher/orchestrator",
+  "target_repo": "Nexus2.9"
+}

@@ -1,0 +1,9 @@
+{
+  "package": "nexus_phase9_packout_v1",
+  "files": [
+    "Run-Nexus-Phase9-Packout.ps1",
+    "tools/packout/Invoke-NexusPhase9Packout.ps1",
+    "docs/runbooks/PHASE9_PACKOUT_RUNBOOK.md",
+    "registry/packout/PHASE9_PACKOUT_INSTALL_MANIFEST.json"
+  ]
+}

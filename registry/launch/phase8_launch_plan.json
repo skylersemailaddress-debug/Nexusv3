@@ -1,0 +1,18 @@
+{
+  "launch_name": "NexusV3 Canon Launch",
+  "generated_at_utc": "2026-04-10T21:04:14.7685207Z",
+  "sequence": [
+    "load_truth_constraints",
+    "bind_control_runtime",
+    "attach_shell_surfaces",
+    "attach_proof_gates",
+    "attach_continuity_state",
+    "declare_launch_ready"
+  ],
+  "prerequisites": [
+    "phase7_runtime_manifest.json",
+    "phase7_runtime_contracts.json",
+    "phase7_launch_gate.json",
+    "phase7_bootstrap.md"
+  ]
+}

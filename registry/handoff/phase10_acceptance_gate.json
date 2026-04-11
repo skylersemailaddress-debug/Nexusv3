@@ -1,0 +1,5 @@
+{
+  "gate": "phase10_operator_acceptance",
+  "pass": true,
+  "checks": 5
+}

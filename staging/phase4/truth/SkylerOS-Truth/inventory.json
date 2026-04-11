@@ -1,0 +1,227 @@
+{
+  "top_level": [
+    {
+      "Name": ".git",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:46.1148907-04:00"
+    },
+    {
+      "Name": ".venv",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.3111311-04:00"
+    },
+    {
+      "Name": "apps",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.4285908-04:00"
+    },
+    {
+      "Name": "artifacts",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.4512195-04:00"
+    },
+    {
+      "Name": "backups",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.4654568-04:00"
+    },
+    {
+      "Name": "docs",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.6298829-04:00"
+    },
+    {
+      "Name": "gpt",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.7078307-04:00"
+    },
+    {
+      "Name": "logs",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.7245341-04:00"
+    },
+    {
+      "Name": "packages",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.7245341-04:00"
+    },
+    {
+      "Name": "registry",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.7316028-04:00"
+    },
+    {
+      "Name": "scripts",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:14:50.7396507-04:00"
+    },
+    {
+      "Name": "skyler-os",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:15:02.0176115-04:00"
+    },
+    {
+      "Name": "SkylerOS",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:15:09.12541-04:00"
+    },
+    {
+      "Name": "sql",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:15:09.1257525-04:00"
+    },
+    {
+      "Name": "state",
+      "Mode": "d----",
+      "Length": null,
+      "LastWriteTime": "2026-03-21T19:15:09.134146-04:00"
+    },
+    {
+      "Name": ".env.example",
+      "Mode": "-a---",
+      "Length": 268,
+      "LastWriteTime": "2026-03-21T14:55:44-04:00"
+    },
+    {
+      "Name": ".env.skyler-os.generated",
+      "Mode": "-a---",
+      "Length": 257,
+      "LastWriteTime": "2026-03-21T14:55:44-04:00"
+    },
+    {
+      "Name": ".gitignore",
+      "Mode": "-a---",
+      "Length": 181,
+      "LastWriteTime": "2026-03-21T14:55:44-04:00"
+    },
+    {
+      "Name": "legacy_state_snapshot.json",
+      "Mode": "-a---",
+      "Length": 14184,
+      "LastWriteTime": "2026-03-21T16:06:18-04:00"
+    },
+    {
+      "Name": "link_phase2_next_step.py",
+      "Mode": "-a---",
+      "Length": 284,
+      "LastWriteTime": "2026-03-21T14:55:44-04:00"
+    },
+    {
+      "Name": "package-lock.json",
+      "Mode": "-a---",
+      "Length": 87,
+      "LastWriteTime": "2026-03-21T14:55:44-04:00"
+    },
+    {
+      "Name": "README.md",
+      "Mode": "-a---",
+      "Length": 1310,
+      "LastWriteTime": "2026-03-21T14:55:46-04:00"
+    },
+    {
+      "Name": "REPO_LOCK_STATUS.md",
+      "Mode": "-a---",
+      "Length": 1682,
+      "LastWriteTime": "2026-03-21T14:55:44-04:00"
+    },
+    {
+      "Name": "seed_phase2_state.py",
+      "Mode": "-a---",
+      "Length": 678,
+      "LastWriteTime": "2026-03-21T14:55:44-04:00"
+    },
+    {
+      "Name": "tmp_apply_bridge_seed_sync.py",
+      "Mode": "-a---",
+      "Length": 396,
+      "LastWriteTime": "2026-03-21T16:42:10-04:00"
+    },
+    {
+      "Name": "tmp_apply_bridge.py",
+      "Mode": "-a---",
+      "Length": 382,
+      "LastWriteTime": "2026-03-21T16:17:28-04:00"
+    },
+    {
+      "Name": "tmp_check_project_state_version.py",
+      "Mode": "-a---",
+      "Length": 416,
+      "LastWriteTime": "2026-03-21T16:37:56-04:00"
+    },
+    {
+      "Name": "tmp_check_projects.py",
+      "Mode": "-a---",
+      "Length": 1207,
+      "LastWriteTime": "2026-03-21T15:43:02-04:00"
+    },
+    {
+      "Name": "tmp_db_inspect.py",
+      "Mode": "-a---",
+      "Length": 1094,
+      "LastWriteTime": "2026-03-21T15:41:32-04:00"
+    },
+    {
+      "Name": "tmp_export_legacy_state.py",
+      "Mode": "-a---",
+      "Length": 871,
+      "LastWriteTime": "2026-03-21T16:06:10-04:00"
+    },
+    {
+      "Name": "tmp_patch_ramble_stage1.py",
+      "Mode": "-a---",
+      "Length": 903,
+      "LastWriteTime": "2026-03-21T17:02:20-04:00"
+    },
+    {
+      "Name": "tmp_patch_ramble_stage2.py",
+      "Mode": "-a---",
+      "Length": 1443,
+      "LastWriteTime": "2026-03-21T17:02:34-04:00"
+    },
+    {
+      "Name": "tmp_patch_state_update_drop_fallback.py",
+      "Mode": "-a---",
+      "Length": 589,
+      "LastWriteTime": "2026-03-21T17:21:34-04:00"
+    },
+    {
+      "Name": "tmp_state_check.py",
+      "Mode": "-a---",
+      "Length": 868,
+      "LastWriteTime": "2026-03-21T15:49:44-04:00"
+    },
+    {
+      "Name": "tmp_verify_bridge_seed_sync.py",
+      "Mode": "-a---",
+      "Length": 522,
+      "LastWriteTime": "2026-03-21T16:42:26-04:00"
+    },
+    {
+      "Name": "tmp_verify_bridge.py",
+      "Mode": "-a---",
+      "Length": 956,
+      "LastWriteTime": "2026-03-21T16:17:38-04:00"
+    },
+    {
+      "Name": "tmp_verify_runtime.py",
+      "Mode": "-a---",
+      "Length": 727,
+      "LastWriteTime": "2026-03-21T16:32:36-04:00"
+    }
+  ],
+  "generated_at": "2026-03-21T19:21:22"
+}

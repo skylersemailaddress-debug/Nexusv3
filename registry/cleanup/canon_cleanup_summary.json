@@ -1,0 +1,27 @@
+[
+  {
+    "layer": "continuity",
+    "canonical_files": 30,
+    "duplicate_variants_archived": 50
+  },
+  {
+    "layer": "control",
+    "canonical_files": 27,
+    "duplicate_variants_archived": 50
+  },
+  {
+    "layer": "proofs",
+    "canonical_files": 19,
+    "duplicate_variants_archived": 39
+  },
+  {
+    "layer": "shell",
+    "canonical_files": 21,
+    "duplicate_variants_archived": 44
+  },
+  {
+    "layer": "truth",
+    "canonical_files": 16,
+    "duplicate_variants_archived": 30
+  }
+]

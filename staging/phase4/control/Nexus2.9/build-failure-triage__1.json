@@ -1,0 +1,50 @@
+{
+  "target_repo_root": "C:\\Nexus2.9",
+  "package_json": "C:\\Nexus2.9\\apps\\web\\package.json",
+  "package_dir": "C:\\Nexus2.9\\apps\\web",
+  "build_status": "build-failed",
+  "discovered_scripts": [
+    "lint",
+    "start",
+    "dev",
+    "build"
+  ],
+  "likely_signals": [
+    "nextjs-build-signal",
+    "env-signal"
+  ],
+  "npm_build_stdout_tail": [
+    "",
+    "> odp-web@0.1.0 build",
+    "> next build",
+    "",
+    "   ▲ Next.js 15.1.0",
+    "   - Environments: .env.local",
+    "",
+    "   Creating an optimized production build ...",
+    " ✓ Compiled successfully",
+    "   Linting and checking validity of types ..."
+  ],
+  "npm_build_stderr_tail": [
+    "Failed to compile.",
+    "",
+    ".next/types/app/projects/[projectId]/page.ts:34:29",
+    "Type error: Type '{ params: { projectId: string; }; }' does not satisfy the constraint 'PageProps'.",
+    "  Types of property 'params' are incompatible.",
+    "    Type '{ projectId: string; }' is missing the following properties from type 'Promise<any>': then, catch, finally, [Symbol.toStringTag]",
+    "",
+    "\u001b[0m \u001b[90m 32 |\u001b[39m\u001b[0m",
+    "\u001b[0m \u001b[90m 33 |\u001b[39m \u001b[90m// Check the prop type of the entry function\u001b[39m\u001b[0m",
+    "\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 34 |\u001b[39m checkFields\u001b[33m<\u001b[39m\u001b[33mDiff\u001b[39m\u001b[33m<\u001b[39m\u001b[33mPageProps\u001b[39m\u001b[33m,\u001b[39m \u001b[33mFirstArg\u001b[39m\u001b[33m<\u001b[39m\u001b[33mTEntry\u001b[39m[\u001b[32m'default'\u001b[39m]\u001b[33m>\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'default'\u001b[39m\u001b[33m>>\u001b[39m()\u001b[0m",
+    "\u001b[0m \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m",
+    "\u001b[0m \u001b[90m 35 |\u001b[39m\u001b[0m",
+    "\u001b[0m \u001b[90m 36 |\u001b[39m \u001b[90m// Check the arguments and return type of the generateMetadata function\u001b[39m\u001b[0m",
+    "\u001b[0m \u001b[90m 37 |\u001b[39m \u001b[36mif\u001b[39m (\u001b[32m'generateMetadata'\u001b[39m \u001b[36min\u001b[39m entry) {\u001b[0m"
+  ],
+  "recommended_next_actions": [
+    "Review stdout/stderr tails for the first real compiler or bundler error.",
+    "Fix the underlying repo build issue in apps\\web before attempting runtime start.",
+    "After fixing, rerun C:\\autobuilderv2\\Run-Nexus29SafeRuntimeExecution.ps1 -TargetRepoRoot C:\\Nexus2.9 -Mode probe"
+  ],
+  "triaged_at": "2026-04-09T07:18:38"
+}

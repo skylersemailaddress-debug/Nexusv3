@@ -1,0 +1,15 @@
+{
+  "excluded_from_active_extraction": [
+    "SkyOS (3).zip"
+  ],
+  "reference_only": [
+    "FrankCore.zip",
+    "SkyGPTAgent (2).zip",
+    "SkylerGPTOS (3).zip",
+    "SkyOSsplitoff32526 - Copy (2).zip",
+    "ODP_FACTORY (3).zip",
+    "ODPv2.zip",
+    "ODPv3_CAPTURE.zip"
+  ],
+  "notes": "Reference-only sources may inform targeted extractions but cannot act as layer authorities."
+}

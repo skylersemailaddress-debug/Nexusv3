@@ -1,0 +1,11 @@
+{
+  "package": "nexus_phase2_merge_planner_fix1",
+  "installed_at_utc": "2026-04-10T19:45:23.5890628Z",
+  "nexus_root": "C:\\NexusV3",
+  "quarantine_root": "C:\\NexusQuarantine",
+  "files": [
+    "tools\\planning\\Invoke-NexusPhase2MergePlanner.ps1",
+    "Run-Nexus-Phase2-MergePlanner.ps1",
+    "docs\\runbooks\\PHASE2_MERGE_PLANNER_FIX1_RUNBOOK.md"
+  ]
+}

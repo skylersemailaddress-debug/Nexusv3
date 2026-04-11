@@ -1,0 +1,59 @@
+{
+  "generated_at_utc": "2026-04-10T20:52:11.4243520Z",
+  "readiness": {
+    "truth": true,
+    "control": true,
+    "shell": true,
+    "proofs": true,
+    "continuity": true
+  },
+  "layer_counts": [
+    {
+      "target": "truth",
+      "files": 46,
+      "py": 45,
+      "ts": 0,
+      "json": 0,
+      "md": 1,
+      "ready": true
+    },
+    {
+      "target": "control",
+      "files": 77,
+      "py": 21,
+      "ts": 0,
+      "json": 41,
+      "md": 15,
+      "ready": true
+    },
+    {
+      "target": "shell",
+      "files": 65,
+      "py": 2,
+      "ts": 46,
+      "json": 15,
+      "md": 2,
+      "ready": true
+    },
+    {
+      "target": "proofs",
+      "files": 58,
+      "py": 4,
+      "ts": 0,
+      "json": 11,
+      "md": 25,
+      "ready": true
+    },
+    {
+      "target": "continuity",
+      "files": 80,
+      "py": 49,
+      "ts": 0,
+      "json": 4,
+      "md": 27,
+      "ready": true
+    }
+  ],
+  "integration_edges": 5,
+  "overall_ready": true
+}

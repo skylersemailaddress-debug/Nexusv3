@@ -1,0 +1,11 @@
+{
+  "sources": [
+    {
+      "name": "selftest_source",
+      "path": "C:\\NexusV3\\generated\\source_intake_selftest",
+      "subsystem": "selftest_sources",
+      "enabled": true,
+      "notes": ""
+    }
+  ]
+}

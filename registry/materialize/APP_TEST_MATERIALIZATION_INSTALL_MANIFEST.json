@@ -1,0 +1,9 @@
+{
+  "package": "nexus_app_test_materialization_v1",
+  "files": [
+    "Run-Nexus-App-Test-Materialization.ps1",
+    "tools/materialize/Invoke-NexusAppTestMaterialization.ps1",
+    "docs/runbooks/APP_TEST_MATERIALIZATION_RUNBOOK.md",
+    "registry/materialize/APP_TEST_MATERIALIZATION_INSTALL_MANIFEST.json"
+  ]
+}

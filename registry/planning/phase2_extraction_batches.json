@@ -1,0 +1,32 @@
+[
+  {
+    "batch": "B1",
+    "target": "truth",
+    "source_family": "SkylerOS-Truth",
+    "purpose": "truth docs, gaps, invariants, canon contracts"
+  },
+  {
+    "batch": "B2",
+    "target": "control-plane",
+    "source_family": "Nexus2.9",
+    "purpose": "admin/control-plane API and runtime skeleton"
+  },
+  {
+    "batch": "B3",
+    "target": "conversation-shell",
+    "source_family": "FrankV2",
+    "purpose": "operator shell and block UI patterns"
+  },
+  {
+    "batch": "B4",
+    "target": "proofs",
+    "source_family": "ODP",
+    "purpose": "assembly gates and release proofs"
+  },
+  {
+    "batch": "B5",
+    "target": "continuity",
+    "source_family": "SkylerOS",
+    "purpose": "continuity, operator OS, stateful memory concepts"
+  }
+]

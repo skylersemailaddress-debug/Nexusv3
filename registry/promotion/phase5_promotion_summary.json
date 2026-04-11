@@ -1,0 +1,27 @@
+[
+  {
+    "target": "continuity",
+    "promoted": 15,
+    "top_family": "SkylerOS"
+  },
+  {
+    "target": "control",
+    "promoted": 15,
+    "top_family": "Nexus2.9"
+  },
+  {
+    "target": "proofs",
+    "promoted": 15,
+    "top_family": "ODP"
+  },
+  {
+    "target": "shell",
+    "promoted": 15,
+    "top_family": "FrankV2"
+  },
+  {
+    "target": "truth",
+    "promoted": 15,
+    "top_family": "SkylerOS-Truth"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "package": "nexus_phase10_handoff_v1",
+  "files": [
+    "Run-Nexus-Phase10-Handoff.ps1",
+    "tools/handoff/Invoke-NexusPhase10Handoff.ps1",
+    "docs/runbooks/PHASE10_HANDOFF_RUNBOOK.md",
+    "registry/handoff/PHASE10_HANDOFF_INSTALL_MANIFEST.json"
+  ]
+}

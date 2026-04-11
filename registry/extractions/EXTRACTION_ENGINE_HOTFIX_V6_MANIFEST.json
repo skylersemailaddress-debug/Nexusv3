@@ -1,0 +1,6 @@
+{
+  "applied_at": "2026-04-10T12:47:13",
+  "target": "C:\\NexusV3",
+  "patched": "C:\\NexusV3\\tools\\extraction\\Scan-NexusSource.ps1",
+  "hotfix": "nexusv3_extraction_engine_hotfix_v6"
+}

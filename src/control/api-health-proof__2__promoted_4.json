@@ -1,0 +1,23 @@
+{
+  "target_repo_root": "C:\\Nexus2.9",
+  "api_root": "C:\\Nexus2.9\\apps\\api",
+  "entry_file": "C:\\Nexus2.9\\apps\\api\\app\\main.py",
+  "asgi_target": "app.main:app",
+  "python_executable": "python",
+  "timeout_seconds": 20,
+  "prior_health_state": {
+    "status_code": null,
+    "reachable": false
+  },
+  "process_started": true,
+  "remained_running_for_timeout": true,
+  "health": {
+    "reachable": true,
+    "status_code": 200,
+    "body": "{\"ok\":true,\"app\":\"Nexus\",\"database_name\":\"nexus\",\"bootstrap\":{\"ok\":true,\"canonical_db\":\"nexus\",\"database_name\":\"nexus\",\"applied_migrations\":[],\"missing_tables\":[],\"default_project_present\":true}}"
+  },
+  "stdout_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\api-health\\api-start.out.log",
+  "stderr_log": "C:\\Nexus2.9\\.nexus-elite\\proof\\api-health\\api-start.err.log",
+  "status": "api-health-passed",
+  "checked_at": "2026-04-09T17:38:44"
+}

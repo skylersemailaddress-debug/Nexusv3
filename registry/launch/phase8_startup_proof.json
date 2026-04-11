@@ -1,0 +1,26 @@
+[
+  {
+    "check": "truth layer present",
+    "pass": true
+  },
+  {
+    "check": "control layer present",
+    "pass": true
+  },
+  {
+    "check": "shell layer present",
+    "pass": true
+  },
+  {
+    "check": "proofs layer present",
+    "pass": true
+  },
+  {
+    "check": "continuity layer present",
+    "pass": true
+  },
+  {
+    "check": "runtime contracts bound",
+    "pass": true
+  }
+]

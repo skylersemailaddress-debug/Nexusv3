@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "required_layers": [
+    "truth",
+    "control",
+    "shell",
+    "proofs",
+    "continuity"
+  ],
+  "gate": "phase6_integration"
+}

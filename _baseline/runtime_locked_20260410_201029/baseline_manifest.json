@@ -1,0 +1,12 @@
+﻿{
+    "created_at":  "2026-04-10T20:10:31",
+    "required_checks":  [
+                            "API OK",
+                            "API action OK",
+                            "Dashboard status OK",
+                            "UI OK",
+                            "Nexus runtime validation PASSED"
+                        ],
+    "baseline_name":  "runtime_locked_20260410_201029",
+    "source_repo":  "C:\\NexusV3"
+}

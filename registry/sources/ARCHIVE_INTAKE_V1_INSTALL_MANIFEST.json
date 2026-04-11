@@ -1,0 +1,12 @@
+{
+  "quarantine": "C:\\NexusQuarantine",
+  "applied_at": "2026-04-10T13:02:32",
+  "package": "nexusv3_archive_intake_v1",
+  "wrote": [
+    "C:\\NexusV3\\registry\\sources\\ARCHIVE_INTAKE_MANIFEST_V1.json",
+    "C:\\NexusV3\\docs\\doctrine\\ARCHIVE_INTAKE_DOCTRINE.md",
+    "C:\\NexusV3\\tools\\extraction\\Expand-And-Register-NexusArchives.ps1",
+    "C:\\NexusV3\\Expand-And-Register-NexusArchives.ps1"
+  ],
+  "target": "C:\\NexusV3"
+}

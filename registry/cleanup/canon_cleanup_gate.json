@@ -1,0 +1,8 @@
+{
+  "gate": "canon_cleanup",
+  "pass": true,
+  "layers": 5,
+  "canonical_files": 113,
+  "duplicate_variants_archived": 213,
+  "sanitized_names": true
+}

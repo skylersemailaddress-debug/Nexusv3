@@ -1,0 +1,9 @@
+{
+  "package": "nexus_phase6_integration_v1",
+  "files": [
+    "Run-Nexus-Phase6-Integration.ps1",
+    "tools/integration/Invoke-NexusPhase6Integration.ps1",
+    "docs/runbooks/PHASE6_INTEGRATION_RUNBOOK.md",
+    "registry/integration/PHASE6_INTEGRATION_INSTALL_MANIFEST.json"
+  ]
+}

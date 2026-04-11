@@ -1,0 +1,9 @@
+{
+  "apps_materialized": 2,
+  "tests_materialized": 2,
+  "control_files": 12,
+  "shell_files": 12,
+  "truth_test_files": 6,
+  "proof_test_files": 6,
+  "pass": true
+}

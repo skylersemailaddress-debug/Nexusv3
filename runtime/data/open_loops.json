@@ -1,0 +1,16 @@
+[
+  {
+    "id": "loop-baseline",
+    "title": "Protect locked runtime baseline",
+    "owner": "Nexus",
+    "status": "active",
+    "priority": "high"
+  },
+  {
+    "id": "loop-feature",
+    "title": "Ship first real data-backed command center workflow",
+    "owner": "Nexus",
+    "status": "active",
+    "priority": "high"
+  }
+]

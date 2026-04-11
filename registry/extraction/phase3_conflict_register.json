@@ -1,0 +1,23 @@
+[
+  {
+    "family": "Nexus2.9",
+    "conflict": "duplicate_control_plane_variants",
+    "primary": "Nexus2.9 (10).zip",
+    "alternate": "Nexus2.9 (9).zip",
+    "resolution": "primary_locked_alternate_quarantined"
+  },
+  {
+    "family": "SkyGPTAgent",
+    "conflict": "duplicate_continuity_variants",
+    "primary": "SkyGPTAgent (2).zip",
+    "alternate": "SkyGPTAgent (32).zip",
+    "resolution": "primary_locked_alternate_quarantined"
+  },
+  {
+    "family": "ODP",
+    "conflict": "multiple_proof_variants",
+    "primary": "ODP_clean (4).zip",
+    "alternate": "ODP_FACTORY (3).zip, ODPv2.zip, ODPv3_CAPTURE.zip",
+    "resolution": "primary_locked_alternates_reference_only"
+  }
+]
