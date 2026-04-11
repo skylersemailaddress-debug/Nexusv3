@@ -1,13 +1,14 @@
-﻿from pathlib import Path
-import json
+from pathlib import Path
 import time
 
 from fastapi import APIRouter, Depends
 
 from routes.auth_deps import require_admin
+from services.auth_service import list_runtime_account_summaries
 from services.observability_service import AUDIT_LOG, REQUEST_LOG
 
 router = APIRouter()
+
 
 @router.get("/ops/support-bundle")
 def support_bundle(user=Depends(require_admin)):
@@ -22,4 +23,15 @@ def support_bundle(user=Depends(require_admin)):
         "actor": {"username": user.username, "role": user.role},
         "request_log_tail": tail_lines(REQUEST_LOG),
         "audit_log_tail": tail_lines(AUDIT_LOG),
+    }
+
+
+@router.get("/ops/accounts")
+def list_runtime_accounts(user=Depends(require_admin)):
+    accounts = list_runtime_account_summaries()
+    return {
+        "generated_at": int(time.time()),
+        "actor": {"username": user.username, "role": user.role},
+        "items": accounts,
+        "count": len(accounts),
     }

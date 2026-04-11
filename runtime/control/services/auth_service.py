@@ -44,3 +44,14 @@ def issue_token(username: str) -> dict:
     if row is None:
         raise ValueError("Unknown runtime account")
     return {"access_token": row["token"], "token_type": "bearer", "role": row["role"]}
+
+
+def list_runtime_account_summaries() -> list[dict[str, str | int]]:
+    return [
+        {
+            "username": str(account["username"]),
+            "role": str(account["role"]),
+            "is_active": int(account["is_active"]),
+        }
+        for account in read_runtime_accounts()
+    ]
