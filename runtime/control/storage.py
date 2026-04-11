@@ -110,3 +110,18 @@ def write_open_loops(rows: list[dict[str, Any]]) -> None:
         conn.commit()
     finally:
         conn.close()
+
+
+def get_storage_status() -> dict[str, Any]:
+    init_db()
+    conn = _conn()
+    try:
+        open_loops = conn.execute("SELECT COUNT(*) AS c FROM open_loops").fetchone()["c"]
+        migrations = conn.execute("SELECT COUNT(*) AS c FROM schema_migrations").fetchone()["c"]
+        return {
+            "database_path": str(DB_PATH),
+            "open_loop_count": open_loops,
+            "applied_migration_count": migrations,
+        }
+    finally:
+        conn.close()
