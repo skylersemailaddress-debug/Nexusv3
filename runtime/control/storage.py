@@ -147,3 +147,13 @@ def get_storage_status() -> dict[str, Any]:
         }
     finally:
         conn.close()
+
+
+def check_storage_ready() -> dict[str, Any]:
+    status = get_storage_status()
+    return {
+        "ready": True,
+        "database_path": status["database_path"],
+        "open_loop_count": status["open_loop_count"],
+        "applied_migration_count": status["applied_migration_count"],
+    }
