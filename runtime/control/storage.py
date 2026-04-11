@@ -3,6 +3,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
+from services.auth_accounts import DEFAULT_RUNTIME_ACCOUNTS
 from services.observability_service import ensure_runtime_dirs
 
 CONTROL_DIR = Path(__file__).resolve().parent
@@ -68,12 +69,30 @@ def _seed_open_loops(conn: sqlite3.Connection) -> None:
         )
 
 
+def _seed_runtime_accounts(conn: sqlite3.Connection) -> None:
+    existing = conn.execute("SELECT COUNT(*) AS c FROM runtime_accounts").fetchone()["c"]
+    if existing != 0:
+        return
+
+    for account in DEFAULT_RUNTIME_ACCOUNTS:
+        conn.execute(
+            "INSERT INTO runtime_accounts (username, role, token, is_active) VALUES (?, ?, ?, ?)",
+            (
+                account["username"],
+                account["role"],
+                account["token"],
+                account["is_active"],
+            ),
+        )
+
+
 def init_db() -> None:
     ensure_runtime_dirs()
     conn = _conn()
     try:
         _apply_migrations(conn)
         _seed_open_loops(conn)
+        _seed_runtime_accounts(conn)
         conn.commit()
     finally:
         conn.close()
@@ -140,10 +159,12 @@ def get_storage_status() -> dict[str, Any]:
     try:
         open_loops = conn.execute("SELECT COUNT(*) AS c FROM open_loops").fetchone()["c"]
         migrations = conn.execute("SELECT COUNT(*) AS c FROM schema_migrations").fetchone()["c"]
+        accounts = conn.execute("SELECT COUNT(*) AS c FROM runtime_accounts WHERE is_active = 1").fetchone()["c"]
         return {
             "database_path": str(DB_PATH),
             "open_loop_count": open_loops,
             "applied_migration_count": migrations,
+            "active_account_count": accounts,
         }
     finally:
         conn.close()
@@ -156,4 +177,21 @@ def check_storage_ready() -> dict[str, Any]:
         "database_path": status["database_path"],
         "open_loop_count": status["open_loop_count"],
         "applied_migration_count": status["applied_migration_count"],
+        "active_account_count": status["active_account_count"],
     }
+
+
+def read_runtime_accounts() -> list[dict[str, Any]]:
+    init_db()
+    conn = _conn()
+    try:
+        rows = conn.execute(
+            """
+            SELECT username, role, token, is_active
+            FROM runtime_accounts
+            ORDER BY username ASC
+            """
+        ).fetchall()
+        return [dict(row) for row in rows]
+    finally:
+        conn.close()
