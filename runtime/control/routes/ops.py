@@ -13,7 +13,14 @@ from services.auth_service import (
     revoke_session_by_id,
     revoke_sessions_for_username,
 )
-from services.observability_service import AUDIT_LOG, REQUEST_LOG, audit_write, record_event
+from services.observability_service import (
+    AUDIT_LOG,
+    EVENT_LOG,
+    REQUEST_LOG,
+    audit_write,
+    get_observability_status,
+    record_event,
+)
 
 router = APIRouter()
 
@@ -33,6 +40,20 @@ def support_bundle(user=Depends(require_admin)):
         "actor": actor,
         "request_log_tail": tail_lines(REQUEST_LOG),
         "audit_log_tail": tail_lines(AUDIT_LOG),
+        "event_log_tail": tail_lines(EVENT_LOG),
+        "observability": get_observability_status(),
+    }
+
+
+@router.get("/ops/observability/status")
+def observability_status(user=Depends(require_admin)):
+    actor = {"username": user.username, "role": user.role}
+    status = get_observability_status()
+    record_event("ops.observability.status.read", actor=actor)
+    return {
+        "generated_at": int(time.time()),
+        "actor": actor,
+        "observability": status,
     }
 
 

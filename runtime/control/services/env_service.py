@@ -39,4 +39,6 @@ def get_runtime_config():
         "rate_limit_max_requests": os.environ.get("RATE_LIMIT_MAX_REQUESTS", "120"),
         "session_ttl_seconds": os.environ.get("SESSION_TTL_SECONDS", "43200"),
         "session_ended_retention_seconds": os.environ.get("SESSION_ENDED_RETENTION_SECONDS", "604800"),
+        "observability_log_max_bytes": os.environ.get("OBSERVABILITY_LOG_MAX_BYTES", "1048576"),
+        "observability_log_max_files": os.environ.get("OBSERVABILITY_LOG_MAX_FILES", "5"),
     }
