@@ -195,3 +195,29 @@ def read_runtime_accounts() -> list[dict[str, Any]]:
         return [dict(row) for row in rows]
     finally:
         conn.close()
+
+
+def update_runtime_account_active(username: str, is_active: int) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute(
+            """
+            SELECT username, role, token, is_active
+            FROM runtime_accounts
+            WHERE username = ?
+            """,
+            (username,),
+        ).fetchone()
+        if row is None:
+            return None
+        conn.execute(
+            "UPDATE runtime_accounts SET is_active = ? WHERE username = ?",
+            (is_active, username),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["is_active"] = is_active
+        return updated
+    finally:
+        conn.close()
