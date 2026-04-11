@@ -38,4 +38,5 @@ def get_runtime_config():
         "rate_limit_window_seconds": os.environ.get("RATE_LIMIT_WINDOW_SECONDS", "60"),
         "rate_limit_max_requests": os.environ.get("RATE_LIMIT_MAX_REQUESTS", "120"),
         "session_ttl_seconds": os.environ.get("SESSION_TTL_SECONDS", "43200"),
+        "session_ended_retention_seconds": os.environ.get("SESSION_ENDED_RETENTION_SECONDS", "604800"),
     }

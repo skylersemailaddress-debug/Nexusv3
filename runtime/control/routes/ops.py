@@ -11,6 +11,7 @@ from services.auth_service import (
     list_runtime_account_summaries,
     list_runtime_session_summaries,
     revoke_session_by_id,
+    revoke_sessions_for_username,
 )
 from services.observability_service import AUDIT_LOG, REQUEST_LOG, audit_write
 
@@ -57,7 +58,7 @@ def deactivate_account(username: str, user=Depends(require_admin)):
         "item": {"username": item["username"], "role": item["role"], "is_active": item["is_active"]},
         "actor": {"username": user.username, "role": user.role},
     }
-    audit_write(result["actor"], "ops.accounts.deactivate", {"username": username})
+    audit_write(result["actor"], "ops.accounts.deactivate", {"username": username, "role": item["role"]})
     return result
 
 
@@ -74,7 +75,25 @@ def activate_account(username: str, user=Depends(require_admin)):
         "item": {"username": item["username"], "role": item["role"], "is_active": item["is_active"]},
         "actor": {"username": user.username, "role": user.role},
     }
-    audit_write(result["actor"], "ops.accounts.activate", {"username": username})
+    audit_write(result["actor"], "ops.accounts.activate", {"username": username, "role": item["role"]})
+    return result
+
+
+@router.post("/ops/accounts/{username}/sessions/revoke")
+def revoke_account_sessions(username: str, user=Depends(require_admin)):
+    item = revoke_sessions_for_username(username)
+    if item is None:
+        raise HTTPException(status_code=404, detail="Runtime account not found")
+    result = {
+        "result": "runtime account sessions revoked",
+        "item": item,
+        "actor": {"username": user.username, "role": user.role},
+    }
+    audit_write(
+        result["actor"],
+        "ops.accounts.sessions.revoke",
+        {"username": username, "revoked_count": item["revoked_count"]},
+    )
     return result
 
 
@@ -99,10 +118,24 @@ def revoke_runtime_session_route(session_id: str, user=Depends(require_admin)):
         raise HTTPException(status_code=404, detail="Runtime session not found")
     result = {
         "result": "runtime session revoked",
-        "item": {"id": item["id"], "username": item["username"], "revoked_at": item["revoked_at"]},
+        "item": {
+            "id": item["id"],
+            "username": item["username"],
+            "expires_at": item["expires_at"],
+            "revoked_at": item["revoked_at"],
+        },
         "actor": {"username": user.username, "role": user.role},
     }
-    audit_write(result["actor"], "ops.sessions.revoke", {"session_id": session_id})
+    audit_write(
+        result["actor"],
+        "ops.sessions.revoke",
+        {
+            "session_id": session_id,
+            "username": item["username"],
+            "expires_at": item["expires_at"],
+            "revoked_at": item["revoked_at"],
+        },
+    )
     return result
 
 
@@ -110,9 +143,21 @@ def revoke_runtime_session_route(session_id: str, user=Depends(require_admin)):
 def cleanup_runtime_sessions(user=Depends(require_admin)):
     result = cleanup_expired_sessions()
     payload = {
-        "result": "expired runtime sessions cleaned",
+        "result": "ended runtime sessions cleaned",
         "deleted_count": result["deleted_count"],
+        "expired_deleted_count": result["expired_deleted_count"],
+        "revoked_deleted_count": result["revoked_deleted_count"],
+        "retention_seconds": result["retention_seconds"],
         "actor": {"username": user.username, "role": user.role},
     }
-    audit_write(payload["actor"], "ops.sessions.cleanup_expired", {"deleted_count": result["deleted_count"]})
+    audit_write(
+        payload["actor"],
+        "ops.sessions.cleanup_expired",
+        {
+            "deleted_count": result["deleted_count"],
+            "expired_deleted_count": result["expired_deleted_count"],
+            "revoked_deleted_count": result["revoked_deleted_count"],
+            "retention_seconds": result["retention_seconds"],
+        },
+    )
     return payload

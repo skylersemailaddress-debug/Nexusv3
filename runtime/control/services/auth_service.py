@@ -7,12 +7,13 @@ from services.auth_policy import ROLE_ADMIN, is_valid_role
 from services.env_service import get_runtime_config
 from storage import (
     create_runtime_session,
-    delete_expired_runtime_sessions,
+    delete_stale_runtime_sessions,
     read_runtime_accounts,
     read_runtime_session_by_token,
     read_runtime_sessions,
     revoke_runtime_session,
     revoke_runtime_session_by_id,
+    revoke_runtime_sessions_by_username,
     update_runtime_account_active,
 )
 
@@ -54,6 +55,10 @@ def _all_accounts_by_username() -> dict[str, dict[str, str | int]]:
 
 def _session_ttl_seconds() -> int:
     return int(get_runtime_config()["session_ttl_seconds"])
+
+
+def _session_ended_retention_seconds() -> int:
+    return int(get_runtime_config()["session_ended_retention_seconds"])
 
 
 def _new_session_token() -> str:
@@ -102,9 +107,11 @@ def issue_token(username: str) -> dict:
 
     created_at = int(time.time())
     expires_at = created_at + _session_ttl_seconds()
+    session_id = str(uuid.uuid4())
     token = _new_session_token()
-    create_runtime_session(str(uuid.uuid4()), str(row["username"]), token, created_at, expires_at)
+    create_runtime_session(session_id, str(row["username"]), token, created_at, expires_at)
     return {
+        "session_id": session_id,
         "access_token": token,
         "token_type": "bearer",
         "role": row["role"],
@@ -162,9 +169,27 @@ def revoke_session_by_id(session_id: str) -> dict[str, str | int] | None:
     return revoke_runtime_session_by_id(session_id, int(time.time()))
 
 
+def revoke_sessions_for_username(username: str) -> dict[str, str | int] | None:
+    account = _all_accounts_by_username().get(username)
+    if account is None:
+        return None
+    now_ts = int(time.time())
+    revoked_count = revoke_runtime_sessions_by_username(username, now_ts, now_ts)
+    return {
+        "username": username,
+        "revoked_count": revoked_count,
+    }
+
+
 def cleanup_expired_sessions() -> dict[str, int]:
-    removed = delete_expired_runtime_sessions(int(time.time()))
-    return {"deleted_count": removed}
+    retention_seconds = _session_ended_retention_seconds()
+    deleted = delete_stale_runtime_sessions(int(time.time()), retention_seconds)
+    return {
+        "retention_seconds": retention_seconds,
+        "expired_deleted_count": deleted["expired_deleted_count"],
+        "revoked_deleted_count": deleted["revoked_deleted_count"],
+        "deleted_count": deleted["expired_deleted_count"] + deleted["revoked_deleted_count"],
+    }
 
 
 def _active_admin_count() -> int:

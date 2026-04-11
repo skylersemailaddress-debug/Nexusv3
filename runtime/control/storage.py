@@ -360,18 +360,61 @@ def revoke_runtime_session_by_id(session_id: str, revoked_at: int) -> dict[str, 
         conn.close()
 
 
-def delete_expired_runtime_sessions(now_ts: int) -> int:
+def revoke_runtime_sessions_by_username(username: str, revoked_at: int, now_ts: int) -> int:
     init_db()
     conn = _conn()
     try:
         result = conn.execute(
             """
-            DELETE FROM runtime_sessions
-            WHERE expires_at <= ?
+            UPDATE runtime_sessions
+            SET revoked_at = ?
+            WHERE username = ?
+              AND revoked_at IS NULL
+              AND expires_at > ?
             """,
-            (now_ts,),
+            (revoked_at, username, now_ts),
         )
         conn.commit()
         return int(result.rowcount or 0)
+    finally:
+        conn.close()
+
+
+def delete_stale_runtime_sessions(now_ts: int, retention_seconds: int) -> dict[str, int]:
+    init_db()
+    conn = _conn()
+    try:
+        cutoff_ts = now_ts - retention_seconds
+        expired_count = conn.execute(
+            """
+            SELECT COUNT(*) AS c
+            FROM runtime_sessions
+            WHERE revoked_at IS NULL
+              AND expires_at <= ?
+            """,
+            (cutoff_ts,),
+        ).fetchone()["c"]
+        revoked_count = conn.execute(
+            """
+            SELECT COUNT(*) AS c
+            FROM runtime_sessions
+            WHERE revoked_at IS NOT NULL
+              AND revoked_at <= ?
+            """,
+            (cutoff_ts,),
+        ).fetchone()["c"]
+        conn.execute(
+            """
+            DELETE FROM runtime_sessions
+            WHERE (revoked_at IS NULL AND expires_at <= ?)
+               OR (revoked_at IS NOT NULL AND revoked_at <= ?)
+            """,
+            (cutoff_ts, cutoff_ts),
+        )
+        conn.commit()
+        return {
+            "expired_deleted_count": int(expired_count),
+            "revoked_deleted_count": int(revoked_count),
+        }
     finally:
         conn.close()
