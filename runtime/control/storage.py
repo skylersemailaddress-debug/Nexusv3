@@ -112,6 +112,28 @@ def write_open_loops(rows: list[dict[str, Any]]) -> None:
         conn.close()
 
 
+def update_open_loop_status(loop_id: str, status: str) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute(
+            "SELECT id, title, owner, status, priority FROM open_loops WHERE id = ?",
+            (loop_id,),
+        ).fetchone()
+        if row is None:
+            return None
+        conn.execute(
+            "UPDATE open_loops SET status = ? WHERE id = ?",
+            (status, loop_id),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["status"] = status
+        return updated
+    finally:
+        conn.close()
+
+
 def get_storage_status() -> dict[str, Any]:
     init_db()
     conn = _conn()
