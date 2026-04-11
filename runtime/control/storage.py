@@ -160,11 +160,15 @@ def get_storage_status() -> dict[str, Any]:
         open_loops = conn.execute("SELECT COUNT(*) AS c FROM open_loops").fetchone()["c"]
         migrations = conn.execute("SELECT COUNT(*) AS c FROM schema_migrations").fetchone()["c"]
         accounts = conn.execute("SELECT COUNT(*) AS c FROM runtime_accounts WHERE is_active = 1").fetchone()["c"]
+        sessions = conn.execute(
+            "SELECT COUNT(*) AS c FROM runtime_sessions WHERE revoked_at IS NULL AND expires_at > strftime('%s','now')"
+        ).fetchone()["c"]
         return {
             "database_path": str(DB_PATH),
             "open_loop_count": open_loops,
             "applied_migration_count": migrations,
             "active_account_count": accounts,
+            "active_session_count": sessions,
         }
     finally:
         conn.close()
@@ -178,6 +182,7 @@ def check_storage_ready() -> dict[str, Any]:
         "open_loop_count": status["open_loop_count"],
         "applied_migration_count": status["applied_migration_count"],
         "active_account_count": status["active_account_count"],
+        "active_session_count": status["active_session_count"],
     }
 
 
@@ -218,6 +223,88 @@ def update_runtime_account_active(username: str, is_active: int) -> dict[str, An
         conn.commit()
         updated = dict(row)
         updated["is_active"] = is_active
+        return updated
+    finally:
+        conn.close()
+
+
+def create_runtime_session(
+    session_id: str,
+    username: str,
+    token: str,
+    created_at: int,
+    expires_at: int,
+) -> dict[str, Any]:
+    init_db()
+    conn = _conn()
+    try:
+        conn.execute(
+            """
+            INSERT INTO runtime_sessions (id, username, token, created_at, expires_at, revoked_at)
+            VALUES (?, ?, ?, ?, ?, NULL)
+            """,
+            (session_id, username, token, created_at, expires_at),
+        )
+        conn.commit()
+        return {
+            "id": session_id,
+            "username": username,
+            "token": token,
+            "created_at": created_at,
+            "expires_at": expires_at,
+            "revoked_at": None,
+        }
+    finally:
+        conn.close()
+
+
+def read_runtime_session_by_token(token: str) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute(
+            """
+            SELECT
+                s.id,
+                s.username,
+                s.token,
+                s.created_at,
+                s.expires_at,
+                s.revoked_at,
+                a.role,
+                a.is_active
+            FROM runtime_sessions s
+            JOIN runtime_accounts a ON a.username = s.username
+            WHERE s.token = ?
+            """,
+            (token,),
+        ).fetchone()
+        return dict(row) if row is not None else None
+    finally:
+        conn.close()
+
+
+def revoke_runtime_session(token: str, revoked_at: int) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute(
+            """
+            SELECT id, username, token, created_at, expires_at, revoked_at
+            FROM runtime_sessions
+            WHERE token = ?
+            """,
+            (token,),
+        ).fetchone()
+        if row is None:
+            return None
+        conn.execute(
+            "UPDATE runtime_sessions SET revoked_at = ? WHERE token = ?",
+            (revoked_at, token),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["revoked_at"] = revoked_at
         return updated
     finally:
         conn.close()

@@ -1,13 +1,24 @@
 from dataclasses import dataclass
+import secrets
+import time
+import uuid
 
 from services.auth_policy import ROLE_ADMIN, is_valid_role
-from storage import read_runtime_accounts, update_runtime_account_active
+from services.env_service import get_runtime_config
+from storage import (
+    create_runtime_session,
+    read_runtime_accounts,
+    read_runtime_session_by_token,
+    revoke_runtime_session,
+    update_runtime_account_active,
+)
 
 
 @dataclass
 class AuthUser:
     username: str
     role: str
+    token_type: str = "session"
 
 
 def _all_accounts() -> list[dict[str, str | int]]:
@@ -38,20 +49,70 @@ def _all_accounts_by_username() -> dict[str, dict[str, str | int]]:
     return {account["username"]: account for account in _all_accounts()}
 
 
-def resolve_token(token: str | None) -> AuthUser | None:
-    if not token:
+def _session_ttl_seconds() -> int:
+    return int(get_runtime_config()["session_ttl_seconds"])
+
+
+def _new_session_token() -> str:
+    return f"nxs_{secrets.token_urlsafe(24)}"
+
+
+def _resolve_session_token(token: str) -> AuthUser | None:
+    row = read_runtime_session_by_token(token)
+    if row is None:
         return None
+    if int(row.get("is_active", 0)) != 1:
+        return None
+    if not is_valid_role(str(row.get("role", ""))):
+        return None
+    if row.get("revoked_at") is not None:
+        return None
+    if int(row["expires_at"]) <= int(time.time()):
+        return None
+    return AuthUser(username=str(row["username"]), role=str(row["role"]), token_type="session")
+
+
+def _resolve_legacy_account_token(token: str) -> AuthUser | None:
     row = _accounts_by_token().get(token)
     if not row:
         return None
-    return AuthUser(username=str(row["username"]), role=str(row["role"]))
+    return AuthUser(username=str(row["username"]), role=str(row["role"]), token_type="legacy")
+
+
+def resolve_token(token: str | None) -> AuthUser | None:
+    if not token:
+        return None
+    return _resolve_session_token(token) or _resolve_legacy_account_token(token)
+
+
+def validate_token(token: str | None) -> AuthUser:
+    user = resolve_token(token)
+    if user is None:
+        raise ValueError("Unauthorized")
+    return user
 
 
 def issue_token(username: str) -> dict:
     row = _accounts_by_username().get(username)
     if row is None:
         raise ValueError("Unknown runtime account")
-    return {"access_token": row["token"], "token_type": "bearer", "role": row["role"]}
+
+    created_at = int(time.time())
+    expires_at = created_at + _session_ttl_seconds()
+    token = _new_session_token()
+    create_runtime_session(str(uuid.uuid4()), str(row["username"]), token, created_at, expires_at)
+    return {
+        "access_token": token,
+        "token_type": "bearer",
+        "role": row["role"],
+        "expires_at": expires_at,
+    }
+
+
+def revoke_token(token: str) -> dict[str, str | int] | None:
+    if _resolve_legacy_account_token(token) is not None:
+        raise ValueError("Legacy runtime account tokens cannot be revoked")
+    return revoke_runtime_session(token, int(time.time()))
 
 
 def list_runtime_account_summaries() -> list[dict[str, str | int]]:

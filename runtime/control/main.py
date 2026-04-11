@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 import sys
 import time
 
@@ -16,6 +16,8 @@ from routes.actions import router as actions_router
 from routes.dashboard import router as dashboard_router
 from routes.workflows import router as workflow_router
 from routes.ops import router as ops_router
+from routes.auth_deps import extract_bearer_token
+from services.auth_service import validate_token
 from services.observability_service import log_request, new_request_id
 from services.security_service import allow_request
 from services.env_service import get_runtime_config
@@ -34,11 +36,20 @@ app.add_middleware(
 
 init_db()
 
+
 @app.middleware("http")
 async def security_and_logging_middleware(request: Request, call_next):
     client_ip = request.client.host if request.client else "unknown"
     if not allow_request(client_ip):
         raise HTTPException(status_code=429, detail="Rate limit exceeded")
+
+    token = extract_bearer_token(request.headers.get("Authorization"))
+    request.state.auth_user = None
+    if token:
+        try:
+            request.state.auth_user = validate_token(token)
+        except ValueError as exc:
+            raise HTTPException(status_code=401, detail=str(exc)) from exc
 
     request_id = new_request_id()
     start = time.time()
@@ -61,10 +72,10 @@ async def security_and_logging_middleware(request: Request, call_next):
     })
     return response
 
+
 app.include_router(health_router)
 app.include_router(auth_router)
 app.include_router(actions_router)
 app.include_router(dashboard_router)
 app.include_router(workflow_router)
 app.include_router(ops_router)
-

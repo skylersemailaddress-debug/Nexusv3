@@ -37,4 +37,5 @@ def get_runtime_config():
         "tls_enabled": os.environ.get("TLS_ENABLED", "false"),
         "rate_limit_window_seconds": os.environ.get("RATE_LIMIT_WINDOW_SECONDS", "60"),
         "rate_limit_max_requests": os.environ.get("RATE_LIMIT_MAX_REQUESTS", "120"),
+        "session_ttl_seconds": os.environ.get("SESSION_TTL_SECONDS", "43200"),
     }
