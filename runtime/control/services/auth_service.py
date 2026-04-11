@@ -1,24 +1,37 @@
-﻿from dataclasses import dataclass
+from dataclasses import dataclass
 
-TOKENS = {
-    "dev-operator-token": {"username": "operator", "role": "operator"},
-    "dev-admin-token": {"username": "admin", "role": "admin"},
+
+DEFAULT_ACCOUNTS = {
+    "operator": {"username": "operator", "role": "operator", "token": "dev-operator-token"},
+    "admin": {"username": "admin", "role": "admin", "token": "dev-admin-token"},
 }
+
 
 @dataclass
 class AuthUser:
     username: str
     role: str
 
+
+def _accounts_by_username() -> dict[str, dict[str, str]]:
+    return DEFAULT_ACCOUNTS
+
+
+def _accounts_by_token() -> dict[str, dict[str, str]]:
+    return {account["token"]: account for account in _accounts_by_username().values()}
+
+
 def resolve_token(token: str | None) -> AuthUser | None:
     if not token:
         return None
-    row = TOKENS.get(token)
+    row = _accounts_by_token().get(token)
     if not row:
         return None
     return AuthUser(username=row["username"], role=row["role"])
 
+
 def issue_token(username: str) -> dict:
-    if username == "admin":
-        return {"access_token": "dev-admin-token", "token_type": "bearer", "role": "admin"}
-    return {"access_token": "dev-operator-token", "token_type": "bearer", "role": "operator"}
+    row = _accounts_by_username().get(username)
+    if row is None:
+        raise ValueError("Unknown runtime account")
+    return {"access_token": row["token"], "token_type": "bearer", "role": row["role"]}
