@@ -13,6 +13,7 @@ from services.auth_service import (
     revoke_session_by_id,
     revoke_sessions_for_username,
 )
+from services.job_service import get_queue_status
 from services.observability_service import (
     AUDIT_LOG,
     EVENT_LOG,
@@ -54,6 +55,18 @@ def observability_status(user=Depends(require_admin)):
         "generated_at": int(time.time()),
         "actor": actor,
         "observability": status,
+    }
+
+
+@router.get("/ops/queue/status")
+def queue_status(user=Depends(require_admin)):
+    actor = {"username": user.username, "role": user.role}
+    status = get_queue_status()
+    record_event("ops.queue.status.read", actor=actor, detail=status)
+    return {
+        "generated_at": int(time.time()),
+        "actor": actor,
+        "queue": status,
     }
 
 

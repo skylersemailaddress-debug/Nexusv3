@@ -585,6 +585,40 @@ def mark_runtime_job_timed_out(job_id: str, error: str, completed_at: int) -> di
         conn.close()
 
 
+def update_runtime_job_status(
+    job_id: str,
+    *,
+    from_statuses: set[str],
+    to_status: str,
+    error: str | None = None,
+    completed_at: int | None = None,
+) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
+        if row is None:
+            return None
+        if row["status"] not in from_statuses:
+            return _deserialize_runtime_job(dict(row))
+        conn.execute(
+            """
+            UPDATE runtime_jobs
+            SET status = ?, error_text = ?, completed_at = ?
+            WHERE id = ?
+            """,
+            (to_status, error, completed_at, job_id),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["status"] = to_status
+        updated["error_text"] = error
+        updated["completed_at"] = completed_at
+        return _deserialize_runtime_job(updated)
+    finally:
+        conn.close()
+
+
 def _deserialize_runtime_job(row: dict[str, Any]) -> dict[str, Any]:
     payload = json.loads(row["payload_json"]) if row["payload_json"] else {}
     control = payload.get("__job", {})

@@ -43,4 +43,6 @@ def get_runtime_config():
         "observability_log_max_files": os.environ.get("OBSERVABILITY_LOG_MAX_FILES", "5"),
         "job_default_timeout_seconds": os.environ.get("JOB_DEFAULT_TIMEOUT_SECONDS", "30"),
         "job_max_retries": os.environ.get("JOB_MAX_RETRIES", "2"),
+        "job_max_concurrency": os.environ.get("JOB_MAX_CONCURRENCY", "2"),
+        "max_concurrent_jobs": os.environ.get("MAX_CONCURRENT_JOBS", os.environ.get("JOB_MAX_CONCURRENCY", "2")),
     }
