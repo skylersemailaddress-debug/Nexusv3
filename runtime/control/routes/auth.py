@@ -3,7 +3,7 @@ from fastapi import APIRouter, Depends, Header, HTTPException
 from routes.auth_deps import get_current_user
 from schemas.auth_schema import LoginRequest
 from services.auth_service import issue_token, revoke_token
-from services.observability_service import audit_write
+from services.observability_service import audit_write, record_event
 
 router = APIRouter()
 
@@ -31,6 +31,7 @@ def login(payload: LoginRequest):
             "token_type": result["token_type"],
         },
     )
+    record_event("auth.login", actor=actor, detail={"session_id": result["session_id"], "expires_at": result["expires_at"]})
     return result
 
 
@@ -50,8 +51,9 @@ def logout(
     if result is None:
         raise HTTPException(status_code=404, detail="Runtime session not found")
 
+    actor = {"username": user.username, "role": user.role}
     audit_write(
-        {"username": user.username, "role": user.role},
+        actor,
         "auth.logout",
         {
             "session_id": result["id"],
@@ -59,6 +61,7 @@ def logout(
             "token_type": user.token_type,
         },
     )
+    record_event("auth.logout", actor=actor, detail={"session_id": result["id"], "revoked_at": result["revoked_at"]})
     return {
         "result": "session revoked",
         "username": user.username,

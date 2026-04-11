@@ -18,7 +18,13 @@ from routes.workflows import router as workflow_router
 from routes.ops import router as ops_router
 from routes.auth_deps import extract_bearer_token
 from services.auth_service import validate_token
-from services.observability_service import log_request, new_request_id
+from services.observability_service import (
+    clear_request_context,
+    log_request,
+    new_request_id,
+    record_event,
+    set_request_context,
+)
 from services.security_service import allow_request
 from services.env_service import get_runtime_config
 
@@ -43,34 +49,93 @@ async def security_and_logging_middleware(request: Request, call_next):
     if not allow_request(client_ip):
         raise HTTPException(status_code=429, detail="Rate limit exceeded")
 
-    token = extract_bearer_token(request.headers.get("Authorization"))
-    request.state.auth_user = None
-    if token:
-        try:
-            request.state.auth_user = validate_token(token)
-        except ValueError as exc:
-            raise HTTPException(status_code=401, detail=str(exc)) from exc
-
     request_id = new_request_id()
+    context_token = set_request_context(
+        {
+            "request_id": request_id,
+            "method": request.method,
+            "path": request.url.path,
+            "client_ip": client_ip,
+        }
+    )
+    request.state.auth_user = None
     start = time.time()
-    response = await call_next(request)
-    duration_ms = int((time.time() - start) * 1000)
 
-    response.headers["X-Request-Id"] = request_id
-    response.headers["X-Content-Type-Options"] = "nosniff"
-    response.headers["X-Frame-Options"] = "DENY"
-    response.headers["Referrer-Policy"] = "no-referrer"
-    response.headers["Cache-Control"] = "no-store"
+    try:
+        token = extract_bearer_token(request.headers.get("Authorization"))
+        if token:
+            request.state.auth_user = validate_token(token)
+            set_request_context(
+                {
+                    "request_id": request_id,
+                    "method": request.method,
+                    "path": request.url.path,
+                    "client_ip": client_ip,
+                    "actor": {
+                        "username": request.state.auth_user.username,
+                        "role": request.state.auth_user.role,
+                        "token_type": request.state.auth_user.token_type,
+                    },
+                }
+            )
 
-    log_request({
-        "request_id": request_id,
-        "method": request.method,
-        "path": request.url.path,
-        "status_code": response.status_code,
-        "duration_ms": duration_ms,
-        "client_ip": client_ip,
-    })
-    return response
+        record_event(
+            "request.received",
+            actor={
+                "username": request.state.auth_user.username,
+                "role": request.state.auth_user.role,
+                "token_type": request.state.auth_user.token_type,
+            }
+            if request.state.auth_user is not None
+            else None,
+        )
+
+        response = await call_next(request)
+        duration_ms = int((time.time() - start) * 1000)
+
+        response.headers["X-Request-Id"] = request_id
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        response.headers["X-Frame-Options"] = "DENY"
+        response.headers["Referrer-Policy"] = "no-referrer"
+        response.headers["Cache-Control"] = "no-store"
+
+        log_request({
+            "request_id": request_id,
+            "method": request.method,
+            "path": request.url.path,
+            "status_code": response.status_code,
+            "duration_ms": duration_ms,
+            "client_ip": client_ip,
+        })
+        record_event(
+            "request.completed",
+            actor={
+                "username": request.state.auth_user.username,
+                "role": request.state.auth_user.role,
+                "token_type": request.state.auth_user.token_type,
+            }
+            if request.state.auth_user is not None
+            else None,
+            detail={"status_code": response.status_code, "duration_ms": duration_ms},
+        )
+        return response
+    except Exception as exc:
+        duration_ms = int((time.time() - start) * 1000)
+        record_event(
+            "request.failed",
+            actor={
+                "username": request.state.auth_user.username,
+                "role": request.state.auth_user.role,
+                "token_type": request.state.auth_user.token_type,
+            }
+            if request.state.auth_user is not None
+            else None,
+            detail={"detail": str(exc), "duration_ms": duration_ms},
+            status="error",
+        )
+        raise
+    finally:
+        clear_request_context(context_token)
 
 
 app.include_router(health_router)
