@@ -308,3 +308,70 @@ def revoke_runtime_session(token: str, revoked_at: int) -> dict[str, Any] | None
         return updated
     finally:
         conn.close()
+
+
+def read_runtime_sessions() -> list[dict[str, Any]]:
+    init_db()
+    conn = _conn()
+    try:
+        rows = conn.execute(
+            """
+            SELECT
+                s.id,
+                s.username,
+                s.created_at,
+                s.expires_at,
+                s.revoked_at,
+                a.role,
+                a.is_active
+            FROM runtime_sessions s
+            JOIN runtime_accounts a ON a.username = s.username
+            ORDER BY s.created_at DESC
+            """
+        ).fetchall()
+        return [dict(row) for row in rows]
+    finally:
+        conn.close()
+
+
+def revoke_runtime_session_by_id(session_id: str, revoked_at: int) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute(
+            """
+            SELECT id, username, token, created_at, expires_at, revoked_at
+            FROM runtime_sessions
+            WHERE id = ?
+            """,
+            (session_id,),
+        ).fetchone()
+        if row is None:
+            return None
+        conn.execute(
+            "UPDATE runtime_sessions SET revoked_at = ? WHERE id = ?",
+            (revoked_at, session_id),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["revoked_at"] = revoked_at
+        return updated
+    finally:
+        conn.close()
+
+
+def delete_expired_runtime_sessions(now_ts: int) -> int:
+    init_db()
+    conn = _conn()
+    try:
+        result = conn.execute(
+            """
+            DELETE FROM runtime_sessions
+            WHERE expires_at <= ?
+            """,
+            (now_ts,),
+        )
+        conn.commit()
+        return int(result.rowcount or 0)
+    finally:
+        conn.close()

@@ -6,8 +6,11 @@ from fastapi import APIRouter, Depends, HTTPException
 from routes.auth_deps import require_admin
 from services.auth_service import (
     activate_runtime_account,
+    cleanup_expired_sessions,
     deactivate_runtime_account,
     list_runtime_account_summaries,
+    list_runtime_session_summaries,
+    revoke_session_by_id,
 )
 from services.observability_service import AUDIT_LOG, REQUEST_LOG, audit_write
 
@@ -73,3 +76,43 @@ def activate_account(username: str, user=Depends(require_admin)):
     }
     audit_write(result["actor"], "ops.accounts.activate", {"username": username})
     return result
+
+
+@router.get("/ops/sessions")
+def list_runtime_sessions(user=Depends(require_admin)):
+    sessions = list_runtime_session_summaries()
+    return {
+        "generated_at": int(time.time()),
+        "actor": {"username": user.username, "role": user.role},
+        "items": sessions,
+        "count": len(sessions),
+    }
+
+
+@router.post("/ops/sessions/{session_id}/revoke")
+def revoke_runtime_session_route(session_id: str, user=Depends(require_admin)):
+    try:
+        item = revoke_session_by_id(session_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    if item is None:
+        raise HTTPException(status_code=404, detail="Runtime session not found")
+    result = {
+        "result": "runtime session revoked",
+        "item": {"id": item["id"], "username": item["username"], "revoked_at": item["revoked_at"]},
+        "actor": {"username": user.username, "role": user.role},
+    }
+    audit_write(result["actor"], "ops.sessions.revoke", {"session_id": session_id})
+    return result
+
+
+@router.post("/ops/sessions/cleanup-expired")
+def cleanup_runtime_sessions(user=Depends(require_admin)):
+    result = cleanup_expired_sessions()
+    payload = {
+        "result": "expired runtime sessions cleaned",
+        "deleted_count": result["deleted_count"],
+        "actor": {"username": user.username, "role": user.role},
+    }
+    audit_write(payload["actor"], "ops.sessions.cleanup_expired", {"deleted_count": result["deleted_count"]})
+    return payload

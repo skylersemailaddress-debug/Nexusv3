@@ -7,9 +7,12 @@ from services.auth_policy import ROLE_ADMIN, is_valid_role
 from services.env_service import get_runtime_config
 from storage import (
     create_runtime_session,
+    delete_expired_runtime_sessions,
     read_runtime_accounts,
     read_runtime_session_by_token,
+    read_runtime_sessions,
     revoke_runtime_session,
+    revoke_runtime_session_by_id,
     update_runtime_account_active,
 )
 
@@ -124,6 +127,44 @@ def list_runtime_account_summaries() -> list[dict[str, str | int]]:
         }
         for account in _all_accounts()
     ]
+
+
+def list_runtime_session_summaries() -> list[dict[str, str | int]]:
+    now_ts = int(time.time())
+    return [
+        {
+            "id": str(session["id"]),
+            "username": str(session["username"]),
+            "role": str(session["role"]),
+            "account_is_active": int(session["is_active"]),
+            "created_at": int(session["created_at"]),
+            "expires_at": int(session["expires_at"]),
+            "revoked_at": session["revoked_at"],
+            "state": (
+                "revoked"
+                if session["revoked_at"] is not None
+                else "expired"
+                if int(session["expires_at"]) <= now_ts
+                else "active"
+            ),
+        }
+        for session in read_runtime_sessions()
+    ]
+
+
+def revoke_session_by_id(session_id: str) -> dict[str, str | int] | None:
+    sessions = {session["id"]: session for session in read_runtime_sessions()}
+    session = sessions.get(session_id)
+    if session is None:
+        return None
+    if session.get("revoked_at") is not None:
+        raise ValueError("Runtime session already revoked")
+    return revoke_runtime_session_by_id(session_id, int(time.time()))
+
+
+def cleanup_expired_sessions() -> dict[str, int]:
+    removed = delete_expired_runtime_sessions(int(time.time()))
+    return {"deleted_count": removed}
 
 
 def _active_admin_count() -> int:
