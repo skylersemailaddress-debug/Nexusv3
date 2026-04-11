@@ -418,3 +418,137 @@ def delete_stale_runtime_sessions(now_ts: int, retention_seconds: int) -> dict[s
         }
     finally:
         conn.close()
+
+
+def create_runtime_job(
+    job_id: str,
+    job_type: str,
+    job_name: str,
+    requested_by: str,
+    requested_role: str,
+    payload: dict[str, Any],
+    created_at: int,
+) -> dict[str, Any]:
+    init_db()
+    conn = _conn()
+    try:
+        payload_json = json.dumps(payload)
+        conn.execute(
+            """
+            INSERT INTO runtime_jobs (
+                id, job_type, job_name, status, requested_by, requested_role,
+                payload_json, result_json, error_text, created_at, started_at, completed_at
+            )
+            VALUES (?, ?, ?, 'pending', ?, ?, ?, NULL, NULL, ?, NULL, NULL)
+            """,
+            (job_id, job_type, job_name, requested_by, requested_role, payload_json, created_at),
+        )
+        conn.commit()
+        return {
+            "id": job_id,
+            "job_type": job_type,
+            "job_name": job_name,
+            "status": "pending",
+            "requested_by": requested_by,
+            "requested_role": requested_role,
+            "payload": payload,
+            "result": None,
+            "error": None,
+            "created_at": created_at,
+            "started_at": None,
+            "completed_at": None,
+        }
+    finally:
+        conn.close()
+
+
+def mark_runtime_job_running(job_id: str, started_at: int) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
+        if row is None:
+            return None
+        conn.execute(
+            "UPDATE runtime_jobs SET status = 'running', started_at = ? WHERE id = ?",
+            (started_at, job_id),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["status"] = "running"
+        updated["started_at"] = started_at
+        return _deserialize_runtime_job(updated)
+    finally:
+        conn.close()
+
+
+def complete_runtime_job(
+    job_id: str,
+    *,
+    status: str,
+    result: dict[str, Any] | None,
+    error: str | None,
+    completed_at: int,
+) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
+        if row is None:
+            return None
+        conn.execute(
+            """
+            UPDATE runtime_jobs
+            SET status = ?, result_json = ?, error_text = ?, completed_at = ?
+            WHERE id = ?
+            """,
+            (status, json.dumps(result) if result is not None else None, error, completed_at, job_id),
+        )
+        conn.commit()
+        updated = dict(row)
+        updated["status"] = status
+        updated["result_json"] = json.dumps(result) if result is not None else None
+        updated["error_text"] = error
+        updated["completed_at"] = completed_at
+        return _deserialize_runtime_job(updated)
+    finally:
+        conn.close()
+
+
+def _deserialize_runtime_job(row: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "id": row["id"],
+        "job_type": row["job_type"],
+        "job_name": row["job_name"],
+        "status": row["status"],
+        "requested_by": row["requested_by"],
+        "requested_role": row["requested_role"],
+        "payload": json.loads(row["payload_json"]) if row["payload_json"] else {},
+        "result": json.loads(row["result_json"]) if row["result_json"] else None,
+        "error": row["error_text"],
+        "created_at": row["created_at"],
+        "started_at": row["started_at"],
+        "completed_at": row["completed_at"],
+    }
+
+
+def read_runtime_job(job_id: str) -> dict[str, Any] | None:
+    init_db()
+    conn = _conn()
+    try:
+        row = conn.execute("SELECT * FROM runtime_jobs WHERE id = ?", (job_id,)).fetchone()
+        return _deserialize_runtime_job(dict(row)) if row is not None else None
+    finally:
+        conn.close()
+
+
+def list_runtime_jobs() -> list[dict[str, Any]]:
+    init_db()
+    conn = _conn()
+    try:
+        rows = conn.execute(
+            "SELECT * FROM runtime_jobs ORDER BY created_at DESC, id DESC"
+        ).fetchall()
+        return [_deserialize_runtime_job(dict(row)) for row in rows]
+    finally:
+        conn.close()

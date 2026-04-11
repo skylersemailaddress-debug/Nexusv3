@@ -16,6 +16,7 @@ from routes.actions import router as actions_router
 from routes.dashboard import router as dashboard_router
 from routes.workflows import router as workflow_router
 from routes.ops import router as ops_router
+from routes.runs import router as runs_router
 from routes.auth_deps import extract_bearer_token
 from services.auth_service import validate_token
 from services.observability_service import (
@@ -144,3 +145,4 @@ app.include_router(actions_router)
 app.include_router(dashboard_router)
 app.include_router(workflow_router)
 app.include_router(ops_router)
+app.include_router(runs_router)
