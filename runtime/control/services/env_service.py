@@ -35,4 +35,6 @@ def get_runtime_config():
         "log_level": os.environ.get("LOG_LEVEL", "INFO"),
         "reverse_proxy_enabled": os.environ.get("REVERSE_PROXY_ENABLED", "false"),
         "tls_enabled": os.environ.get("TLS_ENABLED", "false"),
+        "rate_limit_window_seconds": os.environ.get("RATE_LIMIT_WINDOW_SECONDS", "60"),
+        "rate_limit_max_requests": os.environ.get("RATE_LIMIT_MAX_REQUESTS", "120"),
     }
