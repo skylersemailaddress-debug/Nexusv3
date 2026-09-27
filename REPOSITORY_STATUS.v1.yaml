@@ -1,0 +1,9 @@
+version: 1
+status: PROSPECTIVELY_SUPERSEDED_AS_NEXUS_AUTHORITY
+classification: NEXUS_CORE_DONOR
+authoritativeSuccessor: skylersemailaddress-debug/NOVITAS_NEXUS
+estateAuthority: skylersemailaddress-debug/NOVITAS_NEXUS
+historicalCanonicalClaims: PROVENANCE_ONLY
+sourceCodeDisposition: PRESERVE_FOR_EXACT_CAPABILITY_HARVEST
+runtimeAuthorityForNexus: false
+archiveAllowedOnlyAfterCapabilityDispositionClosure: true
